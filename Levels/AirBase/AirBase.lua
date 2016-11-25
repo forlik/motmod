@@ -602,6 +602,7 @@ end;
        Level.AddActionHandler( Level.AH_ACTOR_KILLED, "GO05", "OnKilledConferenceOfficer" );
        
        Level.AddActionHandler( Level.AH_EXPLODE_VEHICLE, "BL04", "OnExplodeVehicle" );
+       Level.AddActionHandler( Level.AH_CHANGE_CLOTH );
 
        AI.EnableZone("TankTrack", false);
        AI.EnableZone("TankTrackOut", false);
@@ -3890,6 +3891,14 @@ function Level.AddVisionBrushes()
     AI.AddBlockVisionBox( 1916.0573, -0.4252, -835.5721, 1924.0573, 12.5748, -827.5721, 'VB16', 0.7, 0.35);
     AI.AddBlockVisionBox( 858.3342, -0.4252, -1575.4559, 868.3342, 12.5748, -1565.4559, 'VB17', 0.7, 0.35);
     
+end
+
+--------------------------------------------------------
+-- Name: Level.OnChangeCloth()
+-- Desc:
+--------------------------------------------------------
+function Level.OnChangeCloth()
+  Level.InstallDpc("Level.OnHelpForm()", 3.0);
 end
 
 --------------------------------------------------------
