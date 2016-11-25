@@ -389,6 +389,9 @@
         return;
      end;
 
+     -- forlik
+     Level.PlayMenuSound("foto");
+
      if ( Level.CheckFotoTrigger( Level.FotoTrigger ) != false ) then
 
         Level.AddLargeMessage( MissionText.Foto_Made, 5.0, 255, 255, 255 );
