@@ -21,6 +21,7 @@
 
        Key_Name               = "Ключ от сейфа";
        Key_Name2              = "Ключ от кабинета";
+       Docs_Name              = "Документы по проекту \"Jagdpanther\"";
 
        Message_BunkerAlarm    = "В районе бункера поднята тревога.";
        Message_BaseAlarm_1    = "Поднята тревога. Число патрулей увеличено.";
@@ -77,6 +78,17 @@
          Level.EnableItemPickup(backpack, true);
      end
 
+     -- forlik
+     Entity.SetSkin(Level.FindVehicle('BENZ'), 2);
+     Entity.SetSkin(Level.FindVehicle('BLIZ'), 1);
+     Entity.SetSkin(Level.FindVehicle('BLI2'), 2);
+     Entity.SetSkin(Level.FindVehicle('BLI3'), 3);
+     Entity.SetSkin(Level.FindVehicle('KUB2'), 2);
+     Entity.SetSkin(Level.FindVehicle('KUB1'), 3);
+     Entity.SetSkin(Level.FindVehicle('MOT1'), 1);
+     Entity.SetSkin(Level.FindVehicle('MOT2'), 2);
+     Entity.SetSkin(Level.FindVehicle('MOT3'), 3);
+
   end;
 
   function Level.OnSave()
@@ -131,6 +143,8 @@
      Level.AddActionHandler(Level.AH_ACTOR_HITTED, "YAZK", "OnHittedYazik");
      Level.AddActionHandler(Level.AH_ACTOR_KILLED, "YAZK", "OnKilledYazik");
      Level.AddActionHandler(Level.AH_FINISH_CHANGECLOTH, "VODL", "OnVodilaCloth");
+     Level.AddActionHandler(Level.AH_FINISH_CHANGECLOTH, "HZCL", "OnSoldierClothChange");
+     Level.AddActionHandler(Level.AH_FINISH_CHANGECLOTH, "HWCL", "OnWorkerClothChange");
 
      Level.AddActionHandler(Level.AH_ENTER_VEHICLE, "BLIZ", "OnBlitzEnter");
      Level.AddActionHandler(Level.AH_LEAVE_VEHICLE, "BLIZ", "OnBlitzLeave");
@@ -194,6 +208,12 @@
      Level.EnableLevelMark( 'MAK2', false );
      Level.EnableLevelMark( 'MAK3', false );
      Level.EnableLevelMark( 'MAK4', false );
+
+     -- forlik
+     if (Level.GetDifficulty() != 3) then
+       Level.EnableLevelMark('HZCL', true);
+       Level.EnableLevelMark('HWCL', true);
+     end;
 
      Level.PlayerAtDitrihPlace = -1;
      Level.ExecutedDitrihHack = false;
@@ -611,14 +631,14 @@ function Level.OnMot1Enter()
   local mm5A = AI.FindNPC('MM5A');
   local mm62 = AI.FindNPC('MM62');
   if (mm59 != nil) then
-    AI.SetDecamouflageLevel(AI.AI_TARGET_UID, "MM59", Actor.ACTOR_TYPE_SOLDIER);
+    AI.SetDecamouflageLevel(AI.AI_TARGET_UID, "MM59", Actor.ACTOR_TYPE_OFFICER);
     AI.HandleVoice(mm59, "male_ger_ohers_postoroniy");
   end
   if (mm5A != nil) then
-    AI.SetDecamouflageLevel(AI.AI_TARGET_UID, "MM5A", Actor.ACTOR_TYPE_SOLDIER);
+    AI.SetDecamouflageLevel(AI.AI_TARGET_UID, "MM5A", Actor.ACTOR_TYPE_OFFICER);
   end
   if (mm62 != nil) then
-    AI.SetDecamouflageLevel(AI.AI_TARGET_UID, "MM62", Actor.ACTOR_TYPE_SOLDIER);
+    AI.SetDecamouflageLevel(AI.AI_TARGET_UID, "MM62", Actor.ACTOR_TYPE_OFFICER);
   end
 end
 
@@ -631,10 +651,10 @@ function Level.OnMot2Enter()
   local mm55 = AI.FindNPC('MM55');
   local mm56 = AI.FindNPC('MM56');
   if (mm55 != nil) then
-    AI.SetDecamouflageLevel(AI.AI_TARGET_UID, "MM55", Actor.ACTOR_TYPE_SOLDIER);
+    AI.SetDecamouflageLevel(AI.AI_TARGET_UID, "MM55", Actor.ACTOR_TYPE_OFFICER);
   end
   if (mm56 != nil) then
-    AI.SetDecamouflageLevel(AI.AI_TARGET_UID, "MM56", Actor.ACTOR_TYPE_SOLDIER);
+    AI.SetDecamouflageLevel(AI.AI_TARGET_UID, "MM56", Actor.ACTOR_TYPE_OFFICER);
     AI.HandleVoice(mm56, "male_ger_ohers_postoroniy");
   end
 end
@@ -648,10 +668,10 @@ function Level.OnMot3Enter()
   local mm53 = AI.FindNPC('MM53');
   local mm54 = AI.FindNPC('MM54');
   if (mm53 != nil) then
-    AI.SetDecamouflageLevel(AI.AI_TARGET_UID, "MM53", Actor.ACTOR_TYPE_SOLDIER);
+    AI.SetDecamouflageLevel(AI.AI_TARGET_UID, "MM53", Actor.ACTOR_TYPE_OFFICER);
   end
   if (mm54 != nil) then
-    AI.SetDecamouflageLevel(AI.AI_TARGET_UID, "MM54", Actor.ACTOR_TYPE_SOLDIER);
+    AI.SetDecamouflageLevel(AI.AI_TARGET_UID, "MM54", Actor.ACTOR_TYPE_OFFICER);
   end
 end
 
@@ -760,4 +780,48 @@ function Level.OnLeaveTriggerArea(sender, trgname, trgcmd)
   elseif (trgname == 'GramofonTrigger') then
     Level.EnableSound("gramofon01", false);
   end
+end
+
+-------------------------------------------------------------------------------
+-- Level.GiveDocs()
+-- MoTmod "Jagdpanther"
+-- forlik
+-------------------------------------------------------------------------------
+function Level.GiveDocs()
+  local docs = Level.CreateItem("Custom", "Equipment");
+  if (docs != nil) then
+    Entity.SetUniqueID(docs, 'SCOD');
+    Level.SetCustomItemName(docs, MissionText.Docs_Name);
+    Level.SetCustomItemIcon(docs, "ammo_doc");
+    local player = Level.GetPlayer();
+    if (player != nil) then
+      Actor.PutPouch(player, Actor.GetEmptyPouch(player), docs);
+    end
+  end
+end
+
+-------------------------------------------------------------------------------
+-- Level.OnSoldierClothChange()
+-- MoTmod "Jagdpanther"
+-- forlik
+-------------------------------------------------------------------------------
+function Level.OnSoldierClothChange()
+  local player = Level.GetPlayer();
+  if (player != nil) then
+    Actor.EnableMesh(player, "sabg_equipment_up", false);
+    Actor.EnableMesh(player, "sabg_equipment_down", false);
+    Actor.EnableMesh(player, "mesh_helmet", false);
+  end;
+  Level.EnableLevelMark('HZCL', false);
+  Level.RemoveActionHandler(Level.AH_FINISH_CHANGECLOTH, 'HZCL');
+end
+
+-------------------------------------------------------------------------------
+-- Level.OnWorkerClothChange()
+-- MoTmod "Jagdpanther"
+-- forlik
+-------------------------------------------------------------------------------
+function Level.OnWorkerClothChange()
+  Level.EnableLevelMark('HWCL', false);
+  Level.RemoveActionHandler(Level.AH_FINISH_CHANGECLOTH, 'HWCL');
 end
