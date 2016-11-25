@@ -1,0 +1,40 @@
+//---------------------------------------------------------------
+// Startup script
+//---------------------------------------------------------------
+
+setv r_shfxusecache true
+setv r_shadercache true
+setv r_shaderusecache true
+
+setv land_static true
+setv r_vegbendcameraview true
+
+setv cl_freectrl 0
+
+setv r_refltexsize 1024
+setv r_vfogtexsize 1024
+
+setv ai_enable_voice 1
+
+addleveldesc "training" 'NTRN' 0 1
+addleveldesc "demoday" 'NDMD' 1 1
+addleveldesc "posilka" 'NPSL' 1 0
+addleveldesc "krasavitca" 'NKRA' 1 0
+addleveldesc "hotel" 'NHTL' 1 0
+addleveldesc "rasplata" 'NRPL' 1 0
+addleveldesc "projecty" 'NPRJ' 1 0
+addleveldesc "razvedshkola" 'NRZD' 1 0
+addleveldesc "svalka" 'NSVL' 1 0
+addleveldesc "izyatie" 'NZYT' 1 0
+addleveldesc "posolstvo" 'NPOS' 1 0
+addleveldesc "airbase"    'NMOL' 1 0
+addleveldesc "uboat"      'NUBT' 1 0
+addleveldesc "whitehead"  'NWTH' 1 0
+addleveldesc "dora"       'NDOR' 1 0
+addleveldesc "pgift"      'NGFT' 1 0
+addleveldesc "cowboy"     'NCOW' 1 0
+addleveldesc "otstupniki" 'NOTS' 1 0
+
+setbrightness -0.15
+
+playavi "game:intro_1.vid,game:intro_2.vid" "l_loadlevel 'gamemenu' 1"
