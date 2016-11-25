@@ -799,6 +799,7 @@ end
 -- Desc:
 --------------------------------------------------------
 function Level.OnTransformInputs(levelStats, aiStats, a, c, p, n, acc)
+   p = Level.DefaultCalcProf(c, n, acc);
    return a, c, p, n;
 end
 
