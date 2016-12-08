@@ -1,8 +1,7 @@
 # MoTmod
 "Death to Spies: Moment of Truth" mod
 
-If you're a fan of "Death to Spies" series - try MoTmod. This global mod contains all missions from "Death to Spies" (DtS) and "Moment of Truth" (MoT) games on MoT engine.
-Also there are new mission "Jagdpanther" based on DtS "Cannibal".
+If you're a fan of "Death to Spies" series - try MoTmod. This global mod contains all missions from "Death to Spies" (DtS) and "Moment of Truth" (MoT) games and all of them are on MoT engine. Also there are new mission "Jagdpanther" based on DtS "Cannibal".
 
 To install MoTmod:
 
