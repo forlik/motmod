@@ -12,4 +12,4 @@ To install MoTmod:
 5. Delete (or move to another folder) packed MoT resources (*.vfs)
 6. Run the game and create a new profile
 
-(C) forlik 2016
+(C) forlik 2008-2010
