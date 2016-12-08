@@ -1,204 +1,83 @@
-----------------------------------------------------------------------------
---
--- Description :  Mission "White head"
---
---
-----------------------------------------------------------------------------
 
-
--- Tasks:
-
------------------------------------- completed ------------ deadline ------------ completed ----
--- FIRST ITTERATION: 
--- vector map                 |    100%              |                       |   09.10.2007         |
--- briefing map               |    100%              |                       |   13.10.2007         |
--- waypoints                  |    100%              |                       |   09.10.2007         |
--- firepoints                 |    100%              |                       |   19.10.2007         |
--- physics                    |    100%              |                       |   09.10.2007         |
--- ai mirror system           |    100%              |                       |   09.10.2007         |
--- lg:outdoor                 |    100%              |      09.10.2007       |   09.10.2007         |
--- lg:first floor             |    100%              |      10.10.2007       |   10.10.2007         |
--- lg:second floor            |    100%              |      10.10.2007       |   10.10.2007         |
--- lg:third floor             |    100%              |      11.10.2007       |   11.10.2007         |
--- first enemy script         |    100%              |      11.10.2007       |   11.10.2007         |
--- second enemy script        |    100%              |      11.10.2007       |   11.10.2007         |
--- keys                       |    100%              |      11.10.2007       |   11.10.2007         |
--- chandelier script          |    100%              |      11.10.2007       |   12.10.2007         |
--- script dynamic objects     |    100%              |      12.10.2007       |   12.10.2007         |
--- sniper script              |    100%              |      12.10.2007       |   12.10.2007         |
--- ai fade sound system       |    100%              |      12.10.2007       |   12.10.2007         |
--- cinema script              |    100%              |      12.10.2007       |   12.10.2007         |
--- bathroom script            |    100%              |      12.10.2007       |   12.10.2007         |
--- stairs                     |    100%              |      12.10.2007       |   12.10.2007         |
--- windows                    |    100%              |      12.10.2007       |   12.10.2007         |
--- npc postprocess            |    100%              |      13.10.2007       |   13.10.2007         |
--- zone system                |    100%              |      13.10.2007       |   13.10.2007         |
--- stop move messages         |    100%              |      13.10.2007       |   13.10.2007         |
--- tasks                      |    100%              |      13.10.2007       |   13.10.2007         |
--- marks                      |    100%              |      13.10.2007       |   13.10.2007         |
--- alert scripts              |    100%              |      13.10.2007       |   15.10.2007         |
--- potential physics test     |    100%              |      13.10.2007       |   13.10.2007         |
--- lma triggers               |    100%              |      15.10.2007       |   15.10.2007         |
--- water invisible wall       |    100%              |      15.10.2007       |   15.10.2007         |
--- I it. gameplay test        |    100%              |      15.10.2007       |   15.10.2007         |
--- vine scripts               |    100%              |      11.10.2007       |   15.10.2007         |
--- grenade holes              |    100%              |      15.10.2007       |   15.10.2007         |
--- boiler script <delay>      |    100%              |      12.10.2007       |      <?>             |
--- 
--- cinema film projector (gr) |    100%              |      13.10.2007<?>    |   13.10.2007         |
--- cinema animating objects   |    100%              |      13.10.2007<?>    |   13.10.2007         |
--- lighting                   |    100%              |         <?>           |      <?>             |
--- mirrors                    |    100%              |         <?>           |      <?>             |
--- effects                    |    100%              |         <?>           |      <?>             |
--- additional art to roof     |    100%              |      17.10.2007<?>    |   17.10.2007         |
--- soldiers at south          |    100%              |      13.10.2007<?>    |   13.10.2007         |
--- help messages              |      0%              |         <?>           |                      |
--- auto open cinema door      |    100%              |      13.10.2007<?>    |   13.10.2007         |
--- secret room decamouflage   |    100%              |      15.10.2007<?>    |   15.10.2007         |
--- add. physics [vine, ets]   |    100%              |      15.10.2007<?>    |   15.10.2007         |
--- dec-age with sniper rifle  |    100%              |      15.10.2007       |   15.10.2007         |
------------------------------------------------------------------------------------------------------
--- SECOND ITTERATION:
------------------------------------------------------------------------------------------------------
--- sniper reaction script     |    100%              |      16.10.2007       |   16.10.2007         |
--- waiter can't return from 
--- spyroom                    |    100%              |      17.10.2007       |   17.10.2007         |
--- don't decamouflage 
--- waiter when use poisson    |    100%              |      17.10.2007       |   17.10.2007         |
--- poisson place              |    100%              |      17.10.2007       |   17.10.2007         |
--- use poisson for shtandar   |    100%              |      17.10.2007       |   17.10.2007         |
--- turn off light             |    100%              |      17.10.2007       |   18.10.2007         |
--- Disapear object system     |    100%              |      17.10.2007       |   17.10.2007         |
--- Breakfast mark             |    100%              |      17.10.2007       |   18.10.2007         |
--- SS_Guard open door waiter  |    100%              |      17.10.2007       |   18.10.2007         |
--- Dynamic marks              |    100%              |      18.10.2007       |   18.10.2007         |
--- Hi gilter trigger          |    100%              |      18.10.2007       |   18.10.2007         | 
--- Informator script          |    100%              |      19.10.2007       |   19.10.2007         |
--- Get boxes task             |    100%              |      20.10.2007       |   20.10.2007         |
--- Order workers script       |    100%              |      20.10.2007       |   20.10.2007         |
--- Waypoints test             |    100%              |      22.10.2007       |   22.10.2007         |
------------------------------------------------------------------------------------------------------
-
--- bugs:
---       1) GunGunAnchor.lua : 112  Actor.RemoveWeapon(AI.GetActor(npc), 'PIST'); - doesn't work
--- fixed 2) Stairs are bad. Actor penetrate with house geometry
--- fixed 3) Sniper isn't slipping
--- fixed 4) Visarea at room near spyroom is bad
--- fixed 5) Bad zone trigger on floor 2
--- fixed 6) 'library' zone 
--- fixed 7) Get eat decamouflage
--- fixed 8) Officers must decamouflage ss_man
--- fixed 9) Sodiers can here sniper
--- fixed 10) Debug Assert <DebugCheckCorrect>
-
--- testcase:
--- 1) Check cinema man zones                     <completed>
--- 2) Cinema room shoot sound                    <completed>
--- 3) Glass blow ai sounds                       <completed>
--- 4) Vine anchors, glass must disappear         <completed>
--- 5) Officer form and waiter form               <completed>
--- 6) Boxes script. Check !All! variants         <completed>
-
--- alertgroups:
--- (0) outdoor near
--- (1) outdoor far
--- (2) first floor
--- (3) first floor (east)
--- (4) outdoor (french)
--- (5) second floor 
--- (6) third floor
-
---------------------------------- Messages table -----------------------------
-  
   MissionText = 
   {
-      Task_KillSpy                      = " Уничтожить И. Мельника";
-      Task_KillStandartenfurer          = " Уничтожить Г. Рихтера";
-      Task_Leave                        = " Покинуть местность";
-      Task_Information                  = " Встретиться с инф-ром";
-      Task_Boxes                        = " Вывезти документы";
-      
-      Message_TaskChanged               = "Задания изменены";
-       
-      Message_StartTractor              = "ВКЛЮЧИТЬ ДВИГАТЕЛЬ";
-      Message_CutRope                   = "ОТВЯЗАТЬ ВЕРЕВКУ";
-      Message_StartCinema               = "ВКЛЮЧИТЬ КИНОПРОЕКТОР";
-      Message_CloseCrane                = "ПЕРЕКРЫТЬ ВОДУ";
-      Message_PoissonVine               = "ОТРАВИТЬ ВИНО";
-      Message_LightOff                  = "ВЫКЛЮЧИТЬ СВЕТ";
-      Message_PutToVehicle              = "ПОЛОЖИТЬ В МАШИНУ";
-      Message_OrderWorkers              = "ПРИКАЗАТЬ НАЧАТЬ ЗАГРУЗКУ";
-      
-      Key_Cinema                        = "Ключ от кинозала";
-      Key_Boiler                        = "Ключ от бойлерной";
-      Key_SecondFloorStair              = "Ключ от второго этажа";
-      Key_SpyRoom                       = "Ключ от комнаты связного";
-      Key_KitchenStorage                = "Ключ от винного склада";
-      Key_FirstFloor                    = "Ключ от номеров на первом этаже";
-      Key_Shed                          = "Ключ от сарая";
-      Key_Radist                        = "Ключ от радиокомнаты";
-      Key_Storage                       = "Ключ от склада на третьем этаже";
-      Key_Library                       = "Ключ от библиотеки";
-      Key_OfficerRoom                   = "Ключ от номера";
-      
-      Message_IWantDinner               = "@ Принесите мне завтрак в комнату";
-      Message_OnlyForDinner             = "@ Мне должны принести завтрак. Не пускай никого кроме официанта..";
-      
-      Message_ComeHere                  = "@ Подойди ближе.";
-      Message_Thanks                    = "@ Спасибо! Мы знали, что можем расчитывать на вас!";
-      
-      Message_Cutscene_Spy              = "- Вот информация, которую нам удалось получить по охране резиденции... Еще, в здании находятся важные документы, замаскированные под ненужную макулатуру. Судя по всему, немцы сжигают старый хлам... Нужно вывезти их пока не поздно.";
-      
-      Message_StopMove_GetOut           = "@ Проваливай отсюда!";
-      Message_StopMove_NoAccess         = "@ Покиньте резиденцию! Вам запрещено здесь находиться!";
-      Message_StopMove_OnlySklad        = "@ Работы в другом месте хватает..";
-      Message_StopMove_OnlyOfficers     = "@ Только офицерам разрешено посещать третий этаж!";
-      Message_StopMove_ThisIsMyRoom     = "@ Это моя комната! Покиньте ее немедленно!";
-      Message_StopMove_LeaveRoom        = "@ Немедленно покиньте эту комнату!";
-      Message_StopMove_IMustStopYou     = "@ Мне приказано сюда никого не пускать!";
-      Message_StopMove_FilmIsNotStarted = "@ Что вам здесь нужно? Фильм еще не начался!";
-      Message_StopMove_LeaveRoof        = "@ Вам нечего делать на чердаке!";
-      Message_StopMove_Leave            = "@ Вам тут делать нечего!";
-      Message_StopMove_MainHouse        = "@ Что тебе нужно?";
-      Message_StopMove_Sniper           = "@ Снайперских позиций в резиденции нет..";
-      Message_StopMove_Kitchen          = "@ Я не могу пропустить вас на кухню..";
-      Message_StopMove_WhereIsEat       = "@ Вы должны принести завтрак! Не так ли?";
-      Message_StopMove_Officer          = "@ Вход только для офицеров!";
-      
-      Message_StopMove_Bathroom         = "@ Полковник Рихтер приказал никого не пускать!";
-      Message_StopMove_Bathroom_Rihter  = "@ Что ты тут забыл!?";
-      
-      Message_Alarm                     = "Поднята тревога!";
-      
-      Message_BlitzLoaded               = "! Машина загружена..";
-      Message_BlitzIsNotLoaded          = "! Необходимо загрузить машину..";
-      
-      Message_Help                      = { "В старых особняках могут быть потайные двери",
-                                            "Включенный двигатель может приглушить остальные звуки..",
-                                            "Веревку можно перебить выстрелом..",
-                                            "В резиденции есть кинозал..",                                            
-                                            "Столовая находится на первом этаже",
-                                            "Кинозал располагается на третьем этаже",
-                                            "Офицер может отдавать приказы рядовым"
-                                           };
-      
-      Message_GrassHelp                 = "В густой траве намного сложнее заметить противника в камуфляже..";
-      Message_TraktorHelp               = "Гул трактора может приглушить громкие звуки..";
-      Message_KillHelp_1                = "Необходимо уничтожить Рихтера";
-      Message_KillHelp_2                = "Необходимо уничтожить Мельника";
-
-      Message_ClothInfo                 = { "Рабочие не вызывают подозрения в подсобных помещениях на первом этаже",
-                                            "Официант может свободно передвигаться по первому и второму этажу",
-                                            "Снайперы контролируют территорию вокруг резиденции",
-                                            "Служащий отвечает за обслуживание офицеров на третьем этаже и работу кинозала",
-                                            "Французским рабочим запрещено находиться в резиденции",
-                                            "Повар не вызывает подозрения на кухне"
+      --Mission text
+      Task_KillSpy                      = " Kill I. Melnik";
+      Task_KillStandartenfurer          = " Kill G. Richter";
+      Task_Leave                        = " Exit the area";
+      Task_Information                  = " Meet the informer ";
+      Task_Boxes                        = " Recover the documents";
+      Message_TaskChanged               = "Objectives have been updated";
+      Message_StartTractor              = "SWITCH THE ENGINE ON";
+      Message_CutRope                   = "UNTIE THE ROPE";
+      Message_StartCinema               = "TURN THE FILM PROJECTOR ON";
+      Message_CloseCrane                = "CUT OFF THE WATER";
+      Message_PoissonVine               = "POISON THE WINE";
+      Message_LightOff                  = "TURN OFF THE LIGHT";
+      Message_PutToVehicle              = "LOAD THE TRUCK";
+      Message_OrderWorkers              = "ORDER THE TRUCK LOADED";
+      Key_Cinema                        = "Key to the movie theatre";
+      Key_Boiler                        = "Key to the boiler room";
+      Key_SecondFloorStair              = "Key to the second floor";
+      Key_SpyRoom                       = "Key to the courier's room";
+      Key_KitchenStorage                = "Key to the wine cellar";
+      Key_FirstFloor                    = "Key to the rooms on the first floor";
+      Key_Shed                          = "Key to the shed ";
+      Key_Radist                        = "Key to the radio room ";
+      Key_Storage                       = "Key to the warehouse on the third floor";
+      Key_Library                       = "Key to the library";
+      Key_OfficerRoom                   = "Room key";
+      Message_IWantDinner               = "@ Bring my breakfast up to my room.";
+      Message_OnlyForDinner             = "@ I am waiting for my breakfast to be brought up. Don't let anyone in except the waiter.";
+      Message_ComeHere                  = "@ Come closer.";
+      Message_Thanks                    = "@Thank you! We knew we could rely on you!";
+      Message_Cutscene_Spy              = "- Here is the information we managed to gather on the security at the residence... Also, there are some important documents inside the building that the Germans are probably mistaking for useless trash. And it looks like the Germans are burning all the old rubbish... Better recover these documents before it's too late!";
+      Message_StopMove_GetOut           = "@ Get out of here!";
+      Message_StopMove_NoAccess         = "@ You'll have to leave! You aren't allowed to be here!";
+      Message_StopMove_OnlySklad        = "@ Don't they need you somewhere else?";
+      Message_StopMove_OnlyOfficers     = "@ Only officers are allowed on the third floor!";
+      Message_StopMove_ThisIsMyRoom     = "@ This is my room! Leave it right now!";
+      Message_StopMove_LeaveRoom        = "@ Leave this room immediately!";
+      Message_StopMove_IMustStopYou     = "@ I was ordered not to let anyone in!";
+      Message_StopMove_FilmIsNotStarted = "@ What are you doing here? The movie hasn't started yet.";
+      Message_StopMove_LeaveRoof        = "@ You've got no business in the attic!";
+      Message_StopMove_Leave            = "@ There's no reason for you to be here!";
+      Message_StopMove_MainHouse        = "@ What do you need?";
+      Message_StopMove_Sniper           = "@ You should stay outside. You know there's no sniper positions inside the residence.";
+      Message_StopMove_Kitchen          = "@ I cannot let you into the kitchen.";
+      Message_StopMove_WhereIsEat       = "@ You are supposed to deliver the breakfast, aren't you? ";
+      Message_StopMove_Officer          = "@ Only officers are allowed in here!";
+      Message_StopMove_Bathroom         = "@ By Standartenfьhrer Richter's orders, no one is allowed to enter!";
+      Message_StopMove_Bathroom_Rihter  = "@ What are you doing here?";
+      Message_Alarm                     = "The alarm has been raised!";
+      Message_BlitzLoaded               = "! The truck has been loaded.";
+      Message_BlitzIsNotLoaded          = "! The truck needs to be loaded.";
+      Message_Help                      = {
+                                            "Old mansions sometimes have secret doors.";
+                                            "A running engine can muffle other sounds.";
+                                            "A rope can be damaged by a gunshot.";
+                                            "The residence has a movie theatre.";
+                                            "The dining hall is on the ground floor.";
+                                            "The movie theatre is on the second floor.";
+                                            "An officer can give orders to privates.";
                                           };
-
-      
-      Poison_Name                       = "ЯД";
-      Poison_TipName                    = "Яд";
+      Message_GrassHelp                 = "It is much more difficult to detect a camouflaged enemy in dense grass.";
+      Message_TraktorHelp               = "The roar of an engine may muffle other loud noises.";
+      Message_KillHelp_1                = "Richter must be killed";
+      Message_KillHelp_2                = "Melnik must be killed";
+      Message_ClothInfo                 = {
+                                            "It is normal to see workers inside utility areas on the first floor.";
+                                            "A waiter can move freely around the first and second floors.";
+                                            "Snipers guard the area around the residence.   ";
+                                            "An office worker is responsible for serving officers on the third floor, and working the movie theatre.";
+                                            "French workers are forbidden to stay in the residence. ";
+                                            " Nobody is surprised to see a cook in the kitchen.";
+                                          };
+      Poison_Name                       = "POISON";
+      Poison_TipName                    = "Poison";
   };
+
+
   
   MissionSamples = 
   {

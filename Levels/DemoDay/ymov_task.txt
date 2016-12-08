@@ -1,0 +1,1 @@
+<tab>Move to point marked on the map together with the captive. The captive must stay alive. He can be hidden in the truck.<br>

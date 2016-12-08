@@ -1,0 +1,5 @@
+Poison and poisoned cigarettes:<br><br>
+<tab>-<sp> Special circumstances sometimes call for exceptional measures. Poison can be used to secretly neutralize an enemy. A poisonous substance may, for example, be added to his meal.<br>
+<tab>-<sp> To use poison, approach the place where you wish to use it, and use the <l="game:UI\Help\menu.txt">"Action menu"</l> to select the relevant item.<br>
+
+<br><br><tab><l="$back">BACK</l><br>

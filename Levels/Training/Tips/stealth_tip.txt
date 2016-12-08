@@ -1,0 +1,1 @@
+<tab>Use the 'Sneak up' key (V by default) to move without making noise.<br>

@@ -1,29 +1,23 @@
 
-  MissionText =
+  MissionText = 
   {
-      Task_1                 = " Установить динамит";
-      Task_2                 = " Установить динамит";
-      Task_3                 = " Уничтожить снайперов";
-      Task_4                 = " Покинуть местность";
-
-      Message_DynSetuped     = "Динамит установлен";
-      Message_TaskChanged    = "Задания обновлены";
-
-      Message_Sniper         = "Вас обнаружил вражеский снайпер..";
-      Message_SniperLost     = "Снайпер потерял вас из виду..";
-
-      Message_KillSniper     = "Снайпер нейтрализован";
-
-      Message_SetupDynamite  = "УСТ. ДИНАМИТ";
-      Message_NoDynamite     = "У вас нету динамита..";
-
-      Message_StopMove_1     = "Только офицеры могут пройти в эту часть здания..";
-      Message_StopMove_3     = "Солдатам тут делать нечего..";
-
-      Message_Alarm          = "Поднята тревога. Охрана стала более внимательна..";
-      Message_AlarmFinished  = "Охрана успокоилась..";
-
-      Message_Escape         = "У вас осталось %02d:%02d времени, чтобы покинуть местность";
+      --Mission text
+      Task_1                = " Plant the dynamite";
+      Task_2                = " Plant the dynamite";
+      Task_3                = " Kill the snipers";
+      Task_4                = " Leave the area";
+      Message_DynSetuped    = "Dynamite has been planted";
+      Message_TaskChanged   = "Tasks have been updated";
+      Message_Sniper        = "An enemy sniper has spotted you..";
+      Message_SniperLost    = "The sniper has lost sight of you..";
+      Message_KillSniper    = "The sniper has been neutralized";
+      Message_SetupDynamite = "PLANT DYNAMITE";
+      Message_NoDynamite    = "You have no dynamite..";
+      Message_StopMove_1    = "Only officers are allowed to pass through this part of the building..";
+      Message_StopMove_3    = "Soldiers have no business being here..";
+      Message_Alarm         = "The alarm has been raised. Guards are on high alert..";
+      Message_AlarmFinished = "Guards are standing down..";
+      Message_Escape        = "You've got %02d:%02d to get out of the area";
   };
      
   function Level.OnCompleteMission()

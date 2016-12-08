@@ -1,0 +1,1 @@
+<tab>Access the tent:<br><br>-<sp> Access the tent shown on the map without being noticed by the guards.<br>-<sp> Throw backpack away.<br>-<sp>Examine items inside the tent.<br>-<sp> If you are noticed, your mission will fail.<br>

@@ -1,0 +1,5 @@
+First aid kit:<br><br>
+<tab>A first aid kit restores health of the main hero, up to 100%.<br>
+<tab>To use the first aid kit, press the 'First aid kit' key ("L" by default) and hold it down until you have reached the maximum level on the healing scale.<br>
+
+<br><br><tab><l="$back">BACK</l><br>

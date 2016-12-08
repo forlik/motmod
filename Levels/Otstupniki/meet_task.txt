@@ -1,0 +1,2 @@
+<tab>Surveil the enemy's intelligence group. To avoid arousing suspicion, <col=800000>
+the meeting must be allowed to take place, and the saboteurs must not suspect anything</col>.<br>

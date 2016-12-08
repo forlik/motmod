@@ -1,0 +1,7 @@
+Weapons:<br><br>
+<tab><l="game:UI\Help\fire_wepon.txt">Firearms</l><br><br>
+<tab><l="game:UI\Help\cold_wepon.txt">Cold weapons and chloroform</l><br><br>
+<tab><l="game:UI\Help\Infighting.txt">Melee and stunning weapons</l><br><br>
+<tab><l="game:UI\Help\granade.txt">Throwing grenades and other items</l><br><br>
+
+<br><br><tab><l="$back">BACK</l><br>

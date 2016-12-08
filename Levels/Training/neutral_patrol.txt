@@ -1,0 +1,1 @@
+<tab>Neutralize the patroller:<br><br>-<sp> Neutralize the patroller.<br>-<sp> Move crouching (C key by default) in running mode (Caps Lock key by default) to quickly reduce the distance and have time to neutralize an enemy.<br>

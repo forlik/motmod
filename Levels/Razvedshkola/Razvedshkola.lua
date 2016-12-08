@@ -1,39 +1,34 @@
 
-  MissionText =
+  MissionText = 
   {
-       Task_1                 = " Проникнуть в школу",
-       Task_2                 = " Добыть картотеку";
-       Task_3                 = " Уничтожить Г. Химелля";
-       Task_4                 = " Уничтожить А. Шт-ца";
-       Task_5                 = " Покинуть местность";
-       Task_6                 = " Выманить А. Шт-ца";
-
-       Message_2              = "Задания обновлены";
-       Message_Docs           = "ВЗЯТЬ ДОКУМЕНТЫ";
-       Message_3              = "Задания изменены";
-
-       Key_Name               = "Ключ от сейфа";
-       Key_Door21             = "Ключ от кабинета начальника";
-       Key_Door20             = "Ключ от кабинета";
-
-       Docs_Student           = "Удостоверение";
-
-       Message_FireAlarm      = "СООБЩ. О ПОЖ. ТРЕВОГЕ";
-       Message_ReadInfo       = "ПРОЧИТАТЬ ЖУРНАЛ";
-       Message_ReportVisit    = "СООБЩИТЬ О ПРИБЫТИИ";
-
-       Message_Alarm_1        = "Поднята тревога..";
-       Message_Alarm_2        = "Поднята тревога. Учащиеся эвакуируются..";
-       Message_AlarmFinished  = "Охрана успокоилась..";
-
-       Message_StopMove_1     = "Гражданские не могут пройти здесь..";
-       Message_StopMove_2     = "Вы не можете пройти здесь..";
-       Message_StopMove_3     = "Только офицеры могут пройти в это здание..";
-       Message_StopMove_4     = "Только офицеры могут попасть в эту комнату..";
-       Message_StopMove_5     = "Только офицеры имеют доступ в комнату с архивами..";
-       Message_StopMove_6     = "Только офицеры или инструкторы могут пройти в библиотеку..";
-       Message_StopMove_7     = "Только инструкторы могут пройти здесь..";
-       Message_StopMove_8     = "Только офицеры могут пройти здесь..";
+      --Mission text
+      Task_1                = " Get into the school";
+      Task_2                = " Get the files";
+      Task_3                = " Kill H. Himell";
+      Task_4                = " Kill A. Steinglitz";
+      Task_5                = " Leave the area";
+      Task_6                = " Lure A. Steinglitz out";
+      Message_2             = "Tasks have been updated";
+      Message_Docs          = "TAKE DOCUMENTS";
+      Message_3             = "Tasks have been changed";
+      Key_Name              = "Key to the safe";
+      Key_Door21            = "Key to the chief's office";
+      Key_Door20            = "Key to the office";
+      Docs_Student          = "ID";
+      Message_FireAlarm     = "RAISE FIRE ALARM";
+      Message_ReadInfo      = "READ THE LOG";
+      Message_ReportVisit   = "REPORT ARRIVAL";
+      Message_Alarm_1       = "The alarm has been raised..";
+      Message_Alarm_2       = "The alarm has been raised. The students are bring evacuated..";
+      Message_AlarmFinished = "Guards are standing down..";
+      Message_StopMove_1    = "Civilians are not allowed to pass here..";
+      Message_StopMove_2    = "You are not allowed to pass here..";
+      Message_StopMove_3    = "Only officers are allowed to enter this building..";
+      Message_StopMove_4    = "Only officers are allowed to enter this room..";
+      Message_StopMove_5    = "Only officers have access to the file room..";
+      Message_StopMove_6    = "Only officers or instructors are allowed to enter the library..";
+      Message_StopMove_7    = "Only instructors are allowed to pass here..";
+      Message_StopMove_8    = "Only officers are allowed to pass here..";
   };
 
   function Level.OnCompleteMission()

@@ -1,0 +1,1 @@
+<tab>Using uniform:<br><br>Enter the building marked on the map.<br><tab>Assignments:<br>1)<sp>Take a German Submachine gun at the building's entry.<br>2)<sp> Approach the guarded building in the north.<br>3)<sp> <l="game:Levels\training\officer_task.txt">Obtain an officer's uniform.</l><br>4)<sp> Wearing the officer's uniform enter the guarded building.<br>

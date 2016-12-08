@@ -1,0 +1,1 @@
+<tab>Enemy's vision:<br><br>- The color of the internal area in a field of vision indicates the enemy's alertness level:<br><br><col=008000>green</col><sp> -<sp> calm condition<br><col=808000>yellow</col><sp> -<sp> attention<br><col=800000>red</col><sp> -<sp> alertness<br><br>- If an enemy sees anything suspicious he may become more alert

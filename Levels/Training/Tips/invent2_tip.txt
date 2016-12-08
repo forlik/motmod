@@ -1,0 +1,1 @@
+<tab>Inventory:<br><br>- In order to activate the inventory mode you must either press the relevant key ("I" is set by default) or use the<l="game:Levels\training\tips\action_tip.txt"> Action menu</l> when near a body.<br>- In the inventory mode, you can take and drop items by moving them from the relevant slots.<br>- In the inventory mode, you can drop your backpack.<br>

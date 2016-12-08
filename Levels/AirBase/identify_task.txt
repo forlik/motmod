@@ -1,0 +1,7 @@
+<tab>Identify the test pilots of the Me-163 Komet rocket-powered interceptor.<br>
+<tab>This information is most likely available in the air traffic control tower, or in the archives in the main building.<br>
+<tab>According to our information, there are two test pilots on the base. <br>
+<br><img=me_small,bot,25,5><br>
+
+
+

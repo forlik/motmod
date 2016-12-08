@@ -1,0 +1,4 @@
+<tab>Capture one of the test pilots of the rocket-powered interceptor.<br>
+<tab>He must be alive when the recon squad arrives.<br>
+<tab>According to our information, there are two test pilots on the base.<br>
+<tab>If a pilot's body is found, the mission is a failure!<br>

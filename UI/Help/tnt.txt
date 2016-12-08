@@ -1,0 +1,6 @@
+Dynamite:<br><br>
+<tab>-<sp> To use dynamite you need to plant it somewhere. In order to do this, you need to call up the explosives list ("6" by default) by holding that key down until the list pops up. After you select dynamite from the list, it will become active. The 'Fire' button then invokes a dialog window for setting the timer on the dynamite.<br>
+<tab>-<sp> In this way, you can set the time left until the explosion. After you confirm, the main hero will plant the dynamite, and the explosion will occur after the set period of time. In the bottom right corner of the screen, a countdown indicator with the dynamite icon will appear. The explosive range is quite large, so it is recommended that you keep to a safe distance.<br>
+<tab>-<sp> The main hero may disable the dynamite and return it to his backpack. To do this, he must approach the active dynamite and use the <l="game:UI\Help\menu.txt">"Action menu."</l><br>
+
+<br><br><tab><l="$back">BACK</l><br>

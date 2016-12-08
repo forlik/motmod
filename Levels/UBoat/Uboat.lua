@@ -1,137 +1,110 @@
-----------------------------------------------------------------------------
---
--- Description :  Mission "King's enigma"
---
--- Created by Alexey Agamalov, 
---            Sergey Gvozdev
---
-----------------------------------------------------------------------------
 
-
---------------------------------- Messages table -----------------------------
-  
   MissionText = 
   {
-      Task_Enigma                            = " Выкрасть Энигму";
-      Task_CryptBook                         = " Получить книгу шифров";
-      Task_TorpedaInfo                       = " Получить документацию";
-      Task_Leave                             = " Покинуть базу";
-      Task_Sabotage                          = " Подготовить диверсию";
-            
-      Message_OpenVodDoor                    = "ОТКРЫТЬ ЛЮК";
-      Message_CloseVodDoor                   = "ЗАКРЫТЬ ЛЮК";  
-      
-      Key_Sklad                              = "Ключ от склада";
-      Key_Floor3                             = "Ключ второго этажа";
-      Key_Sklad2                             = "Ключ от склада на втором этаже";
-      Key_Angar                              = "Ключ от комнаты охраны";
-            
-      Key_RadistSeif                         = "Код от сейфа";
-      
-      Message_BrakeRadio                     = "ЗАМКНУТЬ РАДИО";
-      Message_TurnOffConference              = "ОТЛЮЧИТЬ ЗАЛ";
-      Message_TurnOffLection                 = "ОТКЛЮЧИТЬ ЛЕКЦИОННУЮ";
-      
-      Message_GetCryptBook                   = "ВЗЯТЬ КНИГУ ШИФРОВ";
-      Message_GetTorpedasInfo                = "ПОСМОТРЕТЬ ДОКУМЕНТАЦИЮ";
-      
-      Message_PoissonVine                    = "ОТРАВИТЬ ВИНО";
-      Message_BrakeGenerator                 = "ЗАКОРОТИТЬ ГЕНЕРАТОР";
-      Message_CloseFuel                      = "ЗАКРЫТЬ КРАН";
-      Message_BrakeBigGenerator              = "ПЕРЕКЛЮЧИТЬ РЕЖИМ";
-      Message_UsePump                        = "ВКЛЮЧИТЬ НАСОС";
-      Message_ShowDocs                       = "ПОКАЗАТЬ РАЗРЕШЕНИЕ";
-      Message_DropTorpeda                    = "ОТКЛЮЧИТЬ КРАН";
-      Message_Sabotage                       = "СЛОМАТЬ ТАЙМЕР";
-      
-      Enigma_Name                            = "ЭНИГМУ";
-      Enigma_TipName                         = "Энигма";
-      
-      Poison_Name                            = "ЯД";
-      Poison_TipName                         = "Яд";
-      Poison_Need                            = "! Нужен яд, чтобы отравить вино..";
-      
-      Message_PackNeed                       = "! Необходим рюкзак, чтобы забрать Энигму..";
-      Message_BigGeneratorBrake              = "- Внимание неполадки в главном генераторе. Срочно требуется механик";
-      Message_Vodokanal                      = "Осторожно! Перед спуском включить насос No.1";
-      Message_WirecutNearNet                 = "! Нужны кусачки чтобы перерезать сетку..";
-      Message_Captain                        = "! Возможно многие на базе знают капитана в лицо.";
-
-      Message_Vodokanal_1                    = "! Насос отключится через ";      
-      Message_Vodokanal_2                    = "! Насос отключен..";
-      Message_EnigmaInfo                     = "! Исчезновение Энигмы может привести к тревоге!";
-            
-      Message_StopMove_Search                = "@ Я должен осмотреть содержимое вашего рюкзака!";
-      Message_StopMove_DontMove              = "@ Не покидайте зону пока осмотр не будет произведен!";
-      Message_StopMove_Clean                 = "@ Все нормально - запрещенных предметов нет!";
-      Message_StopMove_DocsClear             = "@ Все нормально - проходите.";
-      Message_StopMove_Docs                  = "@ У нас приказ осматривать всех не имеющих разрешение!";
-
-      Message_StopMove_Driver_1              = "@ Водителям тут нечего делать!";
-      Message_StopMove_Driver_2              = "@ Это закрытая база! Ваше дело только доставлять грузы!";
-      Message_StopMove_Radist_1              = "@ Радистам тут нечего делать!";
-      Message_StopMove_Radist_2              = "@ Кажется, вы должны быть в комнате связи!";
-      Message_StopMove_Generator             = "@ Только рабочий персонал базы имеет доступ к генератору!";
-      Message_StopMove_Nasos                 = "@ Только рабочий персонал базы имеет доступ сюда!";
-      Message_StopMove_GeneratorUp           = "@ Боюсь, вам неположено находиться здесь!";
-      Message_StopMove_ThirdFloor_Worker     = "@ На этом этаже нечего ремонтировать!";
-      Message_StopMove_ThirdFloor            = "@ Вам здесь нечего делать!";
-      Message_StopMove_LectionRoom           = "@ В классе проходят занятия для моряков-курсантов!";
-      Message_StopMove_ConfRoom              = "@ В зале проводится совещание офицеров!";
-      Message_StopMove_OfficerPart           = "@ В эту часть базы разрешено проходить только солдатам СС и офицерам.";
-      Message_StopMove_CaptainRoom           = "@ Это помещение капитана. Покиньте его немедленно!";
-      Message_StopMove_CaptainRoom_Captain   = "@ Что ты тут забыл!? Это мой кабинет!";
-      Message_StopMove_GuardsRoom            = "@ Боюсь, я не имею права пропускать вас на склад через комнату охраны!";
-      Message_StopMove_WeaponAngar           = "@ Немедленно покиньте территорию склада!";
-      Message_StopMove_Dock                  = "@ В доках работают лишь моряки и механики!";
-      Message_StopMove_RadistRoom            = "@ Боюсь я не могу пропустить вас в радио комнату!";
-      Message_StopMove_RadistRoomNear_Seeman = "@ Что в радио комнате забыли моряки?! ";
-      Message_StopMove_RadistRoomNear        = "@ Вам тут нечего делать! ";
-      Message_StopMove_BoatTrigger           = "@ Лодку готовят к отплытию! Доступ внутрь разрешен лишь подводникам.";
-      Message_StopMove_BoatAlarmNear         = "@ Вам нечего тут делать! Доступ внутрь разрешен лишь подводникам.";
-
-      Message_CS_StopMove_Search             = "- Я должен осмотреть содержимое вашего рюкзака!";
-      Message_CS_StopMove_DontMove           = "- Не покидайте зону пока осмотр не будет произведен!";
-      
-      Message_Alarm                          = "Поднята тревога!";
-      Message_AlarmFinished                  = "Тревога закончилась";
-      
-      Message_DropBack                       = "! Рюкзак понадобится для выноса Энигмы";
-      
-      Message_DocsName                       = "Разрешение";
-      Message_DocsNameL                      = "РАЗРЕШЕНИЕ";
-      
-      Message_SeifTips                       = "! Нужен код чтобы открыть сейф!";
-      
-      Message_CS_Submarine                   = "- Я на склад, скоро подойдут несколько механиков работать на палубе. Кроме них и команды никого не пускай.";
-      
-      Message_ThisIsMyPass                   = "@ Вот разрешение на проход без обыска";
-      
-      Message_Help                           = { "В целях безопасности охрана имеет право осмотреть содержимое сумок и рюкзаков у любого человека на базе",
-                                                 "Согласно приказу, охрана не имеет права осматривать лиц, имеющих соответствующие разрешение",
-                                                 "Капитана и офицеров многие знают в лицо",
-                                                 "Тревога приведет к повышению бдительности противника",
-                                                 "На базе сложная система вентиляции",
-                                                 "По нашим данным между доками располагаются шлюзы для балансировки уровня воды",
-                                                 "Большие сейфы невозможно взломать без кода",
-                                                 "Обнаружение пропажи Энигмы может привести к тревоге",
-                                                 "В доках могут находиться моряки и механики",
-                                                 "Механик может ремонтировать подводну лодку только на палубе, доступа во внутрь у него нет..",
-                                                 "В вентиляционной шахте можно легко спрятать тело",
-                                                 "Под водой тела практические незаметны..",
-                                                 "В темных местах противник хуже видит",
-                                                 "В рюкзак можно спрятать форму"
-                                                };
-      
-      Message_ClothInfo                      = { "Рабочий не вызывает подозрения в подсобных помещениях",
-                                                 "Человек в форме водителя вызывает подозрение вне гаража",
-                                                 "Форма подводника дает возможность попасть в подводную лодку",
-                                                 "Форма моряка не вызывает подозрения у охраны доков",
-                                                 "В форме механика можно находиться в доках",
-                                                 "Радист должен находиться в радиорубке",
-                                                 "Солдат не будет допущен на территорию доков"
-                                                };
+      --Mission text
+      Task_Enigma                            = " Steal the 'Enigma'";
+      Task_CryptBook                         = " Take the cipher book";
+      Task_TorpedaInfo                       = " Acquire the T-5 Schematics";
+      Task_Leave                             = " Exit the base";
+      Task_Sabotage                          = " Sabotage a 'Wren' torpedo";
+      Message_OpenVodDoor                    = "OPEN THE HATCH";
+      Message_CloseVodDoor                   = "CLOSE THE HATCH";
+      Key_Sklad                              = "Key to the warehouse";
+      Key_Floor3                             = "Key to the second floor";
+      Key_Sklad2                             = "Key to the second-floor warehouse";
+      Key_Angar                              = "Key to the security room";
+      Key_RadistSeif                         = "Combination to the safe";
+      Message_BrakeRadio                     = "SHORT-CIRCUIT THE RADIO";
+      Message_TurnOffConference              = "CUT THE POWER TO THE HALL";
+      Message_TurnOffLection                 = "CUT THE POWER TO THE CLASSROOM";
+      Message_GetCryptBook                   = "TAKE THE CIPHER BOOK";
+      Message_GetTorpedasInfo                = "EXAMINE THE DOCUMENTS";
+      Message_PoissonVine                    = "POISON THE WINE";
+      Message_BrakeGenerator                 = "OVERLOAD THE GENERATOR";
+      Message_CloseFuel                      = "TURN OFF THE TAP";
+      Message_BrakeBigGenerator              = "OVERLOAD THE GENERATOR";
+      Message_UsePump                        = "SWITCH ON THE PUMP";
+      Message_ShowDocs                       = "SHOW THE PERMIT";
+      Message_DropTorpeda                    = "HIT THE BUTTON";
+      Message_Sabotage                       = "BREAK THE TIMER";
+      Enigma_Name                            = "ENIGMA";
+      Enigma_TipName                         = "Enigma";
+      Poison_Name                            = "POISON";
+      Poison_TipName                         = "Poison";
+      Poison_Need                            = "! To poison the wine, you will need poison.";
+      Message_PackNeed                       = "! You will need a backpack to carry the 'Enigma.'";
+      Message_BigGeneratorBrake              = "- Attention! The main generator is down. An engineer is needed immediately!";
+      Message_Vodokanal                      = "Caution! Switch on Pump 1 before descending.";
+      Message_WirecutNearNet                 = "! Use pliers to cut the mesh.";
+      Message_Captain                        = "! Many people on the base may know the captain by sight.";
+      Message_Vodokanal_1                    = "! The pump will switch off in ";
+      Message_Vodokanal_2                    = "! The pump is switched off.";
+      Message_EnigmaInfo                     = "! The disappearance of the 'Enigma' may cause an alarm!";
+      Message_StopMove_Search                = "@ I'll have to examine the contents of your backpack!";
+      Message_StopMove_DontMove              = "@ Don't leave the area until the search has been completed!";
+      Message_StopMove_Clean                 = "@ You are clear. No forbidden items were detected!";
+      Message_StopMove_DocsClear             = "@ Alright, you're clear to proceed.";
+      Message_StopMove_Docs                  = "@ We are under orders to search everyone without a permit!";
+      Message_StopMove_Driver_1              = "@ Drivers have no business here!";
+      Message_StopMove_Driver_2              = "@ This is a secret base! Your job is only to deliver goods!";
+      Message_StopMove_Radist_1              = "@ Radio operators have no business here!";
+      Message_StopMove_Radist_2              = "@ Looks like your place is in the radio room!";
+      Message_StopMove_Generator             = "@ Only technical personnel on the base have access to the generator!";
+      Message_StopMove_Nasos                 = "@ Only working personnel on the base are allowed access to this area! ";
+      Message_StopMove_GeneratorUp           = "@ I am afraid you are not allowed to be here!";
+      Message_StopMove_ThirdFloor_Worker     = "@ There is nothing to be repaired on this floor!";
+      Message_StopMove_ThirdFloor            = "@ There's nothing for you to do here!";
+      Message_StopMove_LectionRoom           = "@ The classroom is for naval cadets to carry out their studies! ";
+      Message_StopMove_ConfRoom              = "@ A meeting of officers is under way in the hall!";
+      Message_StopMove_OfficerPart           = "@ Only SS soldiers and officers are allowed access to this part of the base.";
+      Message_StopMove_CaptainRoom           = "@ This is the captain's room. You are to leave immediately!";
+      Message_StopMove_CaptainRoom_Captain   = "@ What are you doing here? This is my room!";
+      Message_StopMove_GuardsRoom            = "@ I am afraid that I cannot allow you to enter the warehouse through the guard room!";
+      Message_StopMove_WeaponAngar           = "@ You are to leave the warehouse area immediately!";
+      Message_StopMove_Dock                  = "@ Only seamen and mechanical engineers work in the docks!";
+      Message_StopMove_RadistRoom            = "@ I am afraid I cannot let you into the radio room!  ";
+      Message_StopMove_RadistRoomNear_Seeman = "@ What business does a seamen have in the radio room?";
+      Message_StopMove_RadistRoomNear        = "@ There's no reason for you to be here!";
+      Message_StopMove_BoatTrigger           = "@ The submarine is being readied for launch. Only submariners are authorized for boarding.";
+      Message_StopMove_BoatAlarmNear         = "@ There's nothing for you to do here! Only submariners are authorized for internal access.";
+      Message_CS_StopMove_Search             = "- I must examine the contents of your backpack!";
+      Message_CS_StopMove_DontMove           = "- Don't leave the area until the search is completed!";
+      Message_Alarm                          = "The alarm has been raised!";
+      Message_AlarmFinished                  = "The alarm has been cancelled.";
+      Message_DropBack                       = "! You will need a backpack to take the 'Enigma'";
+      Message_DocsName                       = "Permit";
+      Message_DocsNameL                      = "PERMIT";
+      Message_SeifTips                       = "! You need the combination to open the safe!";
+      Message_CS_Submarine                   = "- I need to go to the warehouse. A few mechanical engineers will be here shortly to do some work on the deck. Aside from the crew, don't let anyone on board except for them.";
+      Message_ThisIsMyPass                   = "@ Here is the permit to pass without a search.";
+      Message_Help                           = {
+                                                 "For reasons of security, guards are authorized to inspect the contents of bags and backpacks of any persons on the base.";
+                                                 "By special order, guards may let pass freely those persons who hold a special permit. ";
+                                                 "Many people know the captain and officers by sight.";
+                                                 "In case an alarm is raised, the enemy will become more attentive.";
+                                                 "The base is equipped with a sophisticated ventilation system.";
+                                                 "According to our information, sluices to balance the water level are positioned between the docks.";
+                                                 "Larger safes are impossible to open without a combination.";
+                                                 "If the loss of the 'Enigma' is discovered, an alarm will be raised.";
+                                                 "Seamen and mechanical engineers are allowed to stay in the docks.";
+                                                 "A mechanical engineer may repair the main hull of the submarine, but is not allowed access inside.";
+                                                 "A ventilation shaft is a convenient place to stash a body.";
+                                                 "Bodies are barely noticeable under water.";
+                                                 "In darker areas, an enemy's vision is decreased. ";
+                                                 "A backpack can be used to hide a uniform.";
+                                               };
+      Message_ClothInfo                      = {
+                                                 "People are used to seeing workers in utility areas.";
+                                                 "A person dressed as a driver arouses suspicion outside the garage.";
+                                                 "A submariner's uniform may provide a chance to gain access to a submarine.";
+                                                 "A seaman's uniform is not suspicious to the guards at the docks.";
+                                                 "Wearing a mechanical engineer's uniform, you can walk freely around the docks.";
+                                                 "A radio operator's place is the radio room.";
+                                                 "Soldiers are not allowed to enter the area of the docks.";
+                                               };
   };
+
+
   
   MissionSamples = 
   {

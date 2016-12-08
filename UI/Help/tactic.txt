@@ -1,0 +1,9 @@
+Tactical techniques:<br><br>
+<tab><l="game:UI\Help\mask.txt">Disguising</l><br><br> 
+<tab><l="game:UI\Help\noise.txt">Distracting the enemy</l><br><br>
+<tab><l="game:UI\Help\hack.txt">Picking locks</l><br><br>
+<tab><l="game:UI\Help\key_hole.txt">Keyhole</l><br><br>
+<tab><l="game:UI\Help\body.txt">Carrying bodies</l><br><br>
+<tab><l="game:UI\Help\clous.txt">Changing</l><br><br>
+
+<br><br><tab><l="$back">BACK</l><br>

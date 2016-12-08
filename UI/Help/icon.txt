@@ -1,0 +1,15 @@
+Icons:<br><br>
+<img=hud_eye,bot,100,5><br><br>
+
+<tab>-<sp> If the "Eye" icon is displayed, at least one enemy can currently see you. Be careful: try not to perform any suspicious actions! If the enemy begins to suspect you, <l="game:UI\Help\bar.txt">your danger scale</l> will start to increase.<br>
+
+
+<img=icon_warn,bot,100,5><br><br>
+
+<tab>-<sp> An "Exclamation mark" icon means that your current actions may lead to your discovery as an enemy.<br>
+
+<img=icon_rup,bot,100,5><br><br>
+
+<tab>-<sp> The "Megaphone" icon means that guards are about to raise the alarm.<br>
+
+<br><br><tab><l="$back">BACK</l><br>

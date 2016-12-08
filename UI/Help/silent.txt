@@ -1,0 +1,13 @@
+The enemy can react to the following types of noise:<br><br>
+<tab>-<sp> Noise produced by the player's movement. If the enemy hears a noise made by the player, he may increase his attention level, look around or examine suspicious-looking places, depending on the situation. Slow and accurate movement produces less noise. <l="game:UI\Help\motions.txt">Sneaking</l> is absolutely noiseless.<br>
+<tab>-<sp> Punching produces a fairly loud noise, which normally encourages enemies to inspect the source of the noise.<br>
+<tab>-<sp> Whistling often makes enemies alert, and encourages them to examine any suspicious places nearby.<br>
+<tab>-<sp> The sound of items breaking (such as a glass window), the sound of items falling or thrown, and the creaking of doors -- and the sound of a body falling to the ground: normally an enemy wants to look around after hearing such noises.<br>
+<tab>-<sp> The sound of shooting and of explosions makes enemies very alert. Many may decide to examine the area of the shooting or explosion.<br>
+<tab>-<sp> With the sounding of sirens and alarms, the number of dangerous enemies increases, and the enemy comes to a state of combat-readiness.<br><br>
+
+<tab>On open terrain, sound spreads without interference, whereas indoors, walls and doors significantly muffle the noise level. A closed door muffles a minor noise by 50% or more.<br>
+<tab>If an enemy is familiar with the source of sound, he is likely to ignore it (assuming the sound is not combat-related).<br>
+<tab>The spread of many sounds is shown on the <l="game:UI\Help\map.txt">vector map</l> as semi-transparent circles.<br>
+
+<br><br><tab><l="$back">BACK</l><br>

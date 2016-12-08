@@ -1,0 +1,1 @@
+<tab>Sneak into Abwehr's intelligence school.<br>There are three ways of getting into the school:<br><tab>- Through the main entrance.<br><tab>- Through the back entrance from the yard.<br><tab>- There is also a secret underground passage from the school to the residential building opposite the post office.<br><br><img=school,bot,15,0><br>

@@ -1,0 +1,3 @@
+<tab>Disable the AA guns.<br>
+<tab>Use either concentrated hydrochloric acid or dynamite.<br>
+<tab>This part of the mission is a success so long as the crew cannot use the AA guns.<br>

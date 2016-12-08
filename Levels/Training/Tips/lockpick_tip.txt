@@ -1,0 +1,1 @@
+<tab>Doors:<br><br>- Some doors may be locked.<br>- To lock pick a door you will need picklocks.<br>- In the lock-picking mode use the up/down keys or the scroll wheel to rotate the lock's eyehole.<br>- In lock-picking mode use the "right arrow" key or the left mouse button to bring the picklock to the eyehole.<br>

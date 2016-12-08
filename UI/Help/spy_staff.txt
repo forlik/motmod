@@ -1,0 +1,9 @@
+Auxiliary equipment:<br><br>
+<tab><l="game:UI\Help\posion.txt">Poison and poisoned cigarettes</l><br><br>
+<tab><l="game:UI\Help\mines.txt">Mines</l><br><br>
+<tab><l="game:UI\Help\bin.txt">Binoculars</l><br><br>
+<tab><l="game:UI\Help\kus.txt">Pliers</l><br><br>
+<tab><l="game:UI\Help\med.txt">First aid kit</l><br><br>
+<tab><l="game:UI\Help\tnt.txt">Dynamite</l><br><br>
+
+<br><br><tab><l="$back">BACK</l><br>

@@ -1,0 +1,12 @@
+<col=400000>HF Radio Message</col><br><br>
+
+To: Agent Zolotnitsky<br>
+Extremely urgent!<br><br>
+
+<tab>Our sources have reported that German U-boat U-479 is expected to arrive shortly at the secret German harbour at Danzig, which according to the same sources is located close to the German training centre for submariners.<br>
+<tab>Somewhere in the centre there is kept a cipher book, which contains the latest updates on codes and initial rotor positions for the 'Enigma.' Meanwhile, the 'Enigma' itself remains on board the submarine.<br>
+<tab>In addition, it is known that the submarine is equipped with the latest acoustic torpedoes T-5 Zaunkönig (code name 'Wren').<br>
+<tab>Both the cipher book and the 'Enigma' must be obtained, by whatever means necessary.
+
+<br><br>
+<tab>Smirnov. <br>

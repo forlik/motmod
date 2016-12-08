@@ -1,0 +1,1 @@
+<tab>Knife:<br><br>- Use your knife to kill the enemy from a short distance away. To do it, you will need to sneak up to the enemy from behind and press the fire key, or select the 'Destroy' item from <l="game:Levels\training\tips\action_tip.txt">the Action menu</l>.<br>- To throw a knife press the "Fire" button (the left mouse button by default).<br>

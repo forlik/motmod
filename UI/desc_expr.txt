@@ -1,0 +1,6 @@
+<br>
+-<sp> <col=800000>Cannot</col> change clothes<sp> -<br>
+-<sp> Normal AI<sp> -<br>
+-<sp> Additional silenced weapon<sp> -<br>
+-<sp> Rating bonus<sp> -<br>
+<br>

@@ -1,0 +1,1 @@
+<tab>Pass training in weapons as follows:<br><br>- Shooting a pistol <br>- Shooting a submachine gun <br>- Shooting a rifle <br>- Shooting a sniper rifle<br>

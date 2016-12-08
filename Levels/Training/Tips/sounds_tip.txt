@@ -1,0 +1,1 @@
+<tab>Enemy's hearing:<br><br>-<sp> If the enemy is not looking at you,  <l="game:Levels\training\tips\threat_tip.txt">the danger scale </l> indicates how well he can hear you approaching.<br>-<sp> The noise level depends on the speed of your movement.<br>-<sp> If he hears anything suspicious the enemy may turn around or go and locate the source of the noise.<br>

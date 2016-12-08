@@ -1,0 +1,1 @@
+<tab>Using a sniper rifle:<br><br>- Use the aimed mode (the right mouse button by default) to switch to the optics mode <br>- Press and hold down the right mouse button to hold your breath while in the optics mode<br>

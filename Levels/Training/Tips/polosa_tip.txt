@@ -1,0 +1,1 @@
+<tab>Line of barriers:<br><br>- Use the Jump/Climb key (Space by default) in order to climb a barrier <br>- Your movement speed can by changed by the key Run/Walk (Caps Lock by default) or holding the Shift key down<br>- You can change postures both with function keys and the scroll wheel <br>

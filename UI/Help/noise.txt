@@ -1,0 +1,10 @@
+Distracting enemies:<br><br>
+<tab>-<sp> Whistling ("T" by default) attracts the attention of enemies. If the enemy becomes curious about the unfamiliar sound, he may look around or go to examine the area where the whistle came from.<br> 
+<tab>-<sp> Also, to distract an enemy you can throw a stone or, for example, a kitchen plate. In order to do this, you simply need to  <l="game:UI\Help\granade.txt">throw an item</l> against any surface. Any nearby enemy may hear the noise and look round. Breakable items make louder noises.<br>
+<tab>-<sp> A smoke bomb may be used to catch the attention of a single enemy. It is discrete in the sense that it is noiseless, but it is very visually noticeable.<br>
+<tab>-<sp> Use the 'Throw item' key ("G" key by default) to <l="game:UI\Help\granade.txt">throw</l> a smoke bomb.<br>
+
+<br><br><tab><l="$back">BACK</l><br>
+
+
+

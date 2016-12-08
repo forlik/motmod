@@ -1,0 +1,16 @@
+Player's movements:<br><br>
+<tab>The player may enter the following movement modes:<br><br>
+
+<tab>-<sp> Standing<br>
+<tab>-<sp> Crouching<br>
+<tab>-<sp> Prone<br><br>
+
+<tab>You can toggle between these modes with the mouse wheel or the respective control keys.<br>
+<tab>The two movement speeds, fast and slow, are available in each mode.<br>
+<tab><col=800000>Sneaking</col> ("V" by default) is a slow movement in 'Crouching' mode. Moving like this you can come up very close to an enemy without being detected.<br>
+<tab> Movement speed is toggled by "Caps Lock" or by holding down "Shift." For instance, in "Standing" mode, changing speed will shift the hero to either running or walking mode.<br>
+<tab>Each mode affects the <l="game:UI\Help\eye.txt">player's visibility level</l>, the <l="game:UI\Help\silent.txt">noise</l> produced by his movement, and the enemy's level of suspicion.<br>
+
+<br><br><tab><l="$back">BACK</l><br>
+
+

@@ -1,0 +1,10 @@
+Vehicles:<br><br>
+<tab>In certain cases there will arise an opportunity to use a vehicle.<br><br>
+
+<tab>-<sp> To enter a vehicle, you must approach it from the driver's side and select the respective item on the <l="game:UI\Help\menu.txt">"Action menu."</l><br> 
+<tab>-<sp> You can control the vehicle by using the movement keys ("W/A/S/D" by default).<br>
+<tab>-<sp> You can get out of car using the 'Action menu' key ("E" by default), or by clicking the right mouse button after the vehicle comes to a full stop.<br>
+<tab>-<sp> Trucks with covered beds enable you to hide bodies. You need to bring the body close to the rear of the vehicle and select the respective item on the <l="game:UI\Help\menu.txt">"Action menu."</l><br>
+<tab>-<sp> In open-top transports (that is, certain models of passenger cars, and motorcycles), you can transport bodies on the seats (or inside the motorcycle's sidecar), but in this case, the bodies will be visible to any onlookers.<br>
+
+<br><br><tab><l="$back">BACK</l><br>

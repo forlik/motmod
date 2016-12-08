@@ -1,0 +1,1 @@
+<tab>Grenades can also be used as traps when connected by a tripwire to dead bodies or doors.<br>

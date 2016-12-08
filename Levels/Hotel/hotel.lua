@@ -1,54 +1,45 @@
 
-  MissionText =
+  MissionText = 
   {
-     Message_GetTicket         = "ВЗЯТЬ КАРТОЧКУ";
-     Message_Ticket            = "Карточка постояльца гостиницы";
-
-     Failed_SpyOut             = "ДИПЛОМАТ ПОЛУЧИЛ ДОКУМЕНТЫ. ПРЕДАТЕЛЬ НЕ ВЫЯВЛЕН";
-     Failed_DiplomatDied       = "ДИПЛОМАТ УБИТ";
-     Failed_GadKilled          = "ПРЕДАТЕЛЬ НЕЙТРАЛИЗОВАН ДО ПЕРЕДАЧИ ДОКУМЕНТОВ";
-     Failed_DiplomatBodyInfo   = "ДИПЛОМАТ УЗНАЛ О СМЕРТИ ПРЕДАТЕЛЯ";
-     Failed_SeifOpened         = "ДИПЛОМАТ УЗНАЛ О ПРОНИКНОВЕНИИ В СЕЙФ";
-     Failed_DiplomatGetDocs    = "ДИПЛОМАТ ПОКИДАЕТ ГОСТИНИЦУ С ДОКУМЕНТАМИ";
-     Failed_RoomVisited        = "ДИПЛОМАТ УЗНАЛ О ПРОНИКНОВЕНИИ В НОМЕР";
-     Failed_DiplomatAlert      = "ДИПЛОМАТ ВСТРЕВОЖЕН - ВСТРЕЧА СОРВАНА";
-     Failed_Alert              = "ВСТРЕЧА СОРВАНА";
-
-     Message_CloseDoor         = "ЗАПЕРЕТЬ ДВЕРЬ";
-     Message_ChangeDocs        = "ЗАМЕНИТЬ ДОКУМЕНТЫ";
-     Message_StealTicket       = "УКРАСТЬ КАРТОЧКУ";
-     Message_Registrate        = "ПОСЕЛИТЬСЯ В ОТЕЛЕ";
-
-     Message_StopMove1         = "Вам здесь нечего делать..";
-     Message_StopMove2         = "Вход только для посетителей отеля..";
-     Message_StopMove3         = "Вход только для персонала отеля..";
-     Message_StopMove4         = "Доступ только для персонала отеля..";
-     Message_StopMove5         = "Вход в бассейн только для посетителей отеля..";
-
-     Message_CheckDiplomatDocs = "Вы должны удостовериться что дипломат получил документы";
-     Message_DocsChanging      = "Встреча началась. Поспешите в библиотеку";
-     Message_GetsTicket        = "Карточка постояльца гостиницы получена";
-
-     Message_AlarmCalled_1     = "В гостинице поднята тревога";
-     Message_AlarmCalled_2     = "Охрана допломата усилена";
-     Message_AlarmFinished     = "Охрана спокойна";
-
-     Message_NeedKillGad       = "Предатель обезврежен. Необходимо ликвидировать предателя";
-
-     Message_Info              = "В этом помещении нет посылок";
-     Message_DiplomatGoGetDocs = "Дипломат вынужден забрать документы из сейфа";
-
-     Key_Pool                  = "Ключ от бассейна";
-     Key_Barn                  = "Ключ от подсобных помещений";
-     Key_Number                = "Ключ от номера";
-
-     Task_1                    = " Вычислить предателя";
-     Task_2                    = " Найти оружие";
-     Task_3                    = " Уничтожить предателя";
-     Task_4                    = " Заменить документы";
-     Task_5                    = " Покинуть отель";
-
-     TaskChanged               = "Задания изменены";
+      --Mission text
+      Message_GetTicket         = "TAKE THE CARD";
+      Message_Ticket            = "Hotel visitor's card";
+      Failed_SpyOut             = "DIPLOMAT HAS RECEIVED THE DOCUMENTS. TRAITOR HAS NOT BEEN IDENTIFIED";
+      Failed_DiplomatDied       = "DIPLOMAT HAS BEEN KILLED";
+      Failed_GadKilled          = "TRAITOR HAS BEEN NEUTRALIZED BEFORE THE DOCUMENT TRANSFER ";
+      Failed_DiplomatBodyInfo   = "DIPLOMAT HAS LEARNED ABOUT THE TRAITOR'S DEATH";
+      Failed_SeifOpened         = "DIPLOMAT HAS LEARNED ABOUT THE OPENING OF THE SAFE ";
+      Failed_DiplomatGetDocs    = "DIPLOMAT IS LEAVING THE HOTEL WITH THE DOCUMENTS ";
+      Failed_RoomVisited        = "DIPLOMAT HAS FOUND OUT SOMEONE WAS IN HIS ROOM";
+      Failed_DiplomatAlert      = "DIPLOMAT HAS BEEN ALERTED - MEETING HAS BEEN CANCELLED";
+      Failed_Alert              = "MEETING HAS BEEN CANCELLED";
+      Message_CloseDoor         = "LOCK THE DOOR";
+      Message_ChangeDocs        = "REPLACE PAPERS ";
+      Message_StealTicket       = "STEAL THE CARD";
+      Message_Registrate        = "HOTEL CHECK-IN";
+      Message_StopMove1         = "You have no business here..";
+      Message_StopMove2         = "Only for hotel visitors..";
+      Message_StopMove3         = "Only for hotel staff..";
+      Message_StopMove4         = "Only for hotel staff..";
+      Message_StopMove5         = "Only hotel visitors are allowed to enter the swimming pool..";
+      Message_CheckDiplomatDocs = "You must make certain that the diplomat has received the documents";
+      Message_DocsChanging      = "The meeting has begun. Hurry up to the library";
+      Message_GetsTicket        = "You have received your hotel visitor's card";
+      Message_AlarmCalled_1     = "The alarm has been raised in the hotel";
+      Message_AlarmCalled_2     = "The diplomat's guards are on high alert";
+      Message_AlarmFinished     = "Guards are standing down";
+      Message_NeedKillGad       = "The traitor has been neutralized. The traitor must be killed";
+      Message_Info              = "There are no parcels in this room";
+      Message_DiplomatGoGetDocs = "The diplomat has to take the documents from the safe ";
+      Key_Pool                  = "Key to the swimming pool";
+      Key_Barn                  = "Key to the utility rooms";
+      Key_Number                = "Key to the room";
+      Task_1                    = " Determine who's the traitor";
+      Task_2                    = " Find the weapons";
+      Task_3                    = " Kill the traitor";
+      Task_4                    = " Replace the documents";
+      Task_5                    = " Leave the hotel";
+      TaskChanged               = "Tasks have been changed";
   };
 
   function Level.OnCompleteMission()

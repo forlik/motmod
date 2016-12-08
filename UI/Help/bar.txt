@@ -1,0 +1,4 @@
+Danger scale:<br><br>
+<tab>-<sp> The danger scale at the top of the screen displays the current level of risk taken by the hero, that is, how suspicious the enemy is of your actions. The longer the bar, the higher your risk of being discovered. If you enter the enemy's field of vision, or the enemy hears you performing suspicious actions, the danger level will increase.<br>
+
+<br><br><tab><l="$back">BACK</l><br>

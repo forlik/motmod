@@ -1,0 +1,18 @@
+Vector map:<br><br>
+<tab>-<sp> To enable the map use the 'Map' key ("M" or "Tab" keys by default). To switch between map modes use the 'Map' key.<br>
+<tab>-<sp> The map marks all enemies' fields of vision which may be dangerous to the player. Fields of vision are divided into two areas. In the grey zone the enemy will not notice you immediately.<br>
+<tab>-<sp> The colour of the main area in the enemy's field of vision indicates his alertness level:<br><br>
+
+<tab><tab><col=008000>green</col><sp> -<sp> calm<br>
+<tab><tab><col=808000>yellow</col><sp> -<sp> alerted<br>
+<tab><tab><col=800000>red</col><sp> -<sp> hostile<br><br>
+
+<tab>-<sp> Also, nearby characters on the map are marked by triangles. The colour of the triangle indicates the attitude of the character towards the main hero. <col=800000>Red</col> - aggressive, <col=808000>yellow</col> - suspicious, <col=008000>green</col> - calm.<br>
+<tab>-<sp> Depending on the type of your movement, your speed, or your disguise, enemy alertness fields may change.<br> 
+<tab>-<sp> Neutralized bodies are marked with black circle.<br>
+<tab>-<sp> Characters who are mission-critical are marked with a red circle.<br> 
+<tab>-<sp> Mission-critical points are marked by a circle with a number, with the number corresponding to mission's number in the briefing.<br> 
+<tab>-<sp> A circle with an exclamation mark is a tip or a message about an interesting place that is advantageous to visit, but not essential.<br>
+
+<br><br><tab><l="$back">BACK</l><br>
+

@@ -1,0 +1,7 @@
+<tab>Take the cipher book.<br><tab>This book holds critical information about the current 'Enigma' rotors, their starting positions, and their connections on the switchboard. You should be able to find it in the radio operators' room. Our sources have reported that it is stored in the safe. <br>
+<tab> Radio operators are not the only ones who have access to this safe. Our source reports that submarine captains also have access.<br>
+
+
+
+
+

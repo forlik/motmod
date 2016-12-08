@@ -1,0 +1,1 @@
+<tab>Officer's uniform:<br><br>- You look less <l="game:Levels\training\tips\form_tip.txt">suspicious </l> wearing an officer's uniform.<br>- You can get access to many guarded sites only while wearing an officer's uniform.<br>

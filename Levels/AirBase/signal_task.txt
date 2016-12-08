@@ -1,0 +1,4 @@
+<tab>Call in the recon squad.<br>
+Transmit the signal when you are ready for the recon squad to take the airfield. You must give
+the sign to the radio operator in the forest, or radio in the signal
+yourself.<br>

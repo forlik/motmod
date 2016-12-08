@@ -1,24 +1,21 @@
 
-  MissionText =
+  MissionText = 
   {
-       Task_1             = " Уничтожить А. Мадера",
-       Task_2             = " Уничтожить В. Бартелса",
-       Task_3             = " Уничтожить Г. Кнута",
-       Task_4             = " Покинуть деревню",
-
-       Message_1          = "Цели изменились",
-       Message_2          = "Поднята тревога. Число патрулей увеличено..",
-       Message_3          = "Поднята тревога. Охрана стала внимательней..",
-       Message_4          = "Охрана успокоилась..";
-
-       Message_StopMove_1 = "Вход в здание запрещен..";
-       Message_StopMove_2 = "Только офицеры могут войти в это здание..";
-       Message_StopMove_3 = "Вход в комнату запрещён..";
-
-       Message_Station    = "ЗАМКНУТЬ РАЦИЮ";
-       Message_Poison     = "ОТРАВИТЬ";
-
-       Fail_Alarm         = "Поднята тревога";
+      --Mission text
+      Task_1             = " Kill A. Mader";
+      Task_2             = " Kill W. Bartels";
+      Task_3             = " Kill H. Knutt";
+      Task_4             = " Leave the village";
+      Message_1          = "Targets have changed";
+      Message_2          = "The alarm has been raised. The number of patrols has increased..";
+      Message_3          = "The alarm has been raised. The guards are on high alert..";
+      Message_4          = "Guards are standing down..";
+      Message_StopMove_1 = "Access to the building is not authorized..";
+      Message_StopMove_2 = "Only officers are allowed to enter this building..";
+      Message_StopMove_3 = "Access to the room is not authorized..";
+      Message_Station    = "FUSE THE RADIO";
+      Message_Poison     = "POISON";
+      Fail_Alarm         = "The alarm has been raised";
   };
 
   function Level.OnCompleteMission()

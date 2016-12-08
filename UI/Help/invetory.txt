@@ -1,0 +1,8 @@
+Inventory:<br><br>
+<tab>-<sp> To enter 'Inventory' mode, simply press the 'Inventory' key ("I" by default) or click the respective item on the <l="game:UI\Help\menu.txt">"Action menu,"</l> when you are close to the body of a neutralized enemy.<br>
+<tab>-<sp> 'Inventory' mode enables you move or dispose of items. For example, you can throw away your backpack.<br>
+<tab>-<sp> To throw away an item, drag it from the inventory window and drop it on an empty space in the main window.<br>
+<tab>-<sp> <col=800000>To throw away a backpack</col>, click the 'Hand' icon beside the backpack icon.<br>
+<tab>-<sp> You can quickly move items between the inventory of the main hero and the inventory of a neutralized enemy by a double-clicking on the item.<br>
+
+<br><br><tab><l="$back">BACK</l><br>

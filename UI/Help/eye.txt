@@ -1,0 +1,7 @@
+Vision:<br><br>
+<tab>-<sp> The vision system is based on partial visibility. Thus, the enemy's field of vision is divided into an area where a player will be noticed at once, and an extended area in which he will be noticeable after a certain period of time. The time involved depends on the difficulty level, the distance involved, and the hero's disguise.<br>
+<tab>-<sp> If the hero stands behind a tree or some other obstacle, the enemy may not notice.<br>
+<tab>-<sp> If at least one enemy can see the main hero, this is indicated by the presence of the eye icon at the top part of the screen.<br>
+<tab>-<sp> When the enemy notices a body, he may decide to examine it.<br>
+
+<br><br><tab><l="$back">BACK</l><br>

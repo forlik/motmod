@@ -38,4 +38,4 @@ addleveldesc "otstupniki" 'NOTS' 1 1
 
 setbrightness -0.15
 
-playavi "game:intro_1.vid,game:intro_2.vid" "l_loadlevel 'gamemenu' 1"
+playavi "game:intro_1.vid,game:intro_2.vid,game:intro_3.vid" "l_loadlevel 'gamemenu' 1"

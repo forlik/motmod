@@ -1,46 +1,38 @@
 
-  MissionText =
+  MissionText = 
   {
-       Message_Move              = "ИДЕМ";
-       Message_Stop              = "ЖДИ ЗДЕСЬ";
-       Message_Read              = "ПОСМОТРЕТЬ ЗАПИСИ";
-
-       Task_Find                 = " Найти осведомителя";
-       Task_GetOut               = " Освободить агента"; 
-       Fail_Killed               = "Осведомитель убит",
-
-       Message_StopMove1         = "Вы не можете пройти на территорию склада..";
-       Message_StopMove2         = "Только для офицеров..";
-       Message_StopMove3         = "Необходим пропуск чтобы попасть на территорию лагеря..";
-       Message_StopMove4         = "У вас нету доступа на территорию лагеря..";
-       Message_StopMove5         = "Вы не можете покинуть территорию с заключенным..";
-
-       Message_EnterAlarm        = "Поднята тревога.";
-       Message_BaseAlarm         = "Поднята тревога. Охрана стала более подозрительна";
-       Message_CampAlarm         = "Поднята тревога. Некоторые заключенные приговоренны к смерти";
-
-       Message_AlarmFinished     = "Охрана успокоилась..";
-       
-       Message_PrisonerAreaLeave = "Вы не можете покинуть эту территорию с заключенным. Смените форму";
-       Message_PrisonerCampLeave = "Вы не можете покинуть территорию с заключенным";
-
-       Message_PrisonerWaitThink = "Вернитесь за осведомителем";
-
-       Message_3                 = "Задания изменены";
-
---     подсказки (тест)
-       Message_TestHelp          = { "Паника заключенных не приведет к тревоге",
-                                     "Врач может увести любого заключенного в медпункт на обследование",
-                                     "Смерть заключенных не беспокоит охрану",
-                                     "Все охранники на территории бараков с заключенными имеют пропуск",
-                                     "Надзиратель может уводить заключеннго на работы на территории лагеря",
-                                     "Тревога на территории лагеря может привести к казни заключенных",
-                                     "Врач может передвигаться на территории лагеря",
-                                     "Большая часть территории лагеря контролируется снайперами на вышках",
-                                     "Сетка, окружающяя бараки находится под напряжением"
-                                   };
-
-       Docs_Pass                 = "ПРОПУСК";
+      --Mission text
+      Message_Move              = "FOLLOW ME";
+      Message_Stop              = "WAIT HERE";
+      Message_Read              = "CHECK RECORDS";
+      Task_Find                 = " Find the informer";
+      Task_GetOut               = " Liberate the agent";
+      Fail_Killed               = "The informer has been killed";
+      Message_StopMove1         = "You cannot get into the depot..";
+      Message_StopMove2         = "Only for officers..";
+      Message_StopMove3         = "A permit is required to get into the camp..";
+      Message_StopMove4         = "You have no access to the camp..";
+      Message_StopMove5         = "You cannot leave the territory with the prisoner..";
+      Message_EnterAlarm        = "Guards are standing down..";
+      Message_BaseAlarm         = "The alarm has been raised. Guards are on high alert..";
+      Message_CampAlarm         = "The alarm has been raised. Some prisoners have been condemned to death";
+      Message_AlarmFinished     = "Guards are standing down..";
+      Message_PrisonerAreaLeave = "You cannot leave this territory with the prisoner.. Change your uniform";
+      Message_PrisonerCampLeave = "You cannot leave the territory with the prisoner";
+      Message_PrisonerWaitThink = "Come back for the informer";
+      Message_3                 = "Tasks have been changed";
+      Message_TestHelp          = {
+                                    "Panic among the prisoners will not raise the alarm";
+                                    "The doctor can carry any prisoner to the aid post for a medical examination";
+                                    "The guards are not concerned about the fate of the prisoners";
+                                    "All the guards on the territory surrounding the prisoners' barracks have permits";
+                                    "A warden can take a prisoner to carry out work on the territory of the prison camp";
+                                    "An alarm at the camp can result in some of the prisoners being executed";
+                                    "The doctor can move around the camp";
+                                    "Most parts of the camp territory are controlled by snipers located in the watchtowers";
+                                    "The wire fence surrounding the barracks is an electric fence.";
+                                  };
+      Docs_Pass                 = "PERMIT";
   };
 
   function Level.OnCompleteMission()

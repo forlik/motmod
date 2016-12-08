@@ -1,0 +1,1 @@
+<tab>Access the bunker:<br><br>-<sp> Access the bunker from the south without being noticed by patrols.<br>-<sp> Distract the guard at the bunker by whistling or throwing a smoke bomb.<br>-<sp> Enter the bunker.<br>-<sp> If you are noticed, your mission will fail.<br>-<sp> If the guards notice other guards being stunned or put to sleep, your mission will fail.<br>

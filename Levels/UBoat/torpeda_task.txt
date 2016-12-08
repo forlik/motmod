@@ -1,0 +1,6 @@
+<tab>Obtain the schematics of the latest self-guided acoustic torpedoes, the T-5 Zaunkönig, codename 'Wren.'<br>
+<tab>These documents are most likely stored in the <col=800000>submarine captain's private quarters</col>.<br>
+<tab>You will have to spy on the captain to discover where these documents are kept.<br>
+
+
+

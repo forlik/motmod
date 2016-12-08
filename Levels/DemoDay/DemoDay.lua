@@ -1,35 +1,29 @@
 
-  MissionText =
+  MissionText = 
   {
-       Task_1                 = " Проникнуть на базу",
-       Task_2                 = " Добыть форму";
-       Task_3                 = " Угнать грузовик";
-       Task_4                 = " Добыть документы";
-       Task_5                 = " Обезвредить языка",
-       Task_6                 = " Вынести языка",
-
-       Fail_Alarm             = "Поднята тревога",
-       Fail_YKilled           = "Дитрих Мельтцер убит",
-
-       Message_2              = "Задания обновлены";
-       Message_Docs           = "ВЗЯТЬ ДОКУМЕНТЫ";
-       Message_DisableAlert   = "ОТКЛЮЧИТЬ ТРЕВОГУ";
-
-       Fail_Vodila            = "Задание провалено: Водитель погиб";
-       Fail_Bliz              = "Задание провалено: Машина взорвана";
-       Message_3              = "Задания изменены";
-
-       Key_Name               = "Ключ от сейфа";
-
-       Message_BunkerAlarm    = "В районе бункера поднята тревога. ";
-       Message_BaseAlarm_1    = "Поднята тревога. Число патрулей увеличено";
-       Message_BaseAlarm_2    = "Поднята тревога. Охрана стала более внимательна..";
-       Message_AlarmFinished  = "Охрана успокоилась..";
-
-       Message_StopMove_1     = "Только офицеры могут проходить в эту часть здания..";
-       Message_StopMove_2     = "Только офицеры могут попасть в эту комнату..";
-       Message_StopMove_3     = "Только офицерам разрешенно заходить в радиорубку..";
-
+      --Mission text
+      Task_1                = " Sneak onto the base";
+      Task_2                = " Get a uniform";
+      Task_3                = " Hijack a truck";
+      Task_4                = " Obtain the documents";
+      Task_5                = " Neutralize the captive";
+      Task_6                = " Carry out the captive";
+      Fail_Alarm            = "Alarm has been raised";
+      Fail_YKilled          = "Dietrich Meltzer has been killed";
+      Message_2             = "Tasks have been updated";
+      Message_Docs          = "GET DOCUMENTS";
+      Message_DisableAlert  = "DISABLE ALARM";
+      Fail_Vodila           = "Task has failed: The driver is dead";
+      Fail_Bliz             = "Task has failed: The car has exploded";
+      Message_3             = "Tasks have been changed";
+      Key_Name              = "Key to the safe";
+      Message_BunkerAlarm   = "The alarm has been raised around the bunker. ";
+      Message_BaseAlarm_1   = "The alarm has been raised. The number of patrols has increased";
+      Message_BaseAlarm_2   = "The alarm has been raised. Guards are on high alert.";
+      Message_AlarmFinished = "Guards are standing down..";
+      Message_StopMove_1    = "Only officers are allowed to enter this part of the building..";
+      Message_StopMove_2    = "Only officers are allowed to enter this room..";
+      Message_StopMove_3    = "Only officers are allowed to enter the radio room..";
   };
 
   function Level.OnCompleteMission()

@@ -1,11 +1,11 @@
-<col=400000>Записка по "ВЧ"</col><br><br>
+<col=400000>HF Radio Message</col><br><br>
 
-"Срочно!<br>
-Золотницкому.<br><br>
+Urgent!<br>
+To: Zolotnitsky.<br><br>
 
-<tab>С 18.08.1943 по 27.08.1943 на секретном особом испытательном полигоне бронетехники Вермахта, расположенном недалеко от города Гослар, проводились предварительные испытания новейшей немецкой самоходной артиллерийской установки. По данным, полученным из источника, близкого к Министерству вооружений Германии, речь идет о проекте "Sd. Kfz. 173 Panzerjager V Jagdpanther".<br>
-<tab>Необходимо найти и похитить полковника танковых войск Дитриха Мельтцера, который занимает должность начальника полигона и непосредственно руководил подготовкой испытаний САУ. Вместе с Мельтцером следует доставить всю имеющуюся документацию по результатам испытаний.<br>
-<tab>Работу по подготовительным мероприятиям взять под личный контроль.<br>
-<tab>Об исполнении немедленно доложить.<br><br>
+<tab>Since the 18th till the 27th of August 1943 at a Wehrmacht special secret testing ground for armor, located near the city of Goslar, the preliminary test of modern German self-propelled artillery (SPA) were held. According to data obtained from a source close to the German Arms Ministry, we are talking about the project "Sd. Kfz. 173 Panzerjager V Jagdpanther".<br>
+<tab>It is necessary to find and capture the Colonel of tank forces Dietrich Meltzer, who held a post of the chief of the reservation and directly supervised the preparation of all SPA tests. You are also to deliver all available documentation of the test results.<br>
+<tab>Take under your personal control all preparation activities.<br>
+<tab>Report the success of the mission without delay.<br><br>
 
-<tab>Смирнов."<br>
+<tab>Smirnov.<br>

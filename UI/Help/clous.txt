@@ -1,0 +1,5 @@
+Getting changed:<br><br>
+<tab>-<sp> You can change into a <l="game:UI\Help\for.txt">uniform</l> of a neutralized enemy if the uniform is not stained by blood.<br>
+<tab>-<sp> To do this, you need to get close to the body and use 'Change clothes' item on the <l="game:UI\Help\menu.txt">"Action menu."</l><br> 
+
+<br><br><tab><l="$back">BACK</l><br>

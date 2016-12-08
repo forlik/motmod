@@ -1,0 +1,12 @@
+<col=400000>HF Radio Message</col><br><br>
+
+To: Agent Zolotnitsky<br>
+Urgent!<br><br>
+
+<tab>We have discovered several Me-163 Komet rocket-powered interceptors, located in the eastern suburbs of Prague. A recon squad is to be assembled under the command of Stanislav Telyatnikov. The "Douglas" aircraft will deliver the squad to the vicinity of the airfield, where they will capture and secure the interceptor and its crew.<br>
+<tab>As a preliminary measure, you are to capture an Me-163 pilot, then assure that the recon squad is clear for arrival.<br>
+
+<tab>You may employ whatever methods necessary, at your personal discretion: all that matters is the result.<br>
+<tab>Report the success of the mission without delay.<br><br>
+
+<tab>Smirnov. <br>

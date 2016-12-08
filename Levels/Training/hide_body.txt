@@ -1,0 +1,1 @@
+<tab>Hide the guard's body:<br><br>-<sp> Lift up the guard's body and hide it in an open box.<br>-<sp> The right mouse button can be used to drop the body in the box.<br>-<sp> Be careful, as a strong impact may be fatal.<br>-<sp> The left mouse button serves to carefull lay the body down.<br>

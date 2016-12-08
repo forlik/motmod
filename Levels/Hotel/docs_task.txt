@@ -1,0 +1,1 @@
+<tab>Sneak into the diplomat's room. Replace the documents in the safe. The diplomat should not find out that the safe has been opened, or that a stranger has been in the room. Any danger may cause the diplomat to take the documents out of the safe.<br>

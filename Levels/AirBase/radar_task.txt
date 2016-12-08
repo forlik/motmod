@@ -1,0 +1,2 @@
+<tab>Disable the radar. If it is still operational or has been repaired by the time the
+recon squad arrives, the mission is a failure.<br>

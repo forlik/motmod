@@ -1,0 +1,5 @@
+Keyholes:<br><br>
+<tab>-<sp> You can examine the status of the room on the other side of a closed door by looking through the keyhole (assuming the door has a keyhole). To switch into this mode, you must approach the door and use the <l="game:UI\Help\menu.txt">"Action menu."</l><br> 
+<tab>-<sp> If a enemy observes the main hero peeping through keyholes, this will raise his suspicions, and the hero may be  <l="game:UI\Help\alarm.txt">discovered.</l><br>
+
+<br><br><tab><l="$back">BACK</l><br>

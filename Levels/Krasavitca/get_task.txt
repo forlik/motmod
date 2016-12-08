@@ -1,0 +1,1 @@
+<tab>Set the captain free. He should be in one of the prison cells located in the basement of the castle.<br><br><img=foto_1,bot,15,0><br>

@@ -1,0 +1,8 @@
+Alarm:<br><br>
+<tab>-<sp> In some cases, the enemy may attempt to raise an alarm. In order to do so, he must report the danger through internal communication channels (such as radio rooms, interphones, or radio transmitters) or tell the guards in a busy location of the reason for the alarm.<br>
+<tab>-<sp> Raising an alarm normally increases the number of enemies that pose a danger to the player. It is frequently accompanied by a siren and an increase in the number of patrols. In some missions, an alarm may seriously complicate the situation, or even amount to immediate mission failure.<br>
+<tab>-<sp> If the enemy decides to raise the alarm, this will be clearly indicated. One or several enemies will start to flash on the vector map and the megaphone icon will be displayed at the top of the screen.<br>
+<tab>-<sp> If an enemy has discovered a body and decides to examine it, again an appropriate warning is displayed on the screen.<br>
+
+<br><br><tab><l="$back">BACK</l><br>
+

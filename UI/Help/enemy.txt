@@ -1,0 +1,8 @@
+Enemies:<br><br>
+<tab><l="game:UI\Help\eye.txt">Vision</l><br><br>
+<tab><l="game:UI\Help\silent.txt">Hearing</l><br><br>
+<tab><l="game:UI\Help\scream.txt">Information transfer</l><br><br>
+<tab><l="game:UI\Help\guard.txt">Guards</l><br><br>
+<tab><l="game:UI\Help\alert.txt">Alarm</l><br><br>
+
+<br><br><tab><l="$back">BACK</l><br>

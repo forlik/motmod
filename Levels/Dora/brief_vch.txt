@@ -1,0 +1,15 @@
+<col=400000>HF Radio Message</col><br><br>
+
+To: Agent Zolotnitsky<br>
+Critical!<br><br>
+
+<tab>According to 'Dario,' our source at Bletchley Park, classified documents which may enable the Americans to decipher our messages have fallen into the hands of British intelligence.<br>
+<tab>In particular, it has been reported that these documents contain a code book of fifteen hundred pages, stolen from a Soviet radio operator. We suspect that these materials will be handed over to American agents very shortly. 
+Their recovery is essential, as these codes are still in active use, and are planned to be used during the upcoming 'Venona' operation.<br>
+
+<tab>The Chief Counterintelligence Directorate has ordered you to develop and implement, within six hours, a plan to recover the documents, 
+ taking into consideration all possible contingencies and scenarios which might jeopardize the operation.<br>
+
+<tab>Within two hours, you are to provide all necessary information to agents or groups who may need to be mobilized in advance of your insertion at Bletchley.<br>
+
+<br><tab>Smirnov. <br>

@@ -1,22 +1,18 @@
 
   MissionText = 
   {
-     Task_1                 = " Встретиться с курьером";
-     Task_2                 = " Освободить курьера";
-     Task_3                 = " Забрать схемы";
-     Task_4                 = " Покинуть местность";
-
-     Message_1              = "Задания изменены";
-     Message_2              = "Задания обновлены";
-
-     Fail_KKilled           = "Курьер убит",
-     Docs_Tip               = "Схемы оборонительных полос противника";
-
-     Message_Alarm          = "Поднята тревога. Число патрулей увеличено..";
-     Message_AlarmFinished  = "Охрана успокоилась..";
-
-     Message_StopMove       = "Только офицеры могут здесь пройти..";
-
+      --Mission text
+      Task_1                = " Meet the messenger";
+      Task_2                = " Set the messenger free";
+      Task_3                = " Collect the layouts";
+      Task_4                = " Leave the area";
+      Message_1             = "Tasks have been changed";
+      Message_2             = "Tasks have been updated";
+      Fail_KKilled          = "The messenger has been killed";
+      Docs_Tip              = "Layouts of enemy's defensive positions";
+      Message_Alarm         = "The alarm has been raised. The number of patrols has increased..";
+      Message_AlarmFinished = "Guards are standing down..";
+      Message_StopMove      = "Only officers are allowed to pass here..";
   };
 
   function Level.OnCompleteMission()

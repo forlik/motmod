@@ -1,0 +1,5 @@
+Mines:<br><br>
+<tab>To use a mine you must plant it somewhere. To accomplish this, simply invoke the explosives slot ("6" by default) by holding down that key until the list pops up.<br>
+<tab> You will see when the mine in the list becomes active. To plant the mine, use the 'Fire' key.<br>
+
+<br><br><tab><l="$back">BACK</l><br>

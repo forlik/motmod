@@ -1,0 +1,1 @@
+<tab>Collect layouts of the enemy's positions from the messenger.<br>

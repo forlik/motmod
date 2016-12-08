@@ -1,0 +1,1 @@
+<tab>Pass through the line of barriers:<br><br>-<sp> Pass through the zone with wooden barriers<br>-<sp> Use the ladder to climb onto the wall <br>-<sp> Run across both access gangways <br>-<sp> Pass through the labyrinth <br>-<sp> Pass through both trenches<br>-<sp> Crawl under barbed wire<br>

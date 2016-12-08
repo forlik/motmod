@@ -1,43 +1,37 @@
+
   MissionText = 
   {
-     Task_1               = " Достать оружие";
-     Task_2               = " Уничтожить Волкова";
-     Task_3               = " Покинуть здание";
-
-     Key_Name             = "Ключ от склада";
-     Key3f_Name           = "Ключ от картотеки";
-
-     Message_StopMove_1   = "Вы не можете пройти здесь..";
-     Message_StopMove_2   = "Только для охраны..";
-     Message_StopMove_3   = "Только для служащих посольства..";
-
-     Message_HaveNoKey    = "Дверь заперта. Ключ находится у заведующего архивами..";
-     Message_IsNotSilence = "В посольстве поднята тревога. Обнаружили тело или уровень настороженности охраны достаточно высок";
-
-     Kill_Agents          = "Вы уничтожили слишком много агентов. ";
-     Kill_Civilians       = "Вы уничтожили слишком много работников посольства. ";
-     Kill_Diplomats       = "Вы уничтожили слишком много дипломатов. ";
-     Kill_Guards          = "Вы уничтожили слишком много охранников. ";
-
-     Fail_Alarm           = "ПОДНЯТА ТРЕВОГА";
-
-     Message_Poison       = "ОТРАВИТЬ КОФЕ";
-     Poison_Name          = "Яд";
-
-     Kill_Msg_1           = "Осталось ";
-     Kill_Msg_3           = "Остался ";
-     Kill_Msg_2           = " до инициализации крупного дипломатического скандала.";
-
-     Message_TestHelp   = { "Убийство большого количества человек может привести к дипломатическому скандалу",
-                            "Убийство дипломатов может привести к дипломатическому скандалу",
-                            "На третьем этаже расположена комната отдыха персонала",
-                            "Первый этаж открыт для посетителей посольства",
-                            "Волков охраняется специальными агентами посольства",
-                            "Комнаты с архивами расположены в подвале посольства",
-                            "Смерть в результате несчастного случая не является причиной тревоги"
-                          };
-
-     Message_CloseDoor    = "ПОВЕСИТЬ ТАБЛИЧКУ";
+      --Mission text
+      Task_1               = " Get the weapon";
+      Task_2               = " Kill Volkov";
+      Task_3               = " Leave the building";
+      Key_Name             = "Key to the depot";
+      Key3f_Name           = "Key to the archives";
+      Message_StopMove_1   = "You are not allowed to pass here..";
+      Message_StopMove_2   = "Only for guards..";
+      Message_StopMove_3   = "Only for the Embassy employees ..";
+      Message_HaveNoKey    = "The door is locked. The head of the archives has it.";
+      Message_IsNotSilence = "The alarm has been raised in the Embassy. The body has been discovered and the guards are on high alert";
+      Kill_Agents          = "You have killed too many agents. ";
+      Kill_Civilians       = "You have killed too many Embassy employees. ";
+      Kill_Diplomats       = "You have killed too many diplomats. ";
+      Kill_Guards          = "You have killed too many guards. ";
+      Fail_Alarm           = "ALARM HAS BEEN RAISED";
+      Message_Poison       = "POISON COFFEE";
+      Poison_Name          = "Poison";
+      Kill_Msg_1           = "";
+      Kill_Msg_3           = "";
+      Kill_Msg_2           = " more left before a large-scale diplomatic scandal erupts.";
+      Message_TestHelp     = {
+                               "Killing a large number of people can result in a diplomatic scandal";
+                               "Killing diplomats can result in a diplomatic scandal";
+                               "There is a lounge for the staff on the third floor";
+                               "The first floor is open to Embassy visitors";
+                               "Volkov is guarded by the Embassy special agents";
+                               "The archive rooms are located in the basement of the Embassy";
+                               "An accidental death is no cause for alarm";
+                             };
+      Message_CloseDoor    = "HANG THE SIGN";
   };
 
   function Level.OnCompleteMission()

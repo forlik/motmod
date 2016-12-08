@@ -1,229 +1,55 @@
-----------------------------------------------------------------------------
---
--- Description :  Mission "Otstupniki"
---
---
-----------------------------------------------------------------------------
 
--- Tasks:
-
------------------------------------- completed ------------ deadline ------------ completed ---------
--- NULL ITTERATION:           |                      |                       |                      |
--- additional models:         |                      |                       |                      |
--- update bad house models    |    100%              |                       |   24.12.2007         |
--- market models              |     50%              |                       |                      |
--- pipe for boat              |    100%              |                       |   24.12.2007         |
--- lock for bathdoor          |    100%              |                       |   28.12.2007         |
--- pipe for boards            |    100%              |                       |   27.12.2007         |
--- vedro                      |    100%              |                       |   27.12.2007         |
-----------------------------------------------------------------------------------------------------|
--- FIRST ITTERATION:                                                                                |
--- documentation              |    100%     |  serg  |    17.12.2007         |   18.12.2007         |
--- vector map                 |    100%     |  dim   |    15.12.2007         |   15.12.2007         |
--- indoor waypoints           |    100%     |  dim   |    15.12.2007         |   17.12.2007         |
--- waypoints                  |    100%     |  serg  |    15.12.2007         |   17.12.2007         |
--- firepoints                 |<n> 100%     |  serg  |    15.12.2007         |   15.12.2007         |
--- stairs                     |    100%     |  serg  |    15.12.2007         |   15.12.2007         |
--- grenade holes              |<n> 100%     |  serg  |    15.12.2007         |   15.12.2007         |
--- lma triggers               |    100%     |  dim   |    17.12.2007         |   17.12.2007         |
--- invisible wall             |    100%     |  dim   |    17.12.2007         |   17.12.2007         |
-
--- active level state: west serg wp, east dim
--- market construction        |    100%     |  dim   |    19.12.2007 <prot>  |   19.12.2007         |
--- building construction      |    100%     |  dim   |    19.12.2007         |   19.12.2007         |
--- start script               |    100%     |  serg  |    19.12.2007         |   19.12.2007         |
--- shadowing script           |    100%     |  serg  |    19.12.2007         |   20.12.2007         |
--- bridge mine script         |    100%     |  serg  |    19.12.2007         |   20.12.2007         |
--- spy cutscene               |    100%     |  serg  |    19.12.2007         |   19.12.2007         |
-
--- patrol script & smersh doc |    100%     |  serg  |    20.12.2007 <reser> |   20.12.2007         |
--- officer lecture scene      |    100%     |  serg  |    20.12.2007         |   22.12.2007         |
--- fix waypoints              |    100%     |  di/s  |    20.12.2007         |   21.12.2007         |
-
--- synchronize level:         |    100%     |  serg  |    21.12.2007         |   21.12.2007         |
--- active level state: dim. only brushes
--- diversant1 idle            |    100%     |  serg  |    21.12.2007         |   25.12.2007         |
--- lg south-east              |    100%     |  serg  |    21.12.2007         |   24.12.2007         |
--- constr house scene         |    100%     |  serg  |    21.12.2007         |   21.12.2007         |
--- training scene             |    100%     |  serg  |    21.12.2007         |   22.12.2007         |
--- main house                 |    100%     |  serg  |    21.12.2007         |   22.12.2007         |
--- lg south-west              |    100%     |  serg  |    21.12.2007         |   21.12.2007         |
--- additional npc flags       |    100%     |  serg  |    21.12.2007 <a>     |   21.12.2007         |
-
--- physics                    |    100%     |  dim   |    22.12.2007         |   22.12.2007         |
--- boxes scene                |    100%     |  serg  |    22.12.2007         |   21.12.2007         |
--- market scene               |    100%     |  serg  |    22.12.2007         |   24.12.2007         |
--- soldier group job          |    100%     |  serg  |    22.12.2007         |   21.12.2007         |
--- synchronize level:         |    100%     |  serg  |    22.12.2007         |   22.12.2007         |
--- active level state: serg
-
--- windows                    |    100%     |  dim   |    24.12.2007         |   24.12.2007         |
--- expl objects               |    100%     |  dim   |    24.12.2007         |   24.12.2007         |
--- doors                      |    100%     |  serg  |    24.12.2007         |   25.12.2007         |
--- diversant2 idle            |    100%     |  serg  |    24.12.2007         |   25.12.2007         |
--- lg north-west              |    100%     |  serg  |    24.12.2007         |   27.12.2007         |
--- diversant3 idle            |    100%     |  serg  |    24.12.2007         |   27.12.2007         |
--- lg north-east              |    100%     |  serg  |    24.12.2007         |   27.12.2007         |
--- patrols                    |    100%     |  serg  |    24.12.2007         |   25.12.2007         |
-
--- additional local gameplay  |    100%     |  dim   |    25.12.2007         |   27.12.2007         |
--- order soldiers script      |    100%     |  serg  |    25.12.2007         |   27.12.2007         |
--- spy order scene            |    100%     |  serg  |    25.12.2007         |   25.12.2007         |
--- smersh doc diversant reac  |   <susp>    |  serg  |    25.12.2007         |   05.01.2008         |
--- hello officer triggers     |    100%     |  serg  |    25.12.2007         |   27.12.2007         |
--- drinking scene             |    100%     |  serg  |    25.12.2007         |   25.12.2007         |
--- drinking soldiers scene    |    100%     |  serg  |    25.12.2007         |   25.12.2007         |
--- spy enter house scene      |    100%     |  serg  |    25.12.2007         |   27.12.2007         |
-
--- doctor call script         |    100%     |  serg  |    26.12.2007         |   27.12.2007         |
--- boat script                |    100%     |  serg  |    26.12.2007         |   26.12.2007         |
--- board script               |    100%     |  serg  |    26.12.2007         |   26.12.2007         |
--- paint script               |    100%     |  serg  |    26.12.2007         |   26.12.2007         |
--- bath lock script           |    100%     |  serg  |    26.12.2007         |   26.12.2007         |
--- dynamic cutscene           |    100%     |  serg  |    26.12.2007         |   05.01.2008         |
--- dialogs                    |    100%     |  dim   |    26.12.2007 <a>     |   27.12.2007         |
-
--- npc postprocess            |    100%     |  serg  |    27.12.2007         |   28.12.2007         |
--- zone system                |    100%     |  serg  |    27.12.2007         |   28.12.2007         |
--- keys                       |    100%     |  serg  |    27.12.2007         |   28.12.2007         |
--- stop move messages         |    100%     |  serg  |    27.12.2007         |   28.12.2007         |
--- potential physics test     |    100%     |  serg  |    27.12.2007         |   28.12.2007         |
--- safe ai methods            |    100%     |  serg  |    27.12.2007         |   28.12.2007         |
--- voices list                |    100%     |  serg  |    27.12.2007 <a>     |   28.12.2007         |
-
--- bridge unmine script       |    100%     |  serg  |    28.12.2007         |   29.12.2007         |
--- tasks                      |    100%     |  serg  |    28.12.2007         |   29.12.2007         |
--- marks                      |    100%     |  serg  |    28.12.2007         |   29.12.2007         |
--- alert setup                |    100%     |  serg  |    28.12.2007         |   28.12.2007         |
--- alert scripts              |    100%     |  serg  |    28.12.2007         |   28.12.2007         |
-
--- physics sov. vehicle       |    100%     |  serg  |    29.12.2007         |   05.01.2008         |
--- I it. gameplay test        |    100%     |  serg  |    29.12.2007         |   03.01.2008         |
--- briefing map               |    100%     |  warh  |        <?>            |   04.01.2008         |
--- grass vision map           |      0%     |  serg  |        <?>            |                      |
--- waypoint vision level      |      0%     |  serg  |        <?>            |                      |
--- 
--- lighting                   |      0%     |  warh  |        <?>            |                      |
--- mirrors                    |      0%     |  warh  |        <?>            |                      |
--- effects                    |      0%     |  warh  |        <?>            |                      |
--- help messages              |      0%     |  dim   |        <?>            |                      |
------------------------------------------------------------------------------------------------------
--- SECOND ITTERATION:
------------------------------------------------------------------------------------------------------
--- npc visual post process    |      0%     |  serg  |        <?>            |   05.01.2008         |
------------------------------------------------------------------------------------------------------
-
--- test:
--- + shestakov boat script
-
--- bugs:
--- + Lock all vehicles to protect start script!
--- Strong anchor use idle's to protect start script!
--- Basenpc hmm auto corrector, teleport bot to anchor if it is in grond
--- Add undergroup invisible walls
--- + Potential see dont change attention flag
--- + Stone don't change attention flag
-
---------------------------------- Messages table -----------------------------
-
-
--- Voice Message table:
--- Что за чертовщина там творится?
--- Чувствую эту дуру придется тащить отсюда... (самолету)
--- Вперед
--- Судя по карте на вершине холма они нас ждут
--- Машина сдохла. Дальше пешком
--- Рядовой Иванов прибыл
--- Жалобы есть?
--- Никак нет. Разрешите идти
--- Рядовой! Ко мне! 
--- Есть! Рядовой Девадзе Прибыл!
--- Ты чего совсем одурел?! В таком виде в строю появлятся! За небритую физиономию наряд вне очереди!
--- Есть наряд!
--- И раз! 
--- Тьфу, ладно поехали.
--- Сигарет не найдется?
--- У вас свободно. Пару дней переночевать смогу?
--- Угу
--- Здравие желаю! Товарищ старший лейтенант!
--- Что за черт! Я за доктором!
--- Товарищ капитан... Разрешите идти?
--- Доктор! Там бойцу на голову лодка упала!
--- Доктор! Там бойцу на голову доски упали!
--- Жив. Вроде все в порядке.
--- Здравия желаю товарищ майор
--- Здравия желаю товарищ капитан
-
--- alert groups:
--- 0 - main house
--- 1 - worker soldiers & south soldiers
--- 2 - south-west soldiers
--- 3 - north
--- 4 - market alert group
--- 5 - bridge soldiers
--- 6 - south group
--- 10 - diversants
-
-  
   MissionText = 
   {
-      Message_CutScene_SpyInvite       = "- Пока все по плану. Мы готовы выполнить задачу. Тут детали.";
-      Message_CutScene_SpyRespond      = "- Отлично. Продолжайте операцию. Мы выдвигаемся в поселок.";
-      Message_CutScene_Docs            = "- Предъявите ваши документы!";
-      Message_CutScene_Binocular       = "- Охраны пока нет. Можем начинать";
-      
-      Message_ShowMePass               = "@ Предъявите ваши документы!";
-      Message_Fire                     = "@ Еще один шаг и я открываю огонь!";
-      Message_OkWeWillGo               = "@ Так точно! Мы поработаем пока в другом месте";
-      
-      Message_DocsClear                = "@ Товарищ капитан... Разрешите идти?";
-      Message_ForDoctor                = "@ Что за черт! Я за доктором!";
-      Message_Binocular                = "@ Охраны пока нет. Можем начинать..";
-      
-      Message_ShowDocs                 = "ПОКАЗАТЬ УДОСТОВЕРЕНИЕ";
-      Message_ShowCaptainDocs          = "ПОКАЗАТЬ УДОСТОВЕРЕНИЕ";
-      
-      Message_DocsName                 = "Удостоверение СМЕРШ";
-      Message_DocsNameL                = "УДОСТОВЕРЕНИЕ СМЕРШ";
-      
-      Message_FormInfo                 = "! В камуфляжной форме можно маскироваться в траве..";
-      
-      Action_CutRopeBrevna             = "ПЕРЕРЕЗАТЬ ВЕРЕВКУ";
-      Action_CutRopeBoat               = "ПЕРЕРЕЗАТЬ ВЕРЕВКУ";
-      Action_DropBucket                = "ТОЛКНУТЬ ВЕДРО";
-      Action_CloseDoor                 = "ЗАПЕРЕТЬ ДВЕРЬ";
-      Action_Demine                    = "РАЗМИНИРОВАТЬ";
-      Action_UseRadio                  = "ИСПОЛЬЗОВАТЬ РАЦИЮ";
-      
-      Failed_See                       = "ОПЕРАЦИЯ СОРВАНА! ВАС ОБНАРУЖИЛИ!";
-      Failed_Body                      = "ОПЕРАЦИЯ СОРВАНА! РАЗВЕДГРУППОЙ ОБНАРУЖЕНО ТЕЛО ДИВЕРСАНТА";
-      Failed_Attention                 = "ОПЕРАЦИЯ СОРВАНА! РАЗВЕДГРУППА ЧТО-ТО ЗАПОДОЗРИЛА";
-      Failed_Kill                      = "ОПЕРАЦИЯ СОРВАНА! ВСТРЕЧА НЕ СОСТОЯЛАСЬ";
-      Failed_KillGroup2                = "ОПЕРАЦИЯ ПРОВАЛЕНА! НЕЛЬЗЯ СРЫВАТЬ РАЗРАБОТКУ ЭТОЙ ГРУППЫ";
-      Failed_Alert                     = "ОПЕРАЦИЯ СОРВАНА! ПОДНЯТА ТРЕВОГА";
-      Failed_AlertDiver                = "ОПЕРАЦИЯ СОРВАНА! ВАШЕ ПРИСУТСТВИЕ РАСКРЫТО";
-      Failed_SovietKilled              = "УБИТ СОВЕТСКИЙ ЧЕЛОВЕК";
-      Failed_StarikovDead              = "СТАРИКОВ ДОЛЖЕН ОСТАТЬСЯ ЖИВ";
-
-      Message_StopMove_WeaponHouseNear = "@ Стой! Стрелять буду!";
-      Message_StopMove_MainHouseNear   = "@ Я не могу пропустить вас сюда!";
-      Message_StopMove_MainHouse       = "@ Покиньте помещение немедленно!";
-      Message_StopMove_Const_Officer   = "@ Товарищ капитан - тут опасно!";
-      Message_StopMove_Const_Major     = "@ Товарищ майор - тут опасно!";
-      Message_StopMove_Const           = "@ Вам не стоит тут находиться!";
-      
-      Task_Diversion                   = "Предотвратить диверсию";
-      Task_Meet                        = "Проследить за группой";
-      Task_Nikolaev                    = "Захватить Николаева";
-      Task_Shestakov                   = "Захватить Шестакова";
-      Task_Starikov                    = "Захватить Старикова";
-      Task_Radio                       = "Сообщить в центр";
-      
-      Message_PlanName                 = "План диверсии";
-      Message_PlanNameL                = "ПЛАН ДИВЕРСИИ";
-      
-      Message_TaskChanged              = "Задания изменены";
+      --Mission text
+      Message_CutScene_SpyInvite       = "- Everything is going as planned. We are set for the task. Here are the details.";
+      Message_CutScene_SpyRespond      = "- Perfect. Continue the operation as planned. We are advancing to the settlement.";
+      Message_CutScene_Docs            = "- Show me your documents!";
+      Message_CutScene_Binocular       = "- No guards spotted so far. We are clear to begin the operation.";
+      Message_ShowMePass               = "@ Show me your papers!";
+      Message_Fire                     = "@ One more step and I'll shoot!";
+      Message_OkWeWillGo               = "@ Of course captain! We will continue our work elsewhere.";
+      Message_DocsClear                = "@ Comrade captain! Requesting permission to be dismissed!";
+      Message_ForDoctor                = "@ What the hell?! Somebody call the doctor!";
+      Message_Binocular                = "@ No guards spotted so far. We are clear to begin the operation.";
+      Message_ShowDocs                 = "PRODUCE ID";
+      Message_ShowCaptainDocs          = "PRODUCE ID";
+      Message_DocsName                 = "SMERSH ID";
+      Message_DocsNameL                = "SMERSH ID";
+      Message_FormInfo                 = "! Camouflage enables you to hide easily in the grass.";
+      Action_CutRopeBrevna             = "CUT THE ROPE";
+      Action_CutRopeBoat               = "CUT THE ROPE";
+      Action_DropBucket                = "SPILL THE BUCKET";
+      Action_CloseDoor                 = "CLOSE THE DOOR";
+      Action_Demine                    = "DEFUSE EXPLOSIVES";
+      Action_UseRadio                  = "RADIO IN TO HEADQUARTERS";
+      Failed_See                       = "OPERATION FAILED! YOU HAVE BEEN DISCOVERED!";
+      Failed_Body                      = "OPERATION FAILED! THE INTELLIGENCE GROUP FOUND THE BODY OF A SABOTEUR";
+      Failed_Attention                 = "OPERATION FAILED! THE INTELLIGENCE GROUP SUSPECTS SOMETHING";
+      Failed_Kill                      = "OPERATION FAILED! NO MEETING TOOK PLACE";
+      Failed_KillGroup2                = "OPERATION FAILED! YOU HAVE COMPROMISED THE INVESTIGATION OF THIS GROUP!";
+      Failed_Alert                     = "OPERATION FAILED! THE ALARM HAS BEEN RAISED!";
+      Failed_AlertDiver                = "OPERATION FAILED! YOUR PRESENCE WAS DISCOVERED!";
+      Failed_SovietKilled              = "A SOVIET MAN WAS KILLED";
+      Failed_StarikovDead              = "STARIKOV MUST STAY ALIVE";
+      Message_StopMove_WeaponHouseNear = "@ Don't move or I'll shoot!";
+      Message_StopMove_MainHouseNear   = "@ I cannot let you in!";
+      Message_StopMove_MainHouse       = "@ Leave the room immediately!";
+      Message_StopMove_Const_Officer   = "@ Comrade Captain, it is dangerous here!";
+      Message_StopMove_Const_Major     = "@ Comrade Major, it is dangerous here!";
+      Message_StopMove_Const           = "@ You should not be here!";
+      Task_Diversion                   = "Prevent the sabotage";
+      Task_Meet                        = "Surveil the group";
+      Task_Nikolaev                    = "Capture Nikolayev";
+      Task_Shestakov                   = "Capture Shestakov";
+      Task_Starikov                    = "Capture Starikov";
+      Task_Radio                       = "Report to headquarters";
+      Message_PlanName                 = "Enemy sabotage plan";
+      Message_PlanNameL                = "ENEMY SABOTAGE PLAN";
+      Message_TaskChanged              = "Objectives have been updated";
   };
+
+
   
   MissionSamples = 
   {

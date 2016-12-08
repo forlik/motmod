@@ -1,0 +1,1 @@
+<tab>Danger scale:<br><br>- The scale at the top of the screen displays the total danger points of your actions. The more points you have the higher is your risk of failure. If the enemy begins to see or hear you, your actions will arouse his suspicion, and your total amount of danger points will increase.<br>

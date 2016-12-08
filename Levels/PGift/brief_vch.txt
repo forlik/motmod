@@ -1,0 +1,15 @@
+<col=400000>HF Radio Message</col><br><br>
+
+To: Agent Zolotnitsky<br>
+Extremely urgent!<br><br>
+
+<tab>Kotlyarov's intelligence group has recently discovered secret documents reporting the planned demolition of a series of cultural monuments, several bridges and two dams in Krakow and the nearby town of Nowy Soncz.<br><tab>According to information we extracted from a captured cartographer, 
+all of the explosives to be used for the demolition are stored in the Jagiellons' Castle.<br>
+
+<tab>The Chief Counterintelligence Directorate has issued a categorical order to develop and implement within six hours an action aimed at the neutralization of enemy ammunition depots, and the prevention of sabotage during the offensive. This action is codenamed Operation 'Polish Surprise.'<br>
+<tab>Transport planes have been placed under your command, and are standing by to deliver officers from other battlefronts, to ensure the success of Operation 'Polish Surprise.'<br>
+<tab>In preparation, it is recommended that you discover all possible approaches to the castle, through any available agents.<br>
+<tab>Towards this end, we are providing enhanced aerial monitoring and surveillance of all enemy personnel movements, paying special attention to military supply routes.<br>
+<tab>Please report promptly the success of the operation.<br>
+
+<br><tab>Smirnov. <br>

@@ -1,0 +1,9 @@
+Briefing:<br><br>
+<tab>-<sp> To invoke the briefing dialog window, which contains a detailed description of your mission goals, simply press the briefing key ("O" by default).<br>
+<tab>-<sp> Tasks are divided into critical and optional. Optional tasks are set off by a line.<br>
+<tab>-<sp> Tasks not yet completed are marked in red and labelled <col=800000>"Not completed."</col><br>
+<tab>-<sp> Completed tasks are labelled "Completed."<br>
+<tab>-<sp> The right window shows a strategic map of the area. It marks all mission-critical points specified in the briefing, and current player's location.<br> 
+<tab>-<sp> As the game progresses, the mission objectives may change, and more may be added, depending on the story and the player's current progress.<br>
+
+<br><br><tab><l="$back">BACK</l><br>

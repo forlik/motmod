@@ -1,0 +1,5 @@
+<tab>Capture agent Nikolayev. Kill him if capturing proves to be impossible.
+<col=800000>The operation must be carried out with greatest degree of caution, 
+so as not to compromise our investigations of other groups.</col><br>
+<tab>Distinguishing marks: above average height, physically fit, round-faced, long dark-blond 
+backswept hair, grey eyes, nose slightly upturned.<br>

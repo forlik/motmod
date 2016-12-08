@@ -1,0 +1,1 @@
+<tab>Radio operator:<br><br>-<sp> Reach the radio room.<br>-<sp> Break the lock to the radio operator's room.<br>-<sp>Neutralize the sleeping radio operator.<br>-<sp> Change into the radio operator's uniform.<br>

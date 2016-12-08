@@ -1,169 +1,119 @@
--- Airbase mission. 
--- Sergey Gvozdev
 
--- Tasks:
-
------------------------------------- completed ------------ deadline ------------ completed ----
--- FIRST ITTERATION: 
------------------------------------------------------------------------------------------------------
--- SECOND ITTERATION:
------------------------------------------------------------------------------------------------------
--- THIRD ITTERATION:
--- Alert script                |    100%              |      08.11.2007       |   09.11.2007         |
--- Body alert script           |    100%              |      08.11.2007       |   09.11.2007         |
--- Task logic change           |    100%              |      08.11.2007       |   14.11.2007         |
--- Firepoints                  |    100%              |      09.11.2007       |   09.11.2007         |
--- Grenade custom holes        |    100%              |      09.11.2007       |   09.11.2007         |
--- Marks alert test            |    100%              |      09.11.2007       |   09.11.2007         |
--- Music for all rupors        |    100%              |      09.11.2007       |                      |
--- Test: pilot body at vehicle |      0%              |      09.11.2007       |                      |
------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------
-
--- bugs:
-
--- visual bugs:
-
--- art:
-
--- testcase:
-
--- level change:
-
---------------------------------- Messages table -----------------------------
   MissionText = 
   {
-     Task_1                                        = " Определить летчика";
-     Task_2                                        = " Захватить летчика";
-     Task_3                                        = " Захватить механика";
-     Task_4                                        = " Обезвредить зенитки";
-     Task_5                                        = " Повредить радар";
-     Task_6                                        = " Вызвать группу";
-     Task_7                                        = " Доб-ся до точки сбора";
-
-     MessageTaskChanged                            = "Задания изменены";
-
-     Message_SetupDynamite                         = "УСТАНОВИТЬ ДИНАМИТ";
-     Message_NoDynamite                            = "! У вас нет динамита..";
-     Message_DynSetuped                            = "Динамит установлен";
-      
-     DocumentAction                                = " ПОИСКАТЬ В АРХИВАХ";
-     ReadBlackBoardAction                          = " ПРОСМОТРЕТЬ РАСПИСАНИЕ";
-     UseAcidAction                                 = " ИСПОЛЬЗОВАТЬ КИСЛОТУ";
-     OilStopAction                                 = " ПЕРЕКРЫТЬ ПОДАЧУ ТОПЛИВА";
-     BrakeRadarAction                              = " СЛОМАТЬ ОБОРУДОВАНИЕ";
-     RadioSignalAction                             = " ВЫЗВАТЬ ГРУППУ";
-     OrderMusicAction                              = " ПРИКАЗАТЬ СМЕНИТЬ МУЗЫКУ";
-     ChangeMusicAction                             = " ПОДАТЬ СИГНАЛ";
-     PoissonAction                                 = " ДОБАВИТЬ СЛАБИТЕЛЬНОГО";
-     OrderDisableAlert                             = " ПРИКАЗАТЬ ОТКЛЮЧИТЬ ТРЕВОГУ";
-     DisableAlertAction                            = " ОТКЛЮЧИТЬ ТРЕВОГУ";
-
-     Fail_Alarm                                    = " МИССИЯ ПРОВАЛЕНА";
-
-     AllTestPilotsKilled                           = "ВСЕ ЛЕТЧИКИ-ИСПЫТАТЕЛИ ПОГИБЛИ";
-     Fail_BodyAlarm                                = "ОХРАНА ОБНАРУЖИЛА ТЕЛО ЛЕТЧИКА-ИСПЫТАТЕЛЯ";
-     Fail_MissionTimer                             = "РАДАР ЗАПУЩЕН ДО ВЫСАДКИ ГРУППЫ";
-     Fail_GroupMissionTimer                        = "ЗЕНИТКИ НЕ ОБЕЗВРЕЖЕНЫ ДО ПРИБЫТИЯ ГРУППЫ";
-      
-     SovietSoldierDie                              = "";
-
-     WhereIsFuckenBenzovozMessage                  = "@ Где же этот чертов бензовоз?";
-     FuelPlaneMessage                              = "@ Заправь его быстрее! Я у себя в кабинете!";
-     MoveItToPlaneMessage                          = "@ И часа не прошло! Подвези его к моему самолету! И побыстрее!";
-
-     Poison_Name                                   = "СЛАБИТЕЛЬНОЕ";
-     Poison_TipName                                = "Слабительное";
-     
-     Acid_Name                                     = "СОЛЯНУЮ КИСЛОТУ";
-     Acid_TipName                                  = "Соляная кислота";
-
-     LetsGoWithMeMessage                           = "- Иди за мной..";
-     GunSoldierNeedsBulletsMessage                 = "@ Зенитному расчету требуются боеприпасы. Грузчики на улице. Смотри не спутай с холостыми..";
-     AllOkYouAreEmptyMessage                       = "@ Ты свободен. Мы сами разгрузим";
-     GunGuardsHasNoAmmoMessage                     = "- Ганс, тебя с грузовиком ждут в ангаре с боеприпасами. У зенитчиков проблемы со снарядами..";
-     WeAreOurBulletsMessage                        = "@ Где тебя носит? Нам срочно нужны боеприпасы!";
-     TrackIsEmptyMessage                           = "@ Грузовик пуст! Привези нам боеприпасы!";
-     ChangeMusicMessage                            = "@ Этот ритм меня уже достал!";
-     CanChangeOfficerMessage                       = "@ Приказ сменить музыку может дать только офицер...";
-     SendTrackToGunMessage                         = "@ Отвези боеприпасы к зенитке. Они ждут!";
-
-     OrderLoadersAction                            = "ПРИКАЗАТЬ НАЧАТЬ ЗАГРУЗКУ";
-
-     GunNeutralizedMessage                         = "Зенитка обезврежена";
-     
-     Table_1_Name                                  = "ТАБЛИЧКУ 'БОЕВЫЕ'";
-     Table_1_TipName                               = "Табличка 'Боевые'";
-
-     Table_2_Name                                  = "ТАБЛИЧКУ 'ХОЛОСТЫЕ'";
-     Table_2_TipName                               = "Табличка 'Холостые'";
-
-     Message_PovesitBoevie                         = "ПОВЕСИТЬ ТАБЛИЧКУ 'БОЕВЫЕ'";
-     Message_ZamenaHolostie                        = "ЗАМЕНИТЬ НА 'ХОЛОСТЫЕ'";
- 
-     Key_FirstFloor                                = "Ключ главного здания";
-     Key_Sklad                                     = "Ключ жилой зоны";
-     
-     Message_Help                                  = { "Механик имеет доступ к любому оборудованию",
-                                                       "Летчик может посмотреть расписание вылетов",
-                                                       "На складах всегда можно найти что-нибудь полезное",
-                                                       "Район радара и зениток является закрытой зоной",
-                                                       "Стрельба в отдаленных местах не приведет к тревоге",                                        
-                                                       "Аэродром окружен минным полем",
-                                                       "Форму водителя можно легко получить на стоянке",
-                                                       "В пасмурную погоду летчики часто отдыхают в жилой зоне",
-                                                       "Зенитные расчеты нуждаются в боеприпасах и питании",
-                                                       "Остерегайтесь часовых на вышках",
-                                                       "Офицеры обычно проводят совещание в главном здании",
-                                                       "В грузовых машинах с тентом можно прятать тело"
-                                                       };
-                                      
-      Message_ClothInfo                             = { "Солдаты в камуфляже охраняют периметр аэродрома",
-                                                        "Солдат может свободно перемещаться в районе бараков",
-                                                        "Солдаты СС охраняют главное здание",
-                                                        "Летчик может посещать диспетчерскую и главное здание",
-                                                        "Механик имеет доступ к оборудованию и самолетам",
-                                                        "Солдаты в этой форме обслуживают зенитные установки" };
-                             
-      Message_Alarm                                 = "Поднята тревога!";
-      Message_AlarmFinished                         = "Тревога закончилась";
-      
-      Message_TestPilotDetected                     = "! Охраной обнаружено тело летчика-испытателя!";
-      
-      Message_MissionTimer                          = "! Радар будет запущен через ";
-      Message_GroupTimer                            = "! Группа прибудет через ";
-      Message_TimerFinish_1                         = " минут..";
-      Message_TimerFinish_2                         = " минуты..";
-      Message_TimerFinish_3                         = " минуту..";
-      Message_AllMechanicsDead                      = "! Все механики мертвы";
-      
-      Message_Zenit                                 = " - Необходимо обезвредить зенитные установки, для обеспечения успешной высадки..";
-      
-      Message_Info_Radar                            = "! Если радар будет запущен до прибытия разведгруппы - миссия будет провалена!";
-      Message_Info_Pilot                            = "! Если тело пилота обнаружат - миссия будет провалена!";
-      Message_Info_Body                             = "В грузовик можно спрятать тело..";
-      
-      Message_StopMove_TankTrack                    = "@ Только водитель может использовать бензовоз!";
-      Message_StopMove_GunPlace                     = "@ Доступ разрешен только зенитному расчету";
-      Message_StopMove_GunPlace2                    = "@ Доступ разрешен только зенитному расчету";
-      Message_StopMove_MainHouseFloor1              = "@ Передвижение по первому этажу запрещено!";
-      Message_StopMove_MainHouseFloor2              = "@ В зале проходит совещание офицеров!";
-      Message_StopMove_MainHouseFloor3              = "@ На этом этаже могут находиться только летчики или офицеры";
-      Message_StopMove_MainHouseHall                = "@ Немедленно покиньте здание!";
-      Message_StopMove_MainHouseEnter_ForestSoldier = "@ Ты должен охранять периметр аэродрома!";
-      Message_StopMove_MainHouseEnter_Civilian      = "@ Доступ в здание разрешен только военным";
-      Message_StopMove_Radar_ForestSoldier          = "@ Солдатам запрещено находиться на этой территории!";
-      Message_StopMove_Radar_Civilian               = "@ Зона закрыта для гражданских лиц!";
-      Message_StopMove_Radar_Driver                 = "@ Ваше место - в автопарке! Тут вам нечего делать!";
-      Message_StopMove_Tower                        = "@ Никто не имеет право находиться на вышке! Немедленно спускайтесь!";
-      Message_StopMove_AirTowerEnter_1              = "@ Вы не летчик, чтобы посещать диспечерскую!";
-      Message_StopMove_AirTowerEnter_2              = "@ У меня приказ стрелять на поражение!";
-      Message_StopMove_Sklad                        = "@ У меня приказ никого не пускать на территорию склада!";
-      Message_StopMove_AirTower                     = "@ Немедленно покиньте диспечерскую!";
-      Message_StopMove_KitchenZone                  = "@ Вам здесь нечего делать!";
-      Message_StopMove_MusicComputer                = "@ Только мне разрешено работать с этим устройством!";
-      Message_StopMove_Building1Enter               = "@ Стой! Стрелять буду!";
+      --Mission text
+      Task_1                                        = " Identify the pilots";
+      Task_2                                        = " Capture a pilot";
+      Task_3                                        = " Capture a mechanic";
+      Task_4                                        = " Disable the AA guns";
+      Task_5                                        = " Disable the radar";
+      Task_6                                        = " Call in the squad";
+      Task_7                                        = " Get to the rallying point";
+      MessageTaskChanged                            = "Objectives have been updated";
+      Message_SetupDynamite                         = "PLANT DYNAMITE";
+      Message_NoDynamite                            = "! You don't have any dynamite.";
+      Message_DynSetuped                            = "Dynamite planted";
+      DocumentAction                                = " SEARCH THE RECORDS";
+      ReadBlackBoardAction                          = " EXAMINE THE SCHEDULE";
+      UseAcidAction                                 = " APPLY THE ACID";
+      OilStopAction                                 = " CUT OFF THE FUEL SUPPLY";
+      BrakeRadarAction                              = " DISABLE THE EQUIPMENT";
+      RadioSignalAction                             = " CALL IN THE SQUAD";
+      OrderMusicAction                              = " ORDER THE MUSIC CHANGED";
+      ChangeMusicAction                             = " GIVE THE SIGN";
+      PoissonAction                                 = " POUR IN THE LAXATIVE";
+      OrderDisableAlert                             = " ORDER HIM TO DEACTIVATE THE ALARM";
+      DisableAlertAction                            = " DEACTIVATE THE ALARM";
+      Fail_Alarm                                    = " MISSION FAILED";
+      AllTestPilotsKilled                           = "ALL THE TEST PILOTS ARE DEAD";
+      Fail_BodyAlarm                                = "THE GUARDS HAVE FOUND THE BODY OF THE TEST PILOT";
+      Fail_MissionTimer                             = "THE RADAR WAS OPERATING BEFORE THE SQUAD ARRIVED";
+      Fail_GroupMissionTimer                        = "THE AA GUNS WERE NOT DISABLED BEFORE THE SQUAD ARRIVED";
+      SovietSoldierDie                              = "";
+      WhereIsFuckenBenzovozMessage                  = "@ Where's that damn petrol tanker?";
+      FuelPlaneMessage                              = "@ Fuel it up, quick! I've got a job to do!";
+      MoveItToPlaneMessage                          = "@ We're wasting too much time here! Get it to my aircraft! Move it!";
+      Poison_Name                                   = "LAXATIVE";
+      Poison_TipName                                = "Laxative";
+      Acid_Name                                     = "HYDROCHLORIC ACID";
+      Acid_TipName                                  = "Hydrochloric acid";
+      LetsGoWithMeMessage                           = "- Follow me.";
+      GunSoldierNeedsBulletsMessage                 = "@ The AA gun crew needs ammo. The ammo cases are on the racks here. Make sure you don't get the live munitions confused with the blanks!";
+      AllOkYouAreEmptyMessage                       = "@ You're dismissed. We'll unload it ourselves.";
+      GunGuardsHasNoAmmoMessage                     = "- Hans, they are waiting for you and your truck in the ammo hangar. One of the AA gun crews is having supply issues.";
+      WeAreOurBulletsMessage                        = "@ Where the hell have you been? We're wide open here if we don't have that ammo!";
+      TrackIsEmptyMessage                           = "@ The truck is empty! Bring us the damn ammo!";
+      ChangeMusicMessage                            = "@ That music is getting on my nerves!";
+      CanChangeOfficerMessage                       = "@ Only an officer can give the order to change the radio program...";
+      SendTrackToGunMessage                         = "@ Get the ammo to the AA gunners. They are waiting!";
+      OrderLoadersAction                            = "HAVE THE AMMO LOADED";
+      GunNeutralizedMessage                         = "The AA gun is disabled";
+      Table_1_Name                                  = "THE 'LIVE' PLATE";
+      Table_1_TipName                               = "The 'Live' plate";
+      Table_2_Name                                  = "THE 'BLANKS' PLATE";
+      Table_2_TipName                               = "The 'Blanks' plate";
+      Message_PovesitBoevie                         = "HANG UP THE 'LIVE' PLATE";
+      Message_ZamenaHolostie                        = "SWAP WITH THE 'BLANKS' PLATE";
+      Key_FirstFloor                                = "Main building key";
+      Key_Sklad                                     = "Living quarters key";
+      Message_Help                                  = {
+                                                        "A mechanic has access to any equipment.";
+                                                        "A pilot can browse the flight schedule.";
+                                                        "There are always useful items in warehouses.";
+                                                        "The radar and AA gun zones are off-limits.";
+                                                        "Shooting at remote locations will not activate the alarm.";
+                                                        "The airfield is surrounded by a minefield.";
+                                                        "A driver's uniform can easily be found in the parking lot.";
+                                                        "When the weather is bad, pilots often rest in the living quarters.";
+                                                        "The AA gun crews need ammo and provisions.";
+                                                        "Watch out for sentries in the towers.";
+                                                        "Officers usually meet in the main building.";
+                                                        "Bodies can be hidden in canvas-top trucks.";
+                                                      };
+      Message_ClothInfo                             = {
+                                                        "Camouflaged soldiers guard the airfield perimeter.";
+                                                        "A soldier can wander freely in the barracks area.";
+                                                        "SS soldiers guard the main building.";
+                                                        "A pilot can move freely in the control tower and the main building.";
+                                                        "A mechanic has access to equipment and aircraft.";
+                                                        "Soldiers wearing this uniform belong to AA gun crews.";
+                                                      };
+      Message_Alarm                                 = "The alarm has been sounded!";
+      Message_AlarmFinished                         = "The alarm has been deactivated.";
+      Message_TestPilotDetected                     = "! Guards have found the body of the test pilot!";
+      Message_MissionTimer                          = "! Radar going back online in ";
+      Message_GroupTimer                            = "! Squad will arrive in ";
+      Message_TimerFinish_1                         = " min.";
+      Message_TimerFinish_2                         = " min.";
+      Message_TimerFinish_3                         = " min.";
+      Message_AllMechanicsDead                      = "! All the mechanics are dead.";
+      Message_Zenit                                 = " - You must disable the AA guns, to ensure that the squad can land safely.";
+      Message_Info_Radar                            = "! If the radar goes back online before the recon squad arrives, the mission is a failure!";
+      Message_Info_Pilot                            = "! If the pilot's body is found, the mission fails!";
+      Message_Info_Body                             = "You can hide a body in a truck.";
+      Message_StopMove_TankTrack                    = "@ Only the driver can use the petrol tanker!";
+      Message_StopMove_GunPlace                     = "@ Only the AA gun crew is allowed access.";
+      Message_StopMove_GunPlace2                    = "@ Only the AA gun crew is allowed access.";
+      Message_StopMove_MainHouseFloor1              = "@ No trespassing on the first floor!";
+      Message_StopMove_MainHouseFloor2              = "@ This room is being used for an officers meeting!";
+      Message_StopMove_MainHouseFloor3              = "@ Only pilots and officers are allowed on this floor.";
+      Message_StopMove_MainHouseHall                = "@ You will have to leave the building immediately!";
+      Message_StopMove_MainHouseEnter_ForestSoldier = "@ You are supposed to be guarding the perimeter! What are you doing here?";
+      Message_StopMove_MainHouseEnter_Civilian      = "@ No civilians are allowed inside the building.";
+      Message_StopMove_Radar_ForestSoldier          = "@ No soldiers are allowed in this area!";
+      Message_StopMove_Radar_Civilian               = "@ The area is off-limits to civilians!";
+      Message_StopMove_Radar_Driver                 = "@ You're supposed to stay in the parking lot! You have no business here!";
+      Message_StopMove_Tower                        = "@ These towers are off-limits! Get back down immediately!";
+      Message_StopMove_AirTowerEnter_1              = "@ Only pilots are allowed to enter the control tower!";
+      Message_StopMove_AirTowerEnter_2              = "@ I am under orders to shoot to kill!";
+      Message_StopMove_Sklad                        = "@ I am under orders not to let anyone into the warehouse!";
+      Message_StopMove_AirTower                     = "@ Leave the control tower immediately!";
+      Message_StopMove_KitchenZone                  = "@ You have no business here!";
+      Message_StopMove_MusicComputer                = "@ I am the only one who is authorized to operate that!";
+      Message_StopMove_Building1Enter               = "@ Stop or I'll shoot!";
   };
+
+
   
   MissionSamples = 
   {

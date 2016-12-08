@@ -1,0 +1,1 @@
+<tab>When an enemy is looking in your direction <l="game:Levels\training\tips\threat_tip.txt">the danger scale </l> indicates your visibility.<br><tab> If an enemy sees anything suspicious he may become more alert.<br>

@@ -1,0 +1,5 @@
+Lock-picking:<br><br>
+<tab>-<sp> Some doors and other items may be locked, but openable with lockpicks.<br>
+<tab>-<sp> In lock-picking mode, use the 'Up'/'Down' movement keys ("W"/"S" by default) or the mouse wheel to rotate the tumbler. To use a lockpick on the keyhole, hold down the 'Right' movement key ("D" by default) or the left mouse button.<br>
+
+<br><br><tab><l="$back">BACK</l><br>

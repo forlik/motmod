@@ -1,0 +1,1 @@
+<tab>Stunning:<br><br>-<sp> To stun an enemy you need to approach an enemy from behind and choose the STUN action <l="game:Levels\training\tips\action_tip.txt">from the Action menu </l>.<br>-<sp> Stunning is a noisy operation.<br>

@@ -1,0 +1,7 @@
+<tab>Capture a test pilot of the Me-163 Komet rocket-powered interceptor before the recon squad arrives.<br>
+<tab>He must also be personally identified. This information is most likely available in the traffic control tower, or in the archives located in the main building.<br>
+<tab>According to our information, there are two test pilots on the base. <br>
+<br><img=me_small,bot,45,5><br>
+
+
+

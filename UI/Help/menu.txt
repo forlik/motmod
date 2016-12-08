@@ -1,0 +1,10 @@
+Action menu:<br><br>
+<tab>To interact with items, use the action menu.<br>
+<tab>You will see it at the bottom-left corner of the screen. It updates automatically whenever the player approaches an interactive object.<br><br>
+<tab>To perform actions:<br><br>
+
+-<sp> Enter the menu by holding down the 'Action menu' key ("E" by default).<br>
+-<sp> Use the mouse wheel or back/forward keys to select an item from the menu.<br>
+-<sp> Release the 'Action menu' key to activate the selected menu item.<br>
+
+<br><br><tab><l="$back">BACK</l><br>

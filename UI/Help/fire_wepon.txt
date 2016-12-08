@@ -1,0 +1,9 @@
+Firearms:<br><br>
+<tab>-<sp> Shooting precision depends upon one's chosen weapon and one's distance to the target.<br>
+<tab>-<sp> Use aiming mode (hold down the right mouse button by default) to increase your shooting accuracy.<br>
+<tab>-<sp> To improve shooting accuracy when you shoot a sniper rifle, use the optical sight (right mouse button by default). To hold your breath in sniper-eye mode, press and hold down the 'Aimed Fire' key.<br>
+<tab>-<sp> If the sight <col=800000>turns red</col> when the weapon is aimed at an enemy, then the target is at a reasonable shooting distance.<br>
+<tab>-<sp> The sight icon will also indicate when the chances for hitting the target are almost zero.<br>
+<tab>-<sp> For noise-reduced firing, use a weapon with a silencer.<br>
+
+<br><br><tab><l="$back">BACK</l><br>

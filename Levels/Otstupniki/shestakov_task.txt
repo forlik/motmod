@@ -1,0 +1,5 @@
+<tab>Capture agent Shestakov. Kill him if capturing proves impossible.
+<col=800000>The operation must be carried out with greatest care, 
+so as not to compromise our investigations of other groups.</col><br>
+<tab>Distinguishing marks: below average height, corpulent, short and bowed legs, fair skinned, 
+backswept hair, sharp-nosed. He has a wolf tattoo on his chest, and should be wearing a sergeant's uniform.<br>

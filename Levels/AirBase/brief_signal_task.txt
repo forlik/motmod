@@ -1,0 +1,3 @@
+<tab>Send the signal when you have prepared the airfield for assault. You may give
+the sign to the radio operator stationed in the forest, or radio in the information
+ yourself.<br>

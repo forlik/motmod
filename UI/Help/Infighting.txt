@@ -1,0 +1,8 @@
+Melee and stunning:<br><br>
+<tab>-<sp> You can stun an enemy with your fist or the butt of a weapon, or by throwing a breakable item at his head.<br>
+<tab>-<sp> To stun the enemy with your fist or a buttstock, you need to sneak up to an enemy from behind and click 'Fire' or 'Stun' on the <l="game:UI\Help\menu.txt">"Action Menu."</l><br>
+<tab>-<sp> To stun an enemy with an item, you must have the respective item in your inventory and <l="game:UI\Help\granade.txt">throw it</l> at the enemy's head.<br>
+<tab>-<sp> After you stun the enemy, you can take his uniform.<br>
+<tab>-<sp> Stunning is a noisy operation.<br>
+
+<br><br><tab><l="$back">BACK</l><br>

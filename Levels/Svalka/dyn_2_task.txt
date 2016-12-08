@@ -1,0 +1,1 @@
+<tab>Put a dynamite charge in the middle of the upper part of the bridge. The dynamite placement point is marked on the map.<br><tab>Dynamite can be easily obtained from an ammo depot in one of the bridge towers.<br><br><img=foto_3,bot,15,0><br>

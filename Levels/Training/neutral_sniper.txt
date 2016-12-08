@@ -1,0 +1,1 @@
+<tab>Neutralize the sentry on the watchtower:<br><br>-<sp> Take pliers.<br>-<sp> Cut the mesh.<br>-<sp> Climb the watchtower.<br>-<sp> Neutralize the sentry on the watchtower.<br>-<sp> To neutralize him you can use chloroform or your fist.<br>-<sp> If the guard notices you, your assignment will fail.<br>-<sp> If the guard is killed, your assignment will fail.<br>

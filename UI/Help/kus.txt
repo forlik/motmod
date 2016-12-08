@@ -1,0 +1,5 @@
+Pliers:<br><br>
+<tab>In the game you can cut metal fencing or other mesh using pliers.<br>
+<tab>This requires you to be very close to it. If such opportunity exists, the respective item will appear on the <l="game:UI\Help\menu.txt">"Action menu."</l> If you select this action, the main hero will cut the wire fence. After this, you can switch to 'Crawl' mode, and pass through to the other side of the fence.<br>
+
+<br><br><tab><l="$back">BACK</l><br>

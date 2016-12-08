@@ -1,0 +1,1 @@
+<tab>Officer:<br><br>-<sp> To access the building you need an officer's uniform.<br>-<sp> Stun an officer in the next building, marked on the map as an icon showing a man with a service cap on.<br>-<sp> Change into the officer's uniform.<br>-<sp> Take the officer's documents away.<br>

@@ -1,364 +1,344 @@
-  MissionText =
+
+  MissionText = 
   {
-      -- SG. Common mission text
-      TaskTraining         = " Тренировка";
-
-      Fail_KillBot         = " Убит советский человек";
-      Fail_HitBot          = " Нейтрализован советский человек";
-      Fail_OnFight         = " Вас заметили";
-      Fail_OnSeeBody       = " Охрана обнаружила тело";
-
-      Message_Leave        = " Вы покидаете зону тренировочной задачи";
-      Message_Fail         = " Вы покинули зону тренировочной задачи";
-
-      Message_TriggerInfo  = {
-                              -- neutralize
-                              { "Если противник не смотрит на вас шкала опасности ", 
-                                "показывает насколько хорошо слышно врагу ваше движение" }, -- (1)
-                              "#<SNEK>Нажмите <%s> чтобы двигаться бесшумно..", -- (2)
-                              { "Уровень шума зависит скорости движения.", 
-                                "#<RUNS>Для изменения скорости используйте <%s>." }, -- (3)
-                              { "#<MAPS>Используйте <%s> чтобы включить карту..", "Используйте стрелки или +/- для масштабирования карты.." }, -- (4)
-                              "Возьмите хлороформ..", -- (5)
-                              "Нейтрализуйте часового..", --(6)
-                              -- bunker
-                              "Возьмите предметы на столе..", -- (7)
-                              { " - Аккуратно передвигаясь вы будите не так заметы", 
-                                "#<CRCH> - Чтобы пригнуться нажмите <%s> или скролик мыши"},
-                              "Когда противник смотрит в вашу сторону шкала опасности показывает вашу заметность.",
-                              "Увидив что-то подозрительное враг может насторожиться",
-                              { "Вы можете использовать тарелки, кружки и другие предметы", "для того чтобы отвлечь внимание противника.." },
-                              { "Доберитесь до бункера, не попадаясь на глаза патрулям:", " " }, -- (12)
-                              { " - Используйте карту, чтобы оптимально спланировать маршрут",
-                                " - В режиме ползания вы будете не так заметны",
-                                " - Можете попробовать нейтрализовать патрулирующего" },
-                              "Доберитесь до комнаты радиста..", -- (14)
-                              "Взломайте дверь в комнату радиста:",
-                              "Нейтрализуйте спящего радиста:",
-                              { " " , " - Спящие люди не слышат приближение врага" },
-                              "#<LLEF> - Используйте <%s>, чтобы незаметно выглянуть из-за угла", --(18)
-                              { " - С врагов убитых при помощи огнестрельного оружия или ножа",
-                                "   нельзя снять форму" } , -- (19)
-                              "", -- (20)
-                              " - Вперед/назад или скролик мыши для выбора отмычки и поворота личинки замка", --(21)
-                              "#<MRIT> - Нажмите <%s> или левую кнопку мыши чтобы подвести отмычку к личинке", --(22)
-                              -- neutralize
-                              "Нейтрализуйте охранника..", --(23)
-                              -- vehicle
-                              "#<MFRD>Нажмите <%s> чтобы завести двигатель и ехать вперед", --(24)
-                              { "Вождение:",
-                                " ",
-                                "#<HANB> - Используйте <%s> для экстренного торможений",
-                                "#<MBRD> - Используйте <%s> чтобы притормозить или двигаться назад" }, --(25)
-                              "Возьмите немецкий автомат..", --(26)
-                              "Оглушите офицера..", --(27)
-                              { "Заберите документы офицера. Используйте опцию 'Инвентарь'",
-                                "Переоденьтесь в форму офицера.." }, --(28)
-                              "Некоторые противники начали патрулировать по территории лагеря..", --(29)
-                               { "#<DROP>Вы можете выбросить активное оружие клавишей <%s>",
-                                 "#<INVT>Вы можете выбросить любой предмет или рюкзак в инвентаре <%s>" }; --(30)
-                             };
-
-      -- SG. Training mini mission "neutralize"
-      TaskNeutralize       = " Нейтрализация";
-      TaskNeutralizeGuard  = " Охранник";
-      TaskNeutralizeSniper = " Часовой";
-      TaskHideBody         = " Спрятать тело";
-      TaskNeutralizePatrol = " Патруль";
-
-      Message_Wirecutter   = "Для того чтобы перерезать забор нужны кусачки";
-      Message_DropBody     = {
-                              "Спрячьте тело в ящике:",
-                              " ",
-                              "#<TARG> - Бросить тело можно по кнопке <%s>",
-                              "#<FIRE> - Для того чтобы положить тело используйте <%s>"
-                             };
-
-      Message_NeutralizeStart  = "Задания изменены: Нейтрализуйте охрану";
-
-      Message_NeutralizeGuard  = "Двигайтесь налево в сторону навеса..";
-      Message_HideBody         = "Спрячьте тело в ящике..";
-      Message_GetWirecutter    = { "Возьмите кусачки..", "Большие предметы можно положить только в рюкзак.." };
-      Message_NeutralizeSniper = "Нейтрализуйте часового на вышке..";
-      Message_EnterArea        = "Прокусите кусачками сетку..";
-      Message_NeutralizePatrol =  {
-                                    "Возвращайтесь к выходу",
-                                    "Нейтрализуйте патрулирующего.."
-                                  };
-      Message_NeutralizePtrl2  =  {
-                                    "Нейтрализуйте патрулирующего:",
-                                    " ",
-                                    "#<CRCH> - Двигайтесь пригнувшись (%s) в режиме бега, чтобы быстро",
-                                    "   сократить дистанцию и успеть нейтрализовать противника"
-                                  };
-
-      Message_Vehicle          = " Выйдите из транспорта";
-   
-
-      -- SG. TMM "bunker"
-      TaskBunker               = " Переодевание";
-      TaskPalatka              = " Палатка";
-      TaskArriveBunker         = " Добраться до бункера";
-      TaskRadist               = " Радист";
-
-      Message_BunkerStart      = "Задания изменены: Переодевание";
-      Message_Palatka          = { 
-                                   "Проберитесь в палатку без лишнего шума:",
-                                   " ",
-                                   "#<SWMP> - Включите карту <%s> чтобы оценить местоположение противников",
+      --Mission text
+      TaskTraining             = " Training";
+      Fail_KillBot             = " Your compatriot has been killed";
+      Fail_HitBot              = " Your compatriot has been neutralized";
+      Fail_OnFight             = " You have been noticed";
+      Fail_OnSeeBody           = " The guards have noticed the body";
+      Message_Leave            = " You are leaving the training area";
+      Message_Fail             = " You have left the training area";
+      Message_TriggerInfo      = {
+                                   {
+                                     "If the enemy is not looking at you, the danger scale ";
+                                     " indicates how well the enemy can hear your movement.";
+                                   };   --[1]
+                                   "#<SNEK>Press <%s> to move noiselessly.";   --[2]
+                                   {
+                                     "Your noise level depends on your movement speed.";
+                                     "#<RUNS>To change your movement speed use <%s>..";
+                                   };   --[3]
+                                   {
+                                     "#<MAPS>Use <%s> to switch the map on..";
+                                     "Use arrows or +/- to zoom the map in or out..";
+                                   };   --[4]
+                                   "Take chloroform..";   --[5]
+                                   "Neutralize the sentry..";   --[6]
+                                   "Take items from the table..";   --[7]
+                                   {
+                                     " - If you move with caution you are less noticeable ";
+                                     "#<CRCH> - To crouch use <%s> or scroll the mouse wheel down";
+                                   };   --[8]
+                                   "When an enemy is looking in your direction the danger scale indicates your visibility.";   --[9]
+                                   "If an enemy sees anything suspicious he may become more alert";   --[10]
+                                   {
+                                     "You can use plates, mugs and other items ";
+                                     "to distract the enemy..";
+                                   };   --[11]
+                                   {
+                                     "Reach the bunker while avoiding being noticed by patrols:";
+                                     " ";
+                                   };   --[12]
+                                   {
+                                     " - Use the map to plan your optimal route ";
+                                     " - In crawling mode you will not be as noticeable";
+                                     " - You may try to neutralize the patroller";
+                                   };   --[13]
+                                   "Reach the radio operator's room..";   --[14]
+                                   "Lock pick the door to the radio operator's room:";   --[15]
+                                   "Neutralize the sleeping radio operator:";   --[16]
+                                   {
+                                     " ";
+                                     " - Sleeping people do not hear the enemy getting closer";
+                                   };   --[17]
+                                   "#<LLEF> - Use <%s> to look around the corner without being noticed";   --[18]
+                                   {
+                                     " - You cannot take uniforms from enemies killed with firearms or a knife ";
+                                     "   ";
+                                   };   --[19]
+                                   "";   --[20]
+                                   " - Use 'Forward'/'Back' buttons or the mouse wheel to select the picklock or rotate the keyhole";   --[21]
+                                   "#<MRIT> - Press <%s> or the left mouse button to bring the picklock close to the keyhole";   --[22]
+                                   "Neutralize the guard..";   --[23]
+                                   "#<MFRD>Press <%s> to start the motor and drive forward";   --[24]
+                                   {
+                                     "Driving:";
+                                     " ";
+                                     "#<HANB> - Use <%s> for emergency braking";
+                                     "#<MBRD> - Use <%s> to pull down or move back";
+                                   };   --[25]
+                                   "Take the German submachine gun..";   --[26]
+                                   "Stun the officer..";   --[27]
+                                   {
+                                     "Take the officer's documents. Use the 'Inventory'";
+                                     " option to change into the officer's uniform..";
+                                   };   --[28]
+                                   "Some enemies have begun patrolling the camp's territory..";   --[29]
+                                   {
+                                     "#<DROP>You can drop an active weapon using the key <%s>";
+                                     "#<INVT>You can drop any item or backpack from your inventory <%s>";
+                                   };   --[30]
                                  };
-      Message_Table            = "Подойдите к столу";
-      Message_BunkerMessage    = { "Вы достигли бункера.",
-                                   "Вам необходимо попасть во внутрь. У дверей охранник:",
-                                   " ",
-                                   "#<WIST> - Свистнув <%s> вы можете попробовать привлечь внимание охранника",
-                                   "#<GRAN> - Вы можете отвлечь охранника, бросив <%s> дымовую шашку"
+      TaskNeutralize           = " Neutralizing";
+      TaskNeutralizeGuard      = " Guard";
+      TaskNeutralizeSniper     = " Sentry";
+      TaskHideBody             = " Hide body";
+      TaskNeutralizePatrol     = " Patrol";
+      Message_Wirecutter       = "You need pliers to cut the mesh fence.";
+      Message_DropBody         = {
+                                   "Hide the body in a box:";
+                                   " ";
+                                   "#<TARG> - To throw a body, you can use the <%s> key";
+                                   "#<FIRE> - To lay a body down use <%s>";
+                                 };
+      Message_NeutralizeStart  = "Assignments have been changed: Neutralize the guards";
+      Message_NeutralizeGuard  = "Move left toward the shed..";
+      Message_HideBody         = "Hide the body in a box..";
+      Message_GetWirecutter    = {
+                                   "Take the pliers..";
+                                   "You can put bigger items into a backpack only..";
+                                 };
+      Message_NeutralizeSniper = "Neutralize a sentry on the watchtower..";
+      Message_EnterArea        = "Use pliers to cut through the mesh..";
+      Message_NeutralizePatrol = {
+                                   "Get back to the exit";
+                                   "Neutralize the patroller..";
+                                 };
+      Message_NeutralizePtrl2  = {
+                                   "Neutralize the patroller:";
+                                   " ";
+                                   "#<CRCH> - Move crouching (%s) in the running mode to quickly ";
+                                   "   reduce the distance and have time to neutralize an enemy";
+                                 };
+      Message_Vehicle          = " Get out of the transport";
+      TaskBunker               = " Getting changed";
+      TaskPalatka              = " Tent";
+      TaskArriveBunker         = " Reach the bunker";
+      TaskRadist               = " Radio operator";
+      Message_BunkerStart      = "Assignments have been changed: Getting changed";
+      Message_Palatka          = {
+                                   "Get into the tent without making too much noise:";
+                                   " ";
+                                   "#<SWMP> - Switch on the <%s> map to estimate the location of the enemies";
+                                 };
+      Message_Table            = "Come to the table";
+      Message_BunkerMessage    = {
+                                   "You have reached the bunker.";
+                                   "You need to get inside. The guard is at the doors:";
+                                   " ";
+                                   "#<WIST> - You can try to attract the guard's attention by whistling <%s> ";
+                                   "#<GRAN> - You can also distract the guard by throwing a <%s> smoke bomb.";
                                  };
       Message_BodyMessage      = {
-                                   "Всегда держите в уме, что тела могут быть обнаружены.",
-                                   "Позаботьтесь о том, чтобы надежно спрятать тело."
+                                   "Always keep in mind that bodies can be discovered.";
+                                   " Ensure the body is hidden in a safe place.";
                                  };
-      Message_ChangeCloth      = "Возьмите форму радиста..";
-      Fail_DontUseRadistForm   = "Нельзя переодеваться в эту форму до указания инструктора";
-      Message_Lockpick         = "Вернитесь за отмычками. Без них вам не удастся выполнить задание";
-
-      -- SG3
-      Message_VehicleStart     = "Задания изменены. Грузовик";
-      Message_EnterVehicle     = "Сядьте в машину..";
-
-      TaskVehicle              = " Грузовик";
-      Message_ReturnOldPos     = " Вернитесь в указанную зону";
-      Message_LeaveVehicle     = { "Выйдите из машины в указанной зоне:", 
-                                   " ",
-                                   " - Необходимо сначала остановить машину",
-                                   "#<ACTS> - Используйте правую кнопку мыши или <%s> для выхода"
+      Message_ChangeCloth      = "Take the radio operator's uniform..";
+      Fail_DontUseRadistForm   = "You cannot change into the uniform until the trainer tells you to do so";
+      Message_Lockpick         = "Get back to take the picklocks. You won't be able to accomplish the task without them";
+      Message_VehicleStart     = "Assignments have been changed. Truck";
+      Message_EnterVehicle     = "Get in a car..";
+      TaskVehicle              = " Truck";
+      Message_ReturnOldPos     = " Get back to the area specified";
+      Message_LeaveVehicle     = {
+                                   "Get out of the car in the area specified:";
+                                   " ";
+                                   " - You need to stop the car first ";
+                                   "#<ACTS> - Use the right mouse button or <%s> to exit";
                                  };
-      Message_ReturnVehicle    = "Вернитесь в грузовик";
-
-      -- SG4
-      -- village
-      Message_CantStartForm    = "Нельзя начать миссию, будучи в этой форме";
-      TaskVillage              = " Использование формы";
-      TaskOfficer              = " Офицер";
-      Message_VillageStart     = "Задания изменены: Использование формы";
-      Message_OfficerStart     = "Задания обновлены: Офицер";
-      Message_EnterHouse       = "Войдите в ближайшее здание..";
-      Failed_OfficerForm       = "Нельзя переодеваться в эту форму";
-      Fail_HitOfficer          = "Нельзя уничтожать этого офицера сейчас";
-      Message_StopMove         = "Только офицеры могут попасть в это здание";
-      Message_GetFormDocs      = { " " , "Заполучите форму офицера в соседнем здании.." };
-      Message_OfficerDocs      = "Документы офицера";
-      Message_House            = "Направляйтесь в здание, отмеченное на карте..";
-
-      -- SG5
-      Message_DropWeapon       = "Выбросьте оружие. Оно может выдать вас!";
-
-      -- SG6
-      Message_DropBackpack     = "#<INVT>Выбросьте рюкзак. Его можно выбросить в режиме инвентаря <%s>..";
-      Message_ReturnCamp       = "Вернитесь в палатку..";
-
-      -- AA. Training mini mission "polosa"
-      Polosa_1             = {
-                               "Пройдите полосу с деревянными преградами..";
-                               " ";
-                               "#<JUMP>Используйте клавишу 'Прыгнуть/Залезть (%s)'";
-                               "для того чтобы взобраться на преграду";
-                              };
-
-      Polosa_2             = "Заберитесь по лестнице на стену...";
-      Polosa_3             = "Пробегите по обеим сходням..";
-      Polosa_4             = "Пройдите обе траншеи..";
-      Polosa_5             = {
-                               "Проползите под колючей проволокой..";
-                               "#<LAYG>Используйте клавишу '%s' или скролик мыши чтобы ползти";
-                             };
-      Polosa_Fail          = "Попробуйте заново..";
-      Polosa_Task          = " Полоса препятствий";
-      Polosa_Start         = "Задания изменены: Пройдите полосу препятствий";
-      Polosa_Leave         = "Вы покинули область задания. Вернитесь назад";
-
-      -- AA2: Fire mission
-
-      Fire_Task            = " Стрельба по мишеням";
-      Fire_Start           = "Задания изменены: Стрельба по мишеням";
-      Fire_Pistol          = "Стрельба по мишеням: Использование пистолета";
-      Fire_PistolTake      = {
-                               "Возьмите пистолет со стола..";
-                               " ";
-                               "#<ACTS>Нажмите и держите клавишу 'Меню действий (%s)' для входа в меню";
-                               "Используйте клавиши вперед/назад или скролик мыши для выбора пункта меню";                                
-                               "#<ACTS>Отпустите клавишу 'Меню действий (%s)' для активации нужного пункта меню";
-                             };
-      Fire_PistolTask      = {
-                               "Поразите три красные мишени - необходимо попасть";
-                               "два раза в центр мишени";
-                               " ";
-                               " - Точность стрельбы зависит от движения и от расстояния до цели";
-                               "#<TARG> - Используйте прицельный режим (%s) для повышения";
-                               "   точности стрельбы";
-                               " - Если прицел краснеет, значит цель находится на эффективной";
-                               "   для стрельбы дальности";
-                               " - Форму прицела можно изменить в опциях игры";
-                               "#<RELD> - Для перезарядки оружия используйте клавишу (%s)";
-                               " - Патроны можно взять на столе";
-                               "#<PIST> - Достать пистолет можно клавишей (%s)";
-                               "#<DROP> - Выбросить оружие можно клавишей (%s)";
-                             };
-
-      Fire_MachingunTask   = {
-                               "Поразите две мишени";
-                               " ";
-                               "#<TARG> - Используйте прицельный режим (%s) для повышения";
-                               "   точности стрельбы";
-                               " - У автомата плохая кучность стрельбы, поэтому для точности";
-                               "   лучше стрелять одиночными";
-                               " - Форму прицела можно изменить в опциях игры";
-                               "#<RELD> - Для перезарядки оружия используйте клавишу (%s)";
-                               " - Магазины для оружия можно взять на столе";
-                               "#<MGUN> - Достать оружие <автомат/винтовку> можно клавишей (%s)";
-                               "#<HIDE> - Убрать оружие можно клавишей (%s)";
-                             };
-
-       Fire_RifleTask      = {
-                               "Поразите мишень - необходимо попасть в центр мишени";
-                               " ";
-                               " - Для более точной стрельбы используйте винтовку вместо автомата";
-                               "#<TARG> - Используйте прицельный режим (%s) для повышения";
-                               "   точности стрельбы";
-                               " - Форму прицела можно изменить в опциях игры";                              
-                               " - Магазины для винтовки можно взять на столе";
-                             };
-
-       Fire_SniperTask     = {
-                               "Поразите три мишени - необходимо попасть в белую метку";
-                               " ";
-                               "#<TARG> - Используйте прицельный режим (%s) для перехода";
-                               "   в режим оптики";
-                               "#<TARG> - Нажмите и держите (%s) для задержки дыхания";
-                               "   в режиме оптики";
-                             };
-
-      Fire_Complete        = "Задание выполнено..";
-      Fire_Machingun       = "Стрельба по мишеням: Использование автомата/винтовки";
-      Fire_MachingunTake   = "Возьмите один из автоматов со стола..";
-      Fire_NextRoom        = "Пройдите в соседнюю комнату..";
-      Fire_Rifle           = "Возьмите винтовку со стола..";
-
-      Fire_Sniper          = "Стрельба по мишеням: Использование снайперской винтовки";
-      Fire_SniperTake      = "Возьмите снайперскую винтовку со стола..";
-
-      -- AA4
-
-      Grenade_Task         = " Броски гранат";
-      Grenade_Start        = "Задания изменены: Броски гранат";
-      Grenade_Take         = "Возьмите гранаты..";
-
-      Grenade_Task1        = {
-                               "Попадите гранатой в яму:";
-                               " ";
-                               "#<GRAN> - Для выбора предметов, которые можно бросить нажмите (%s)";
-                               "#<GRAN> - Для выбора бросаемого предмета нажмите и держите клавишу (%s)";
-                               " - Выбрать из списка необходимый предмет можно стрелками или скроликом мыши";
-                               "#<TGRD> - Для быстрого броска используйте клавишу (%s)";
-                               " - В опциях игры можно задать бросок с использованием силы";
-                               " ";
-                               " ";
-                               " ";
-                               " ";
-                               " ";
-                               " ";
-                               " ";
-                               " ";
-                               " ";
-                             };
-
-      Grenade_Task2        = {
-                               "Попадите гранатой в одно из верхних окон здания:";
-                               " ";
-                               "#<GRAN> - Для выбора предметов, которые можно бросить нажмите (%s)";
-                               "#<GRAN> - Для выбора бросаемого предмета нажмите и держите клавишу (%s)";
-                               " - Выбрать из списка необходимый предмет можно стрелками или скроликом мыши";
-                               "#<TGRD> - Для быстрого броска используйте клавишу (%s)";
-                               " - В опциях игры можно задать бросок с использованием силы";
-                               " ";
-                               " ";
-                               " ";
-                               " ";
-                               " ";
-                               " ";
-                               " ";
-                               " ";
-                               " ";
-                             };
-
-      Grenade_Next         = "Пройдите в соседнее помещение, отмеченное на карте..";
-
-      -- AA5
-
-      Knife_Task           = " Метание ножа";
-      Knife_Start          = "Задания изменены: Метание ножа";
-      Knife_Pick_4         = "Возьмите 4 ножа..";
-      Knife_Pick_3         = "Возьмите 3 ножа..";
-      Knife_TakePosition   = "Перейдите на позицию для броска..";
-      Knife_Target_1       = {
-                               {
-                                  "Попадите в цель из позиции стоя:";
-                                  " ";
-                                  "#<KNIF> - Достать нож можно клавишей (%s)";
-                                  "#<FIRE> - Бросить нож можно клавишей (%s)";
-                               };
-
-                               {
-                                  "Попадите в цель из позиции сидя:";
-                                  " ";
-                                  "#<CRCH> - Сесть можно клавишей (%s) или скроликом мыши";
-                                  "#<KNIF> - Достать нож можно клавишей (%s)";
-                                  "#<FIRE> - Бросить нож можно клавишей (%s)";
-                               };
-
-                               {
-                                  "Попадите в цель из позиции лежа:";
-                                  " ";
-                                  "#<KNIF> - Достать нож можно клавишей (%s)";
-                                  "#<FIRE> - Бросить нож можно клавишей (%s)";
-                                  "#<LAYG> - Лечь можно клавишей (%s) или скроликом мыши";
-                               };                               
-
-                             };
-
-      Knife_Target_2       = {
-                               "Попадите ножом точно в мишень:";
-                               " ";
-                               "#<KNIF> - Достать нож можно клавишей (%s)";
-                               "#<FIRE> - Бросить нож можно клавишей (%s)";
-                               " - Нож летит по параболе, поэтому если цель далеко";
-                               "   цельтесь выше";
-                             };
-
-
-      Knife_WrongPos        = "Неверная поза для броска. Попробуйте заново..";
-      Knife_Missed          = "Вы промазали, попробуйте заново..";
-
-      Action_Menu           = {
-                               "Меню действий:";
-                               " ";
-                               "#<ACTS> - Нажмите и держите клавишу 'Меню действий (%s)' для входа в меню";
-                               " - Используйте клавиши вперед/назад или скролик мыши для выбора пункта меню";                                
-                               "#<ACTS> - Отпустите клавишу 'Меню действий (%s)' для активации нужного пункта меню";
-                             };
-
-      Start_Move            = "Двигайтесь к точке обозначенной на карте";
-      Start_Next            = "Двигайтесь к следующему месту тренировки, обозначенному на карте (клавиша 'Брифинг' по умолчанию O).";
-      Start_Message         = {
-                                "Двигайтесь к точке:";
-                                " ";
-                                "#<BRIF> - Нажмите клавишу 'Брифинг (%s)' для просмотра задач";
-                                "#<SWMP> - Нажмите клавишу 'Карта (%s)' для включения карты";
-                                "#<MAPS> - Нажмите клавишу 'Карта Мини/Полн. (%s)' для переключения карты";   
-                                " - Используйте стрелки или +/- для масштабирования карты";
-                              };
-
-      
+      Message_ReturnVehicle    = "Get back to the truck";
+      Message_CantStartForm    = "You cannot start the mission wearing this uniform";
+      TaskVillage              = " Using uniform";
+      TaskOfficer              = " Officer";
+      Message_VillageStart     = "Assignments have been changed: Using uniform";
+      Message_OfficerStart     = "Assignments have been updated: Officer";
+      Message_EnterHouse       = "Enter the nearest building..";
+      Failed_OfficerForm       = "You cannot change into this uniform";
+      Fail_HitOfficer          = "You cannot kill this officer now";
+      Message_StopMove         = "Only officers can access this building";
+      Message_GetFormDocs      = {
+                                   " ";
+                                   "Get an officer's uniform in the next building..";
+                                 };
+      Message_OfficerDocs      = "Officer's documents";
+      Message_House            = "Head to the building marked on the map..";
+      Message_DropWeapon       = "Throw your weapons away. They can break your disguise!";
+      Message_DropBackpack     = "#<INVT>Throw your backpack away. You can throw it away in inventory mode <%s>..";
+      Message_ReturnCamp       = "Get back to the tent..";
+      Polosa_1                 = {
+                                   "Pass through the zone with wooden barriers..";
+                                   " ";
+                                   "#<JUMP>Use the key 'Jump/Climb (%s)'";
+                                   "to climb onto the barrier";
+                                 };
+      Polosa_2                 = "Use the ladder to climb the wall...";
+      Polosa_3                 = "Run across both access gangways..";
+      Polosa_4                 = "Pass through both trenches..";
+      Polosa_5                 = {
+                                   "Crawl under barbed wire..";
+                                   "#<LAYG>Use the '%s' key or the scroll wheel to crawl";
+                                 };
+      Polosa_Fail              = "Try again..";
+      Polosa_Task              = " Line of barriers";
+      Polosa_Start             = "Assignments have been changed: Pass through the line of barriers";
+      Polosa_Leave             = "You have left the building area. Get back";
+      Fire_Task                = " Target shooting ";
+      Fire_Start               = "Assignments have been changed: target shooting";
+      Fire_Pistol              = "Target shooting: Using a pistol";
+      Fire_PistolTake          = {
+                                   "Take a pistol from the table..";
+                                   " ";
+                                   "#<ACTS>Press and hold down the 'Action menu (%s)' key to enter the menu ";
+                                   "Use the forward/back keys or the scroll wheel to select a menu item ";
+                                   "#<ACTS>Release the 'Action menu (%s)' key to enable the menu item you need";
+                                 };
+      Fire_PistolTask          = {
+                                   "Hit three red targets - you need to hit ";
+                                   " the target's center twice";
+                                   " ";
+                                   " - The precision of shooting depends on movement and distance to the target ";
+                                   "#<TARG> - Use aimed mode (%s) to improve";
+                                   "   shooting accuracy";
+                                   " - If the aiming sight turns red then the target is at a valid";
+                                   "distance for shooting ";
+                                   " - You can change the shape of the aiming sight in game options";
+                                   "#<RELD> - To reload weapon use the (%s) key";
+                                   " - You can take cartridges from the table ";
+                                   "#<PIST> - You can take the pistol out using (%s) key";
+                                   "#<DROP> - You can throw the weapon away using (%s) key";
+                                 };
+      Fire_MachingunTask       = {
+                                   "Hit two targets ";
+                                   " ";
+                                   "#<TARG> - Use aimed mode (%s) to improve ";
+                                   " shooting accuracy";
+                                   " - A submachine gun has poor accuracy. To ensure precision";
+                                   " you should fire shot after shot";
+                                   " - You can change the shape of the aiming sight in game options";
+                                   "#<RELD> - To reload weapon use (%s) key";
+                                   " - You can take the weapon's magazine case from the table";
+                                   "#<MGUN> - You can draw the weapon <submachine gun/rifle> using the key (%s)";
+                                   "#<HIDE> - You can take the weapon away using the key (%s)";
+                                 };
+      Fire_RifleTask           = {
+                                   "Hit a target: you need to hit the very center of the target ";
+                                   " ";
+                                   " - For more accurate shooting use a rifle instead of a submachine gun ";
+                                   "#<TARG> - Use aiming mode (%s) to improve";
+                                   "  shooting accuracy ";
+                                   " - You can change the shape of the aiming sight in game options";
+                                   " - You can take the rifle magazine cases from the table";
+                                 };
+      Fire_SniperTask          = {
+                                   "Hit three targets: you need to hit the white mark";
+                                   " ";
+                                   "#<TARG> - Use aiming mode (%s) to switch";
+                                   "   into optics mode ";
+                                   "#<TARG> - Press and hold down (%s) to hold breath";
+                                   " in optics mode";
+                                 };
+      Fire_Complete            = "Assignment accomplished..";
+      Fire_Machingun           = "Target shooting: Using a submachine gun/rifle";
+      Fire_MachingunTake       = "Take a submachine gun from the table..";
+      Fire_NextRoom            = "Go to the next room..";
+      Fire_Rifle               = "Take a rifle from the table..";
+      Fire_Sniper              = "Target shooting: Using a sniper rifle";
+      Fire_SniperTake          = "Take a sniper rifle from the table..";
+      Grenade_Task             = " Throwing grenades";
+      Grenade_Start            = "Assignments have been changed: Throwing grenades";
+      Grenade_Take             = "Take grenades..";
+      Grenade_Task1            = {
+                                   "Hit the hole with a grenade:";
+                                   " ";
+                                   "#<GRAN> - To select items you can throw press (%s)";
+                                   "#<GRAN> - To select an item to be thrown press and hold down the key (%s)";
+                                   " - To select a necessary item from the list, you can use arrows or the scroll wheel";
+                                   "#<TGRD> - For a quick throw use the key (%s)";
+                                   " - In game options you can select a power throw ";
+                                   " ";
+                                   " ";
+                                   " ";
+                                   " ";
+                                   " ";
+                                   " ";
+                                   " ";
+                                   " ";
+                                   " ";
+                                 };
+      Grenade_Task2            = {
+                                   "Hit one of the top windows of the building with a grenade:";
+                                   " ";
+                                   "#<GRAN> - To select items that can be thrown press (%s)";
+                                   "#<GRAN> - To select an item to be thrown press and hold down (%s) key";
+                                   " - You can select the necessary item from the list using arrows or the mouse scroll button";
+                                   "#<TGRD> - For a quick throw use (%s) key";
+                                   " - In game options you can select a power throw ";
+                                   " ";
+                                   " ";
+                                   " ";
+                                   " ";
+                                   " ";
+                                   " ";
+                                   " ";
+                                   " ";
+                                   " ";
+                                 };
+      Grenade_Next             = "Go to the next room marked on the map..";
+      Knife_Task               = " Knife throwing";
+      Knife_Start              = "Assignments have been changed: knife throwing";
+      Knife_Pick_4             = "Take 4 knives..";
+      Knife_Pick_3             = "Take 3 knives..";
+      Knife_TakePosition       = "Take up a posture for throwing.";
+      Knife_Target_1           = {
+                                   {
+                                     "Hit the target from standing:";
+                                     " ";
+                                     "#<KNIF> - You can draw a knife by pressing (%s).";
+                                     "#<FIRE> - To throw a knife press (%s).";
+                                   };   --[1]
+                                   {
+                                     "Hit the target from sitting:";
+                                     " ";
+                                     "#<CRCH> - To sit down use (%s) or the scroll wheel";
+                                     "#<KNIF> - To take out a knife you can press (%s)";
+                                     "#<FIRE> - To throw a knife use (%s) key";
+                                   };   --[2]
+                                   {
+                                     "Hit the target from prone posture:";
+                                     " ";
+                                     "#<KNIF> - You can take out the knife by pressing (%s)";
+                                     "#<FIRE> - To drop a knife press (%s)";
+                                     "#<LAYG> - To lie down use the key (%s) or the scroll wheel";
+                                   };   --[3]
+                                 };
+      Knife_Target_2           = {
+                                   "Hit the target accurately with a knife:";
+                                   " ";
+                                   "#<KNIF> - To take out a knife you can use the (%s) key";
+                                   "#<FIRE> - To throw a knife you can use the (%s) key";
+                                   " - A knife flies in a parabola, so aim higher if a target is distant";
+                                   "";
+                                 };
+      Knife_WrongPos           = "A wrong position for a throw. Try again..";
+      Knife_Missed             = "You missed. Try again..";
+      Action_Menu              = {
+                                   "Action menu:";
+                                   " ";
+                                   "#<ACTS> - Press and hold down the 'Action menu (%s)' key to enter the menu";
+                                   " - Use the forward /back keys or the scroll wheel to select the menu item ";
+                                   "#<ACTS> - Release the 'Action menu (%s)' key to enable the necessary menu item";
+                                 };
+      Start_Move               = "Move to the point marked on the map";
+      Start_Next               = "Move to the next training site marked on the map ('Briefing' key 'O' by default).";
+      Start_Message            = {
+                                   "Move to the point:";
+                                   " ";
+                                   "#<BRIF> - Press the 'Briefing (%s)' key to view assignments ";
+                                   "#<SWMP> - Press the 'Map (%s)' key to enable the map ";
+                                   "#<MAPS> - Press the 'Map Mini/Full Size. (%s)' to toggle the map ";
+                                   " - Use arrows or +/- keys to zoom the map in or out.";
+                                 };
   };
 
   function Level.OnCompleteMission()

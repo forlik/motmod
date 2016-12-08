@@ -1,0 +1,29 @@
+<col=400000>HF Radio Message</col><br><br>
+
+To: Agent Zolotnitsky<br>
+Critical!<br><br>
+
+<tab>Yesterday, August 23, three German paratrooper-spies are believed to have landed  in the Kharkov Region on the outskirts of Maksimovka.<br>
+<tab>The chief of the group, Aleksandr Itisov, aka 'Starikov,' had, before his capture, served as midshipman on a submarine in the Black Sea Fleet. He is of an average height, strongly built,
+has a submarine-shaped tattoo on his chest and another tattoo on his arm. Dark blond hair, blue eyes, with a straight nose. He wears the uniform of an RKKA senior lieutenant,
+an overcoat with battle shoulder stripes, and dark blue trousers. He is expected to pack quilted pants and a jacket, and carries a TT pistol and a German-style Browning.<br> 
+
+<tab>Dmitry Sukhovarov aka 'Shestakov' wears a sergeant's uniform. His distinguishing marks: below average height, corpulent, short-legged, fair 
+backswept hair, sharp-nosed, has a wolf tattoo on his chest. He previously worked as a teacher in Kharkov. He will be wearing jackboots, but also carries felt boots.<br>
+
+<tab>Sergey Kotlyarov aka 'Nikolayev' is a radio operator native to the region of Moscow. He is of above average height, physically fit, round-faced, long dark-blond 
+backswept hair, grey eyes, with a nose slightly upturned, and armed with a TT and a Browning.<br>
+
+<tab>Judging by intercepted texts and other indications, you are dealing with a highly skilled mobile group, tasked with carrying out operations behind our forward positions.
+These persons are probably connected to another group, targeted in the investigation of the 'Recreants' case. It is apparent that they systematically monitor our critical communication routes, and have an extremely well-informed agent 
+or, more likely, a network in the area of Maksimovka.<br>
+
+<tab>The Chief Counterintelligence Directorate has determined that this case is of utmost urgency. These persons pose numerous and severe dangers to the war effort. You must do 
+anything within your means to discover any connections between this group and the group investigated under the 'Recreants' case, and above all prevent all potential attempts of sabotage.<br>
+
+<tab>We must remind you that all actions related to the 'Renegades' case must be kept absolutely secret. No action on your part may be allowed to interfere with our further investigations of the 'Makarov' group.<br>
+
+<tab>The Chief of Staff of the Counterintelligence Directorate today ordered that the Investigation Division and encryption offices be placed under your personal command,  including all experienced investigators and cryptographers, on round-the-clock standby.<br>
+<tab>Report your progress on all investigations and activities, and any information you are able to obtain, every three hours.<br><br>
+
+<tab>Smirnov. <br>

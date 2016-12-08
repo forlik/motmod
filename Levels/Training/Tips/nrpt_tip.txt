@@ -1,0 +1,1 @@
+<tab>Patrol:<br><br>- Move crouching (the C key by default) in a running mode (Caps Lock by default) to quickly reduce the distance, in order to give yourself enough time to neutralize the enemy.<br>

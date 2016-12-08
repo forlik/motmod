@@ -1,0 +1,1 @@
+<tab>Using submachine gun and rifle:<br><br>- Shooting accuracy depends on your movement and distance to the target <br>- A submachine gun has poor accuracy of hits, therefore <br> you should better fire single shots <br>- For improved accuracy use a rifle <br>

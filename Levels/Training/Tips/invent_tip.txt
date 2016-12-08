@@ -1,0 +1,1 @@
+<tab>Documents:<br><br>- Along with their weapons, enemies may be carrying important documents, keys, and other things.<br>- You can only look through the contents of the enemy's <l="game:Levels\training\tips\invent2_tip.txt">inventory</l> if he has been stunned or killed.<br>

@@ -1,0 +1,8 @@
+Throwing grenades and other items:<br><br>
+<tab>-<sp> For a quick throw press the 'Throw item' key ("G" by default), select the item from the list and press the 'Fire' button.<br>
+<tab>-<sp> To make a series of throws, repeatedly press the 'Grenade' key (key "5" by default). To select an item to throw press and hold down the "Grenade" key until the list appears. You can select an item from the list using the arrows or the mouse scroll wheel.<br>
+<tab>-<sp> To attract an enemy's attention you might <col=800000>throw a stone</col> (the "G" key by default). Stones can be thrown an unlimited number of times.<br>
+<tab>-<sp> Aside from grenades you can throw small kitchen items.<br> 
+<tab>-<sp> If 'Throw force' mode is on, throwing grenades or other items becomes more difficult, but your precision increases. To do this, press and hold down 'Fire' button until the force scale reaches desired the level. At that moment, release the button and the throw will be executed according to the force selected. You can cancel a throw by pressing the right mouse button.<br>
+
+<br><br><tab><l="$back">BACK</l><br>

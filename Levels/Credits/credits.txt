@@ -1,132 +1,211 @@
 <img=mm_logo><br>
 <col=C8C8C8>http://motmod.at.tut.by</col><br><br><br>
 
-ксйэъмвсй (forlik) хцнпэ<br>
-лнйпежнб (mok) юмдпеи<br><br><br><br><br>
+IGOR "forlik" LUKYANCHUK<br>
+ANDREW "mok" MOKRETSOV<br><br><br><br><br>
 
-ялепрэ ьохнмюл: лнлемр хярхмш<br><br><br>
+DEATH TO SPIES: THE MOMENT OF TRUTH<br><br><br>
 
-<col=C8C8C8>пСЙНБНДХРЕКЭ ОПНЕЙРЮ:</col><br>
-юцюлюкнб юкейяеи<br><br>
+<col=C8C8C8>Project Lead</col><br>
+ALEKSEY AGAMALOV<br><br>
 
-<col=C8C8C8>бЕДСЫХИ ОПНЦПЮЛЛХЯР:</col><br>
-юцюлюкнб юкейяеи<br><br>
+<col=C8C8C8>Lead Programmer</col><br>
+ALEKSEY AGAMALOV<br><br>
 
-<col=C8C8C8>бЕДСЫХИ УСДНФМХЙ:</col><br>
-уюпвемйн юмдпеи<br><br>
+<col=C8C8C8>Lead Artist</col><br>
+ANDREY KHARCHENKO<br><br>
 
-<col=C8C8C8>бЕДСЫХИ ЮМХЛЮРНП:</col><br>
-люякчй йнмярюмрхм<br><br>
+<col=C8C8C8>Lead Animator</col><br>
+KONSTANTIN MASLYUK<br><br>
 
-<col=C8C8C8>оПНЦПЮЛЛХПНБЮМХЕ:</col><br>
-юцюлюкнб юкейяеи<br>
-цбнгдеб яепцеи<br><br>
+<col=C8C8C8>Programmers</col><br>
+ALEKSEY AGAMALOV<br>
+SERGEY GVOZDEV<br><br>
 
-<col=C8C8C8>хЯЙСЯЯРБЕММШИ ХМРЕККЕЙР:</col><br>
-цбнгдеб яепцеи<br><br>
+<col=C8C8C8>AI</col><br>
+SERGEY GVOZDEV<br><br>
 
-<col=C8C8C8>хЦПНБНИ ДХГЮИМ:</col><br>
-юцюлюкнб юкейяеи<br>
-цбнгдеб яепцеи<br><br>
+<col=C8C8C8>Game Design</col><br>
+ALEKSEY AGAMALOV<br>
+SERGEY GVOZDEV<br><br>
 
-<col=C8C8C8>яЙПХОРШ:</col><br>
-цбнгдеб яепцеи<br>
-юцюлюкнб юкейяеи<br><br>
+<col=C8C8C8>Scripters</col><br>
+SERGEY GVOZDEV<br>
+ALEKSEY AGAMALOV<br><br>
 
-<col=C8C8C8>гБСЙНПЕФХЯЯЕП:</col><br>
-йкхлемйн цпхцнпхи<br><br>
+<col=C8C8C8>Sound Producer</col><br>
+GRIGORY KLIMENKO<br><br>
 
-<col=C8C8C8>3D уСДНФМХЙХ:</col><br>
-юбюйъм юплюм<br>
-анвюпнб юкейяюмдп<br>
-емднбхжйхи пнлюм<br>
-йнкеямхйнб юкейяеи<br>
-люякчй йнмярюмрхм<br>
-вемжнб юкейяеи<br>
-уюпвемйн юмдпеи<br><br>
+<col=C8C8C8>3D Artists</col><br>
+ARMAN AVAKYAN<br>
+ALEKSANDR BOCHAROV<br>
+ROMAN ENDOVITSKY<br>
+ALEKSEY KOLESNIKOV<br>
+KONSTANTIN MASLYUK<br>
+ALEKSEY CHENTSOV<br>
+ANDREY KHARCHENKO<br><br>
 
-<col=C8C8C8>2D уСДНФМХЙХ:</col><br>
-анвюпнб длхрпхи<br><br>
+<col=C8C8C8>2D Artists</col><br>
+DMITRY BOCHAROV<br><br>
 
-<col=C8C8C8>оЕПЯНМЮФХ:</col><br>
-юбюйъм юплюм<br>
-люякчй йнмярюмрхм<br>
-емднбхжйхи пнлюм<br>
-вемжнб юкейяеи<br>
-йнкеямхйнб юкейяеи<br><br>
+<col=C8C8C8>Character Designers</col><br>
+ARMAN AVAKYAN<br>
+KONSTANTIN MASLYUK<br>
+ROMAN ENDOVITSKY<br>
+ALEKSEY CHENTSOV<br>
+ALEKSEY KOLESNIKOV<br><br>
 
-<col=C8C8C8>нЯБЕЫЕМХЕ:</col><br>
-юцюлюкнб юкейяеи<br><br>
+<col=C8C8C8>Lighting</col><br>
+ALEKSEY AGAMALOV<br><br>
 
-<col=C8C8C8>дХГЮИМ СПНБМЕИ:</col><br>
-уюпвемйн юмдпеи<br>
-бнкньйн длхрпхи<br>
-йкхлемйн цпхцнпхи<br><br>
+<col=C8C8C8>Level Design</col><br>
+ANDREY KHARCHENKO<br>
+DMITRY VOLOSHKO<br>
+GRIGORY KLIMENKO<br><br>
 
-<col=C8C8C8>яЖЕМЮПХИ:</col><br>
-юцюлюкнб юкейяеи<br>
-цбнгдеб яепцеи<br>
-йкхлемйн цпхцнпхи<br><br>
+<col=C8C8C8>Writers</col><br>
+ALEKSEY AGAMALOV<br>
+SERGEY GVOZDEV<br>
+GRIGORY KLIMENKO<br><br>
 
-<col=C8C8C8>хЯРНПХВЕЯЙХИ ЙНМЯСКЭРЮМР:</col><br>
-оксцхм мхйнкюи<br><br>
+<col=C8C8C8>Historical Consultant</col><br>
+NIKOLAY PLUGIN<br><br>
 
-<col=C8C8C8>рЕЯРХПНБЮМХЕ:</col><br>
-бнкньйн длхрпхи<br>
-вемжнб юкейяеи<br>
-йнкеямхйнб юкейяеи<br><br>
+<col=C8C8C8>Testers</col><br>
+DMITRY VOLOSHKO<br>
+ALEKSEY CHENTSOV<br>
+ALEKSEY KOLESNIKOV<br><br>
 
-<col=C8C8C8>лСГШЙЮ:</col><br>
-аекнгепжеб (WhiteLake) бюкепхи<br>
-лювсцнбяйхи юкейяюмдп / the SandS<br>
-яхднпсй хбюм / the SandS<br>
-фелйнб длхрпхи / the SandS<br>
-йюмрхеб уюпхрнм / the SandS<br><br>
+<col=C8C8C8>Composers</col><br>
+VALERY "WhiteLake" BELOZERTSEV<br>
+ALEKSANDR MACHUGOVSKY / the SandS<br>
+IVAN SIDORUK / the SandS<br>
+DMITRY ZHEMKOV / the SandS<br>
+KHARITON KANTIEV / the SandS<br><br>
 
-<col=C8C8C8>пНКХ НГБСВХБЮКХ:</col><br>
-юмрнмхй бкюдхлхп<br>
-тхкхлнмнб длхрпхи<br>
-люрбееб пнлюм<br>
-оепецсднб ецнп<br>
-юкейяееб яепцеи<br>
-мнбхвйнб оюбек<br>
-ейхлемйн яберкюмю<br>
-аюяйюйнбю екемю<br>
-оепецсднб лхуюхк<br>
-йсгэлхм-рюпюянб юкейяюмдп<br>
-цнпнунбю юмюярюяхъ<br>
-вепмемйн екемю<br>
+<col=C8C8C8>Voices</col><br>
+VLADIMIR ANTONIK<br>
+DMITRY PHILIMONOV<br>
+ROMAN MATVEEV<br>
+EGOR PEREGUDOV<br>
+SERGEY ALEKSEEV<br>
+PAVEL NOVICHKOV<br>
+SVETLANA EKIMENKO<br>
+ELENA BASKAKOVA<br>
+MIKHAIL PEREGUDOV<br>
+ALEKSANDR KUZMIN-TARASOV<br>
+ANASTASIA GOROKHOVA<br>
+ELENA CHERNENKO<br>
 FRITZSCHE ROLAND<br>
 LISKE CASIMIR<br>
 ALLEN MARK<br><br>
 
-<col=C8C8C8>гБСЙНГЮОХЯЭ:</col><br>
-йнлхяяюпнб длхрпхи<br>
-лювсцнбяйхи юкейяюмдп<br><br>
+<col=C8C8C8> Sound Recording</col><br>
+DMITRY KOMISSAROV<br>
+ALEKSANDR MACHUGOVSKY<br><br>
 
-<br><br><br><br>тхплю "1C"<br><br>
+<br><br><br><br>1C COMPANY<br><br>
 
-<col=C8C8C8>оПНДЧЯЕПШ:</col><br>
-цепюяеб яепцеи<br>
-мнфмхм длхрпхи<br><br>
+<col=C8C8C8>Producers</col><br>
+SERGEY GERASEV<br>
+DMITRY NOZHNIN<br><br>
 
-<col=C8C8C8>лЮПЙЕРХМЦ Х PR:</col><br>
-юпрелемйн юкейяеи<br>
-оюярсьемйн юкейяеи<br>
-рюпюянбю яберкюмю<br><br>
+<col=C8C8C8>PR and Marketing</col><br>
+ALEKSEY ARTEMENKO <br>
+ALEXEY PASTUSHENKO<br>
+SVETLANA TARASOVA<br><br>
 
-<col=C8C8C8>гБСЙНГЮОХЯЭ:</col><br>
-лхпнмнб нкец<br><br>
+<col=C8C8C8>Sound Recording</col><br>
+OLEG MIRONOV<br><br>
 
-<col=C8C8C8>яАНПЙЮ ХМЯРЮККЪРНПЮ:</col><br>
-ьюбпсй йнмярюмрхм<br><br>
+<col=C8C8C8>Setup Application</col><br>
+KONSTANTIN SHAVRUK<br><br>
 
-<col=C8C8C8>рЕЯРХПНБЮМХЕ:</col><br>
-яюбхм длхрпхи<br>
-оюсрнб длхрпхи<br>
-йхърйхм яепцеи<br><br>
 
-пЮГПЮАНРЙЮ БМЕЬМЕЦН БХДЮ яРПНЦНБЮ ЯРСДХЪ TriDigital<br><br>
+<col=C8C8C8>Localization</col><br>
+OLEG MIRONOV<br>
+ILYA SALAMATOV<br><br>
+
+<col=C8C8C8>Additional Localization</col><br>
+STEVE BRESLIN<br><br>
+
+<col=C8C8C8>Testers</col><br>
+DMITRY SAVIN<br>
+DMITRY PAUTOV<br>
+SERGEY KIYATKIN<br><br>
+
+Strogov's Appearance by TriDigital Studio<br><br>
+
+<br><br><br><br>ASPYR PUBLISHING<br><br>
+
+<col=C8C8C8>Executive Producer</col><br>
+JAY GORDON<br><br>
+
+<col=C8C8C8>Senior Project Manager</col><br>
+KELLY BATES<br><br>
+
+<col=C8C8C8>Marketing Managers</col><br>
+AMITY PONSETTI<br>
+ERIC DUNCAN<br>
+KARRI SCOTT<br><br>
+
+<col=C8C8C8>PR Manager</col><br>
+ERIC DUNCAN<br><br>
+
+<col=C8C8C8>Creative Marketing Lead</col><br>
+DEVIN COX<br><br>
+
+<col=C8C8C8>Build Engineer</col><br>
+JOHN MERRILL<br><br>
+
+<col=C8C8C8>Director of QA</col><br>
+ANDY BRAZELL<br><br>
+
+<col=C8C8C8>QA Manager</col><br>
+BARD ALEXANDER<br><br>
+
+<col=C8C8C8>QA Supervisor</col><br>
+RANDALL DAVIS<br><br>
+
+<col=C8C8C8>QA Lead</col><br>
+CLEMENT YEUNG<br><br>
+
+<col=C8C8C8>QA Testers</col><br>
+BEN STOCKTON<br>
+DANIEL BECKER<br>
+IAN ROMERO<br>
+NATHAN MRVICHIN<br>
+WILL O'BRIEN<br><br>
+
+<col=C8C8C8>CRG Manager</col><br>
+STEVE AMACKER<br><br>
+
+<col=C8C8C8>CRG Lead</col><br>
+MICHAEL CARDONA<br><br>
+
+<col=C8C8C8>CRG Testers</col><br>
+HOLLY MUHS<br>
+ADAM WEBBER<br><br>
+
+<col=C8C8C8>Compatibility Supervisor</col><br>
+DUSTAN COLEMAN<br><br>
+
+<col=C8C8C8>Compatibility Technician</col><br>
+MICHAEL GREENE<br><br>
+
+<col=C8C8C8>Compatibility Testers</col><br>
+DAVID WHITEFIELD<br>
+RENE OGANDO<br>
+CHAD BRAUNECK<br>
+GREG BENNETT<br><br>
+
+<col=C8C8C8>Technical Support Manager</col><br>
+JASON MCCLURE<br><br>
+
+<col=C8C8C8>Technical Support</col><br>
+MICKEY OGANDO<br>
+JONAH HARDENBERGH<br>
+JEREMY JORGENSON<br><br>
 
 <br><br>
 This product uses Ogg Vorbis<br>

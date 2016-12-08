@@ -1,0 +1,4 @@
+<tab>According to our information, an enemy 
+sabotage unit is active in this area. It is essential that we identify the group and prevent any act of sabotage. 
+At the same time, it is also essential that we not compromise our other investigations into the group's possible connections: <col=800000>
+you must not allow the group to become aware of your activities, or neutralize any of their agents</col>.<br>

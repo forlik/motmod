@@ -1,0 +1,5 @@
+Carrying bodies:<br><br>
+<tab>-<sp> The player can carry the body of any neutralized enemy. To do this, you must approach the body and select the 'Pick up the body' item on the <l="game:UI\Help\menu.txt">"Action menu."</l><br> 
+<tab>-<sp> There are two ways to get rid of a body: carefully put the body down ("Left mouse button" by default) or throw the body ("Right mouse button" by default).<br> 
+
+<br><br><tab><l="$back">BACK</l><br>

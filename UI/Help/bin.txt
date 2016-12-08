@@ -1,0 +1,4 @@
+Binoculars:<br><br>
+<tab>To enable binoculars mode, you must have a pair of binoculars in your inventory and press the respective key ("B" by default).<br>
+
+<br><br><tab><l="$back">BACK</l><br>

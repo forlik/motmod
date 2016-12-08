@@ -1,38 +1,29 @@
 
-                  
-  MissionText =
+  MissionText = 
   {
-       Task_1                          = " Найти капитана",
-       Task_2                          = " Освободить капитана";
-       Task_3                          = " Покинуть замок";
-       Task_4                          = " Вывести капитана";
-
-       Message_2                       = "Задания обновлены";
-       Message_3                       = "Задания изменены";
-       Message_4                       = "Задание выполнено : Ликвидировать Полякова";
-
-       Message_Alarm                   = "Поднята тревога. Охрана стала более внимательна..";
-       Message_AlarmFinished           = "Охрана успокоилась..";
-
-       Docs_Access                     = "Разрешение на доступ к заключенному";
-       Docs_Extra                      = "Бумаги для вызова на допрос";
-
-       Message_ShowEnterDocument       = "РАЗРЕШЕНИЕ НА ДОСТУП";
-       Message_ShowExtraditionDocument = "ВЫЗВАТЬ НА ДОПРОС";
-
-       Message_StopMove_1              = "Только комендант может пройти в тюрьму..";
-       Message_StopMove_2              = "Только офицеры могут проходить в эту часть здания..";
-       Message_StopMove_3              = "Только офицеры могут пройти в зал для конференций..";
-       Message_StopMove_4              = "У вас нету доступа в тюрьму..";
-
-       Message_MoveSpy                 = "Капитана отконвоируют к офицеру на допрос (синяя отметка). ";
-
-       Message_Move                    = "ИДЕМ";
-       Message_Stop                    = "ЖДИ ЗДЕСЬ";
-
-       Message_Key                     = "Ключ от камер";
-
-       Message_SpyWaitThink            = "Вернитесь за капитаном";
+      --Mission text
+      Task_1                          = " Find the Captain";
+      Task_2                          = " Free the Captain";
+      Task_3                          = " Leave the castle";
+      Task_4                          = " Bring the captain out";
+      Message_2                       = "Tasks have been updated";
+      Message_3                       = "Tasks have been changed";
+      Message_4                       = "Task has been accomplished : Kill Polyakov";
+      Message_Alarm                   = "The alarm has been raised. Guards are on high alert..";
+      Message_AlarmFinished           = "Guards are standing down..";
+      Docs_Access                     = "Access permit to the prisoner";
+      Docs_Extra                      = "Papers for transferring a prisoner to interrogation";
+      Message_ShowEnterDocument       = "ACCESS PERMIT ";
+      Message_ShowExtraditionDocument = "CALL FOR INTERRG. ";
+      Message_StopMove_1              = "Only the warden is allowed to enter the prison..";
+      Message_StopMove_2              = "Only officers are allowed to enter this part of the building..";
+      Message_StopMove_3              = "Only officers are allowed to pass to the conference hall..";
+      Message_StopMove_4              = "You are not allowed to enter the prison..";
+      Message_MoveSpy                 = "The captain will be handed over to the officer for interrogation (blue mark). ";
+      Message_Move                    = "FOLLOW ME";
+      Message_Stop                    = "WAIT HERE";
+      Message_Key                     = "Key to the cells";
+      Message_SpyWaitThink            = "Wait for Captain Polyakov";
   };
 
   function Level.OnCompleteMission()

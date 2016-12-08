@@ -1,0 +1,1 @@
+<tab>Choke cord:<br><br>-<sp> Use a choke cord to neutralize an enemy without any noise.<br>-<sp> You need to approach an enemy from behind.<br>-<sp> Use a choke cord through the <l="game:Levels\training\tips\action_tip.txt">actions mode </l> or clicking the 'Fire' key.<br>-<sp> After using the choke cord you can change into the enemy's uniform.<br>

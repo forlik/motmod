@@ -1,42 +1,42 @@
 
-  MissionText =
+  MissionText = 
   {
-       Task_1                 = " Проникнуть на базу",
-       Task_2                 = " Добыть форму";
-       Task_3                 = " Угнать грузовик";
-       Task_4                 = " Добыть документы";
-       Task_5                 = " Обезвредить языка",
-       Task_6                 = " Вывезти языка",
+       Task_1                = " Infiltrate the base";
+       Task_2                = " Get a uniform";
+       Task_3                = " Hijack a truck";
+       Task_4                = " Obtain the documents";
+       Task_5                = " Neutralize the captive";
+       Task_6                = " Carry out the captive";
 
-       Fail_Alarm             = "Поднята тревога",
-       Fail_YKilled           = "Дитрих Мельтцер убит",
+       Fail_Alarm            = "Alarm has been raised";
+       Fail_YKilled          = "Dietrich Meltzer has been killed";
 
-       Message_2              = "Задания обновлены";
-       Message_Docs           = "ВЗЯТЬ ДОКУМЕНТЫ";
-       Message_DisableAlert   = "ОТКЛЮЧИТЬ ТРЕВОГУ";
+       Message_2             = "Tasks have been updated";
+       Message_Docs          = "GET DOCUMENTS";
+       Message_DisableAlert  = "DISABLE ALARM";
 
-       Fail_Vodila            = "Задание провалено: Водитель погиб";
-       Fail_Bliz              = "Задание провалено: Машина взорвана";
-       Message_3              = "Задания изменены";
+       Fail_Vodila           = "Task has failed: The driver is dead";
+       Fail_Bliz             = "Task has failed: The car has exploded";
+       Message_3             = "Tasks have been changed";
 
-       Key_Name               = "Ключ от сейфа";
-       Key_Name2              = "Ключ от кабинета";
-       Docs_Name              = "Документы по проекту \"Jagdpanther\"";
+       Key_Name              = "Key to the safe";
+       Key_Name2             = "Key to the office";
+       Docs_Name             = "\"Jagdpanther\" project documentation";
 
-       Message_BunkerAlarm    = "В районе бункера поднята тревога.";
-       Message_BaseAlarm_1    = "Поднята тревога. Число патрулей увеличено.";
-       Message_BaseAlarm_2    = "Поднята тревога. Охрана стала более внимательна.";
-       Message_AlarmFinished  = "Охрана успокоилась.";
+       Message_BunkerAlarm   = "The alarm has been raised around the bunker.";
+       Message_BaseAlarm_1   = "The alarm has been raised. The number of patrols has increased.";
+       Message_BaseAlarm_2   = "The alarm has been raised. Guards are on high alert.";
+       Message_AlarmFinished = "Guards are standing down.";
 
        -- forlik
-       MM_StopMove_FGS = "@ Фельдполиции здесь делать нечего!";
-       MM_StopMove_OFF = "@ Извините, господин офицер, но Вам сюда нельзя!";
-       MM_StopMove_Truck = "@ Только водитель может использовать грузовик!";
-       MM_StopMove_Tower = "@ Никто не имеет право находиться на вышке! Немедленно спускайтесь!";
-       MM_StopMove_Bunker = "@ Вам тут нечего делать!";
-       MM_StopMove_Base = "@ Я не могу Вас пропустить!";
-       MM_StopMove_MeltzerRoom = "@ Господина полковника сейчас нет, зайдите попозже!";
-       MM_StopMove_Warehouse = "@ У меня приказ никого не пускать на территорию склада!";
+       MM_StopMove_FGS = "@ Field police have no business here!";
+       MM_StopMove_OFF = "@ Excuse me, Herr Offizier, but you can't come in here!";
+       MM_StopMove_Truck = "@ Only the driver can use the truck!";
+       MM_StopMove_Tower = "@ These towers are off-limits! Get back down immediately!";
+       MM_StopMove_Bunker = "@ You have nothing to do here!";
+       MM_StopMove_Base = "@ You are not allowed in this area!";
+       MM_StopMove_MeltzerRoom = "@ Herr Meltzer is out at the moment, please come back later!";
+       MM_StopMove_Warehouse = "@ I am under orders not to let anyone into the warehouse!";
   };
 
 
@@ -88,7 +88,6 @@
      Entity.SetSkin(Level.FindVehicle('MOT1'), 1);
      Entity.SetSkin(Level.FindVehicle('MOT2'), 2);
      Entity.SetSkin(Level.FindVehicle('MOT3'), 3);
-
   end;
 
   function Level.OnSave()

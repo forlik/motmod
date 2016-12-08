@@ -1,0 +1,1 @@
+<tab>Getting changed:<br><br>-<sp> Use <l="game:Levels\training\tips\hlor_tip.txt">chloroform</l>, <l="game:Levels\training\tips\udav_tip.txt">choke cord</l> or <l="game:Levels\training\tips\stun_tip.txt">stunning</l> to carefully neutralize an enemy and use his uniform.<br> 

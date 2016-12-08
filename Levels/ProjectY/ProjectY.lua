@@ -1,51 +1,41 @@
 
-  MissionText =
+  MissionText = 
   {
-       Task_1                = " Переснять чертежи";
-       Task_2                = " Достать документы";
-       Task_3                = " Покинуть здание";
-    
-       Fail_Cris             = "Полковник Скот Бэкер убит";
-       Fail_Prof             = "Профессор Чарльз Браун убит";
-
-       Message_Foto          = "СФОТОГРАФИРОВАТЬ";
-       Foto_Made             = "Чертеж сфотографирован";
-       Foto_Fail             = "Чертеж заснят не полностью";
-
-       Message_2             = "Задания обновлены";
-       Message_Docs          = "ВЗЯТЬ ДОКУМЕНТЫ";
-       Message_DisableAlert  = "ОТКЛЮЧИТЬ ТРЕВОГУ";
-       Message_3             = "Задания изменены";
-
-       Key_Name_1            = "Ключ от сейфа в лаборатории";
-       Key_Name_2            = "Ключ от сейфа в кабинете полковника";
-
-       Alarm_Timer           = "Поднята тревога. У вас осталось %02d:%02d на выполнение задания до того как все выходы из здания будут заблокированы";
-       Fail_Alarm            = "Все выходы из здания заблокированы";
-       
-       Kill_Msg_1            = "Еще ";
-       Kill_Msg_3            = "Еще ";
-       Kill_Msg_2            = " до того как охрана обнаружит неладное и поднимет тревогу.";
-
-       Kill_Soldiers         = "Вы уничтожили слишком много солдат. ";
-       Kill_Civilian         = "Вы уничтожили слишком много ученных. ";
-       Kill_Officers         = "Вы унчитожили слишком много офицеров. ";
-
-       Message_Alarm         = "Поднята тревога. Охрана стала более внимательна..";
-       Message_AlarmFinished = "Охрана успокоилась..";
-
-       Message_Key           = "У вас нету ключа, чтобы открыть сейф..";
-       Message_NoFoto        = "У вас нету фотоаппарата..";
-
-       Message_StopMove_1    = "Ученые не имеют доступа в эту часть здания..";
-       Message_StopMove_2    = "Только офицеры могут проходить в эту часть здания..";
-       Message_StopMove_3    = "Только ученые или офицеры имеют доступ в лабораторию..";
-       Message_StopMove_4    = "Только офицеры могут инспектировать циклотрон..";
-       Message_StopMove_5    = "Вы не можете пройти здесь..";
-
-       Message_SmokeStation  = "СИМУЛИРОВАТЬ ПОЛОМКУ";
-       Message_CrashAlert    = "АВАРИЙНЫЙ СИГНАЛ";
-       Message_AlarmSignal   = "ВЫЗВАТЬ ДЕЖУРНОГО";
+      --Mission text
+      Task_1                = " Copy the drawings";
+      Task_2                = " Obtain the documents";
+      Task_3                = " Leave the building";
+      Fail_Cris             = "Colonel Scott Baker has been killed";
+      Fail_Prof             = "Professor Charles Brown has been killed";
+      Message_Foto          = "TAKE A PHOTO";
+      Foto_Made             = "The drawing has been photographed";
+      Foto_Fail             = "The drawing has not been photographed in full";
+      Message_2             = "Tasks have been updated";
+      Message_Docs          = "GET DOCUMENTS";
+      Message_DisableAlert  = "DISABLE ALARM";
+      Message_3             = "Tasks have been changed";
+      Key_Name_1            = "Key to the safe in the laboratory";
+      Key_Name_2            = "Key to the safe in the colonel's office";
+      Alarm_Timer           = "The alarm has been raised. You've got %02d:%02d to accomplish the task before all exits from the building are locked";
+      Fail_Alarm            = "All exits from the building have been blocked";
+      Kill_Msg_1            = "";
+      Kill_Msg_3            = "";
+      Kill_Msg_2            = " more left before the guards discover it and raise alarm.";
+      Kill_Soldiers         = "You have killed too many soldiers. ";
+      Kill_Civilian         = "You have killed too many scientists. ";
+      Kill_Officers         = "You have killed too many officers. ";
+      Message_Alarm         = "The alarm has been raised. Guards are on high alert..";
+      Message_AlarmFinished = "Guards are standing down..";
+      Message_Key           = "You have no key to unlock the safe..";
+      Message_NoFoto        = "You have no camera..";
+      Message_StopMove_1    = "Scientists don't have access to this part of the building..";
+      Message_StopMove_2    = "Only officers are allowed to enter this part of the building..";
+      Message_StopMove_3    = "Only scientists and officers are allowed to enter the laboratory..";
+      Message_StopMove_4    = "Only officers are allowed to inspect the cyclotron..";
+      Message_StopMove_5    = "You are not allowed to pass here..";
+      Message_SmokeStation  = "FAKE A FAILURE";
+      Message_CrashAlert    = "ALARM SIGNAL";
+      Message_AlarmSignal   = "CALL OFFICER";
   };
 
   function Level.OnCompleteMission()

@@ -1,0 +1,1 @@
+<tab>Neutralize the guard:<br><br>-<sp> Take chloroform from the table.<br>-<sp> To neutralize him you can use chloroform or your fist.<br>-<sp> If the guard notices you, your assignment will fail.<br>-<sp> If the guard is killed your assignment will fail.<br>

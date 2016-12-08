@@ -1,0 +1,5 @@
+Guards:<br><br>
+<tab>-<sp> You can only gain entrance to many important sites and objects if you carry special documents or wear the appropriate uniform. Such places are normally protected by guards. If the main hero is trying to access a guarded area, a guard will inform you about it by a gesture, and a message will be displayed describing the reason why he refuses to allow you to enter.<br>
+<tab>-<sp> Staying close to the guard for a long period of time may make him suspicious, in which case your danger level will increase.<br>
+
+<br><br><tab><l="$back">BACK</l><br>

@@ -1,0 +1,5 @@
+Hiding:<br><br>
+<tab>-<sp> Enemies have trouble seeing the hero when he is hidden in the grass, especially when he is wearing camouflage gear.<br>
+<tab>-<sp> Poorly lit places lower the enemy's ability to visually detect the player. Bear this in mind, and you may be able to move invisibly.<br>
+
+<br><br><tab><l="$back">BACK</l><br>

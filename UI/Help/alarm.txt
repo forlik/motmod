@@ -1,0 +1,12 @@
+Discovery:<br><br>
+<tab>-<sp> Your identity may become compromised under certain circumstances, depending on the hero's actions and the enemy's status.<br>
+<tab>-<sp> <col=800000>An increase of your</col> <l="game:UI\Help\bar.txt">danger scale</l> indicates that the enemy's suspicions have been raised.<br>
+<tab>-<sp> Enemies may detect your identity if they notice you carrying enemy weapons (for example, the PPSh is an enemy weapon for the Germans).<br>
+<tab>-<sp> An enemy backpack can also give you away.<br>
+<tab>-<sp> Special weapons, such as a garrotte or a knife in the hands of the main hero, may also lead to his discovery.<br>
+<tab>-<sp> If your actions might lead to your discovery, an exclamation-point icon will appear, and the enemy's fields of vision will change colour.<br>
+<tab>-<sp> Enemies that treat the main hero with suspicion are marked on the map in <col=808000>yellow</col>.<br>
+<tab>-<sp> The maximum danger range is displayed on the map by the colour of the enemy's field of vision. At a greater distance, even if an enemy sees the player, it will take time before he will respond aggressively.<br>
+<tab>-<sp> If, after changing his disguise, the main hero is still recognizable, due, for example, to his weapons or backpack, a respective exclamation mark icon and a text message will appear at the top of the screen.<br> 
+
+<br><br><tab><l="$back">BACK</l><br>

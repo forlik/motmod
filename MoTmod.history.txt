@@ -1,75 +1,71 @@
-Обновление 1.11 от 22.12.2010
------------------------------
+Update 1.11 from 22.12.2010
+---------------------------
 
-Обновление 1.11 исправляет найденные ошибки и добавляет небольшие улучшения
-в миссию "Ягдпантера".
+Update 1.11 corrects errors and adds enhancements to "Jagdpanther" mission.
 
-Для установки обновления необходимо скопировать содержимое архива в папку с
-игрой с заменой файлов и запустить файл MoTmod.clean.bat.
-
-
-Обновление 1.10 от 3.07.2010
-----------------------------
-
-Обновление 1.10 добавляет в игру миссию "Ягдпантера", основанную на миссии
-"Людоед". Данное обновление включает в себя все предыдущие.
-
-Для установки обновления необходимо скопировать содержимое архива в папку с
-игрой с заменой файлов.
+To install the update just copy files from archive to the game folder with
+file replacing and run MoTmod.clean.bat.
 
 
-Обновление 1.02 от 14.01.2010
------------------------------
+Update 1.10 from 3.07.2010
+--------------------------
 
-Обновление 1.02 исправляет ошибку с подсчетом рейтинга (все миссии СШ), голос
-женщины (миссия "Отель"), а также добавляет двух вражеских солдат к солдату
-возле церкви (миссия "Расплата").
+Update 1.10 adds "Jagdpanther" mission based on "Cannibal".
+This update includes all previous updates.
 
-Для установки обновления необходимо скопировать содержимое архива в папку с
-игрой с заменой файлов.
-
-
-Обновление 1.01 от 3.11.2009
-----------------------------
-
-Обновление 1.01 исправляет ошибки с офицерами (миссия "Расплата"), голоса
-предателей (миссии "Отель", "Посольство" и "Седая голова"), голос ученого
-(миссия "Проект-Y"), голоса некоторых женщин (миссия "Посольство"), а также
-включает отображение подсказок для миссии "Молния".
-
-Для установки обновления необходимо скопировать содержимое архива в папку с
-игрой с заменой файлов.
+To install the update just copy files from archive to the game folder with
+file replacing.
 
 
-MoTmod 1.00 от 23.10.2009
--------------------------
+Update 1.02 from 14.01.2010
+---------------------------
 
-Версия 1.00 содержит 18 миссий (вкл. тренировочную) на движке МИ. Часть моделей
-из миссий СШ были заменены на модели МИ. Из всех миссий убрано проигрывание
-роликов. Из миссий МИ убраны графические постэффекты. Исправлены названия для
-некоторых видов оружия и снаряжения. Версия 1.00 не содержит новых скриптов,
-моделей, звуков, текстур и является максимально приближенной к оригинальным
-играм СШ и МИ.
+Update 1.02 corrects error with level rating calculation (all DtS missions),
+woman's voice (mission "Hotel") and adds two enemy soldiers to the soldier near
+the church (mission "Paycheck").
 
-Внимание! Ресурсы демо-версии (0.8b) не совместимы с версией 1.00. Для
-корректной работы мода после установленной демо-версии необходимо удалить
-распакованные ресурсы СШ и МИ и выполнить установку с шага#1.
+To install the update just copy files from archive to the game folder with
+file replacing.
 
-Для установки необходимо:
 
-1. Распаковать ресурсы обеих игр (СШ и МИ) утилитой vfsTool.exe
-2. Скопировать распакованные ресурсы СШ в папку МИ без замены файлов
-3. Распаковать архив мода и скопировать полученные файлы в папку МИ с заменой
-   файлов
-4. Распаковать архивы дополнений (напр., английский перевод) и скопировать
-   полученные файлы в папку МИ с заменой файлов
-5. Удалить (лучше перенести в другую папку) запакованные ресурсы МИ (8 файлов с
-   расширением vfs)
-6. Запустить игру и создать новый профиль
+Update 1.01 from 3.11.2009
+--------------------------
 
-Шаг#4 является необязательным.
+Update 1.01 corrects errors with officers (mission "Paychek"), traitor's voice
+(missions "Hotel", "Embassy" and "White Head"), scientist's voice (mission
+"Project-Y"), voice of some women (mission "Embassy") and enables hints for
+mission "Lightning".
 
-На сайте мода (http://motmod.at.tut.by) можно найти скриншоты, поясняющие
-процесс установки.
+To install the update just copy files from archive to the game folder with
+file replacing.
+
+
+MoTmod 1.00 from 23.10.2009
+---------------------------
+
+Version 1.00 contains 18 missions (incl. training) on the MoT engine. Some
+models from DtS missions are replaced by MoT models. Cinematics are disabled
+for all missions. Graphical posteffects are removed from MoT missions. Some
+weapon's and equipment's names are corrected. Version 1.00 doesn't contain new
+scripts, models, sounds, textures and it's closest to the original DtS and MoT
+games.
+
+Warning! Demo version (0.8b) resources are not compatible with version 1.00.
+
+Installation steps:
+
+1. Unpack the resources of both games (DtS and MoT) using vfsTool.exe
+2. Copy unpacked DtS resources to MoT folder without file replacing
+3. Unpack MoTmod core files and copy them to MoT folder with file replacing
+4. Unpack MoTmod additions (english translations, etc.) and copy them to MoT
+   folder with file replacing
+5. Delete (moving to another folder is recomended) packed MoT resources
+   (8 vfs-files)
+6. Run the game and create a new profile
+
+Step#4 is optional.
+
+On the mod site (http://motmod.at.tut.by) you can find detailed screenshots of
+the installation process.
 
 (С) forlik, 2008-2010

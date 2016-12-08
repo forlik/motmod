@@ -1,0 +1,6 @@
+Communication:<br><br>
+<tab>-<sp> Enemies exchange information over the course of play.<br>
+<tab>-<sp> Information is transferred when enemies stand close to each other. Thus, there may be a chance to kill an enemy before he is able to make known the presence of the main hero, or report the discovery of a body.<br> 
+<tab>-<sp> The distance and speed of information exchange varies by difficulty level.<br>
+
+<br><br><tab><l="$back">BACK</l><br>

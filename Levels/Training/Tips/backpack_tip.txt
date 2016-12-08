@@ -1,0 +1,1 @@
+<tab>Backpack:<br><br>- You can carry mines, dynamite, and other items in your backpack.<br>- You can drop your backpack in the <l="game:Levels\training\tips\invent2_tip.txt">inventory</l> mode. To do so, you must drag the backpack icon out of the inventory screen.<br>

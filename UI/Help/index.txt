@@ -1,0 +1,21 @@
+INFORMATION:<br><br>
+
+Controls:<br><br>
+<tab><l="game:UI\Help\menu.txt">Action menu</l><br><br>
+<tab><l="game:UI\Help\motions.txt">Player movements</l><br><br>
+<tab><l="game:UI\Help\invetory.txt">Inventory</l><br><br>
+<tab><l="game:UI\Help\cars.txt">Transport vehicles </l><br><br>
+<tab><l="game:UI\Help\wepon.txt">Weapons</l><br><br>
+<tab><l="game:UI\Help\spy_staff.txt">Auxiliary equipment </l><br><br>
+
+Game:<br><br>
+
+<tab><l="game:UI\Help\brif.txt">Briefing</l><br><br>
+<tab><l="game:UI\Help\map.txt">Vector map</l><br><br>
+<tab><l="game:UI\Help\bar.txt">Danger scale </l><br><br> 
+<tab><l="game:UI\Help\for.txt">Uniform</l><br><br>
+<tab><l="game:UI\Help\alarm.txt">Discovery</l><br><br>
+<tab><l="game:UI\Help\icon.txt">Icons</l><br><br>
+
+<tab><l="game:UI\Help\tactic.txt">Tactics</l><br><br>
+<tab><l="game:UI\Help\enemy.txt">Enemies</l><br><br>

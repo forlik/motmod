@@ -1,0 +1,7 @@
+<tab>
+According to the French Resistance, layouts of key fortifications in Northern France 
+have been hidden inside the residence. The Germans most likely have no idea of 
+the significance of these documents, and may simply take them for regular garbage. We must recover 
+these papers from the residence. If our information is correct, boxes containing the layouts may be stored in the boiler room, 
+below the ground floor. 
+<br>

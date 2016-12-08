@@ -1,0 +1,1 @@
+<tab>Transport:<br><br><sp> - You can control passenger cars, trucks and a motorcycle.<br><sp> - To get on a transport you need to approach it from the driver's side and select the respective <l="game:Levels\training\tips\action_tip.txt">action</l>.<br><sp> - You can control a car using the movement keys.<br>

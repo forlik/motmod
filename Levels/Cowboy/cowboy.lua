@@ -1,186 +1,76 @@
-----------------------------------------------------------------------------
---
--- Description :  Mission "Cowboy"
---
---
-----------------------------------------------------------------------------
 
-
--- Tasks:
-
------------------------------------- completed ------------ deadline ------------ completed ---------
--- NULL ITTERATION:           |                      |                       |                      |
--- additional models:         |                      |                       |                      |
---     arka                   |    100%              |     22.11.2007        |    22.11.2007        |
---     crane                  |    100%              |     23.11.2007        |    26.11.2007        |
---     shelving               |    100%              |     24.11.2007        |    01.12.2007        |
---     gas bidon              |    100%              |     23.11.2007        |    23.11.2007        |
---     milk bidon             |    100%              |     23.11.2007        |    23.11.2007        |
---     shop art               |    100%              |     27.11.2007        |    27.11.2007        |
---     policy line            |    100%              |     29.11.2007        |    08.12.2007        |
---     lift animation         |    100%              |        <?>            |    08.12.2007        |
-----------------------------------------------------------------------------------------------------|
--- FIRST ITTERATION:                                                                                |
--- documentation              |    100%              |     19.11.2007        |    20.11.2007        |
--- vector map                 |    100%              |     19.11.2007        |    19.11.2007        |
--- waypoints                  |    100%              |     19.11.2007        |    19.11.2007        |
--- firepoints                 |    100%              |     19.11.2007        |    19.11.2007        |
--- stairs                     |    100%              |     19.11.2007        |    19.11.2007        |
--- lma triggers               |    100%              |     19.11.2007        |    19.11.2007        |
--- grenade holes              |    100%              |     19.11.2007        |    19.11.2007        |
--- invisible wall             |    100%              |     19.11.2007        |    19.11.2007        |
--- art change                 |    100%              |     21.11.2007        |    24.11.2007        |
--- lg:house under cons-tion   |    100%              |     21.11.2007        |    22.11.2007        |
--- barrel script              |    100%              |     21.11.2007        |    21.11.2007        |
--- lg:outdoor                 |    100%              |     22.11.2007        |    23.11.2007        |
--- lg:house3                  |    100%              |     23.11.2007        |    23.11.2007        |
--- body lifting crane script  |    100%              |     24.11.2007        |    27.11.2007        |
--- kitchen script             |    100%              |     24.11.2007        |    27.11.2007        |
--- lg:first floor             |    100%              |     24.11.2007        |    26.11.2007        |
--- lg:second floor            |    100%              |     24.11.2007        |    26.11.2007        |
--- lg:third floor             |    100%              |     24.11.2007        |    26.11.2007        |
--- physics                    |    100%              |     26.11.2007        |    27.11.2007        |
--- windows                    |    100%              |     26.11.2007        |    27.11.2007        |
--- lg:shop                    |    100%              |     26.11.2007        |    28.11.2007        |
--- milk man script            |    100%              |     26.11.2007        |    28.11.2007        |
--- policeman body script      |    100%              |     27.11.2007   <a>  |    27.11.2007        |
--- benzine and gas reaction   |    100%              |     27.11.2007        |    29.11.2007        |
--- search script              |    100% [100%]       |     27.11.2007        |    28.11.2007        |
--- npc postprocess            |    100% [70%]        |     27.11.2007        |    28.11.2007        |
--- zone system                |    100% [70%]        |     27.11.2007        |    28.11.2007        |
--- alert script anchor        |    100%              |     28.11.2007        |    03.12.2007        |
--- keys                       |    100%              |     28.11.2007        |    29.11.2007        |
--- stop move messages         |    100% [70%]        |     28.11.2007        |    01.12.2007        |
--- potential physics test     |    100%              |     28.11.2007        |    29.11.2007        |
--- tasks                      |    100%              |     28.11.2007        |    01.12.2007        |
--- marks                      |    100%              |     28.11.2007        |    01.12.2007        |
--- alert setup                |    100%              |     28.11.2007        |    03.12.2007        |
--- alert scripts              |    100% [60%]        |     28.11.2007        |    03.12.2007        |
--- escort scripts             |    100%              |     29.11.2007        |    29.11.2007        |
--- fbi agent. door see        |    100%              |     30.11.2007   <a>  |    03.12.2007        |
--- roof and balcony script    |    100%              |     30.11.2007        |    01.12.2007        |
--- agent script               |    100%              |     30.11.2007        |    01.12.2007        |
--- I it. gameplay test        |    100%              |     30.11.2007   <f>  |    04.12.2007        |
--- policeline door script     |    100%              |     01.12.2007   <a>  |    03.12.2007        |
--- policeline reaction        |    100%              |     01.12.2007   <a>  |    03.12.2007        |
--- dinner script              |    100%              |     01.12.2007   <a>  |    04.12.2007  <~>   |
--- hello spy script           |    100%              |     01.12.2007   <a>  |    01.12.2007        |
--- explosion script           |    100%              |     01.12.2007        |    01.12.2007        |
--- explosion effect           |    100%              |        <?>            |    29.11.2007        |
--- briefing map               |    100%              |        <?>            |    01.12.2007        |
--- grass vision map           |    100%              |        <?>            |    03.12.2007        |
--- waypoint vision level      |      0%              |        <?>            |                      |
--- 
--- lighting                   |      0%              |        <?>            |                      |
--- mirrors                    |      0%              |        <?>            |                      |
--- effects                    |      0%              |        <?>            |                      |
--- help messages              |      0%              |        <?>            |                      |
--- milk man script[use bidon] |    100%              |        <?>            |    05.12.2007        |
--- barrels teleport           |    100%              |        <?>            |                      |
------------------------------------------------------------------------------------------------------
--- SECOND ITTERATION:
------------------------------------------------------------------------------------------------------
-
--- bugs:
--- fbi investigate accident worker body
--- finish cutscene from script. lift animation bug. When high threat
--- testcase:
-
--- alertgroups:
--- 0 - civilian house3 & outdoor
--- 1 - fbi main house
--- 2 - fbi outdoor
--- 3 - civilian main house
--- 4 - workers
--- 5 - policeman
--- 
-
---------------------------------- Messages table -----------------------------
-  
   MissionText = 
   {
-      Task_Rescue                            = " Освободить И. Цавалова";
-      Task_Body                              = " Подложить тело";
-      Task_Fire                              = " Устроить пожар";
-      Task_Leave                             = " Покинуть территорию";
-  
-      Action_DropBarrels                     = "ТОЛКНУТЬ БОЧКИ";
-      Action_DropKitchenCabinet              = "ОПРОКИНУТЬ ШКАФ";
-      Action_UseLift                         = "ИСПОЛЬЗОВАТЬ КРАН";
-      
-      Message_SuitcaseWithExplosion          = "ДИП-Т СО ВЗРЫВЧАТКОЙ";
-      
-      Message_Move                           = "ИДЕМ";
-      Message_Stop                           = "ЖДИ ЗДЕСЬ";
-      
-      Message_PolicemanTask                  = "@ Здание под нашим контролем. Занимайтесь своими делами.";
-      Message_IAmFbi                         = "@ Агент Джонсон. ФБР";
-      Message_WhenItWillFinish               = "@ Когда все это закончится?";
-      Message_IDontKnow                      = "@ Пока не закончится расследование";
-      Message_WhereBarrelsFall               = "@ Бочки сверху упали? ...";
-      Message_WhatIdiot                      = "@ Какой идиот, додумался их на край поставить...";
-      
-      Message_StopMove_Search                = "- Стоять! Я должен обыскать вас!";
-      Message_StopMove_Search2               = "- В здание запрещено проносить оружие!";
-      
-      Message_StopMove_Clean                 = "@ Все чисто - проходи!";
-      Message_StopMove_Weapon                = "@ С оружием вход в здание запрещен!";
-      Message_StopMove_WeaponSuitcase        = "@ Мне необходимо осмотреть содержимое вашего дипломата..";      
-      Message_StopMove_Diplomat              = "@ А что это в дипломате такое? Я не могу пусть вас с этим..";
-      Message_StopMove_Strange               = "@ Я не могу вас пустить в здание!";
-      
-      Message_StopMove_ConstHouse            = "@ В здании небезопасно. Что вам тут нужно?";
-      Message_StopMove_Floor1                = "@ Здание под контролем федеральных агентов! Немедленно покиньте его!";
-      Message_StopMove_Floor2_MilkMan        = "@ Тебе вроде на кухню надо? На втором этаже ее нет..";
-      Message_StopMove_Floor2                = "@ Если вы немедленно не покинете здание, мы откроем огонь!";
-      Message_StopMove_Floor3                = "@ Вам нечего тут делать..";
-      Message_StopMove_ShopStorage           = "@ Это частная территория! Вы не имеете права находиться здесь!";
-      Message_StopMove_ShopStorage_Policeman = "@ Это частная территория! У вас есть ордер?!";
-      Message_StopMove_House3_West           = "@ Что вы тут забыли?!";      
-      Message_StopMove_Kitchen               = "@ Мне кажется на кухне вам не место!";
-      Message_StopMove_Garage                = "@ Что вы тут забыли?!";
-      Message_StopMove_Floor2_Sklad          = "@ Что вы тут забыли?!";
-      Message_StopMove_BehindMainHouse       = "@ Закрытая зона! Что вам нужно?";
-      Message_StopMove_ShopStorageEnter      = "@ Что вам нужно?";
-      Message_StopMove_Civilian              = "@ Здание под контролем федеральных агентов! Гражданским вход запрещен!";
-      
-      Message_StopMove_House3_EastEnter      = "@ Вы не видите, что дверь опечатана? Куда вы идете?";
-      Message_StopMove_House3_EastEnter2     = "@ Вы не видите, что это место преступления? Куда вы идете?";
-      Message_StopMove_House3_East           = "@ Покиньте место преступления! Или я вынужден буду вас арестовать!";
-                  
-      Message_FailSpyDied                    = "ЦАВАЛОВ ПОГИБ";
-      Message_FailSaySpy                     = "ПОБЕГ РАСКРЫТ";
-      Message_FailSpyHit                     = "ПОТЕРЯНА ВОЗМОЖНОСТЬ ВЫВЕСТИ ЦАВАЛОВА";
-      
-      Message_SpyDialog                      = "Наконец-то вы пришли, я знаю, как нам выбраться отсюда, но есть небольшая проблема, охранник в соседней комнате, с ним надо разобраться..";
-      Message_SpyDialog_NoGuard              = "Наконец-то вы пришли, я знаю, как нам выбраться отсюда, а с охранником уже покончено? Тогда идите за мной.";
-      Message_SpyDialog_DoorLocked           = "Наконец-то вы пришли, я знаю, как нам выбраться отсюда, но есть небольшая загвоздка, эта дверь заперта..";
-      
-      Message_SpyWaitThink                   = "! Вернитесь за Цаваловым..";
-      Message_ICantGo                        = "@ Куда ты? С меня хватит приключений!";
-      Message_YouAreIdiot                    = "@ Ты что? Кран не удержит нас!";
-      Message_DangerFbi                      = "@ Ты куда? Нас же увидят?! Я туда не пойду!";
-      
-      Message_SpyAlert                       = "! Цавалова заметили! Если информация о побеге будет передана - миссия провалится!";
-      Message_SpyBodyAlert                   = "! Обнаружено тело Цавалова. Если информация о побеге будет передана - миссия провалится!";
-      Message_EmptyRoom                      = "! Обнаружено исчезновение Цавалова. Если информация о побеге будет передана - миссия провалится!";
-      
-      Message_Alarm                          = "Поднята тревога!";
-      
-      Key_Shop                               = "Ключ от магазина";
-      Key_Backdoor                           = "Ключ от заднего выхода";
-      Key_Garage                             = "Ключ от гаража";
-      Key_Garderob                           = "Ключ от гардероба";
-      Key_Spy                                = "Ключ от третьего этажа";
-      
-      Message_TaskChanged                    = "Задания изменены";
-      
-      Message_Help                           = { "При помощи канистры с бензином легко устроить пожар..",
-                                                 "В магазинах могут храниться газовые балоны..",
-                                                 "Тарелки и другие бьющиеся предметы можно использовать для оглушения противника",
-                                                 "Некоторые предметы можно забрасывать в окно"
+      --Mission text
+      Task_Rescue                            = " Free I. Tsavalov";
+      Task_Body                              = " Plant a decoy body";
+      Task_Fire                              = " Demolish the room";
+      Task_Leave                             = " Leave the area";
+      Action_DropBarrels                     = "PUSH THE BARRELS";
+      Action_DropKitchenCabinet              = "OVERTURN THE CABINET";
+      Action_UseLift                         = "USE THE CRANE";
+      Message_SuitcaseWithExplosion          = "CASE OF EXPLOSIVES";
+      Message_Move                           = "LET'S GO";
+      Message_Stop                           = "WAIT HERE";
+      Message_PolicemanTask                  = "@ We've got the building under control. You mind your own business.";
+      Message_IAmFbi                         = "@ Agent Johnson, FBI.";
+      Message_WhenItWillFinish               = "@ When will this be over?";
+      Message_IDontKnow                      = "@ When the investigation is completed.";
+      Message_WhereBarrelsFall               = "@ Did the barrels fall from up there?";
+      Message_WhatIdiot                      = "@ What idiot put them on the edge...";
+      Message_StopMove_Search                = "- Halt! I'm gonna have to frisk you.";
+      Message_StopMove_Search2               = "- No weapons are allowed in the building!";
+      Message_StopMove_Clean                 = "@ You're clean. Thank you, move along.";
+      Message_StopMove_Weapon                = "@ You can't have a weapon inside the building!";
+      Message_StopMove_WeaponSuitcase        = "@ I'll need to search your case.";
+      Message_StopMove_Diplomat              = "@ What's that inside there? I'm afraid I can't let you in with that.";
+      Message_StopMove_Strange               = "@ I cannot let you into the building!";
+      Message_StopMove_ConstHouse            = "@ Leave the premises immediately.";
+      Message_StopMove_Floor1                = "@ Federal agents control this building. You must leave here immediately!";
+      Message_StopMove_Floor2_MilkMan        = "@ Aren't you headed to the kitchen? It isn't located on the second floor.";
+      Message_StopMove_Floor2                = "@ If you do not leave the building immediately, we will be forced to open fire!";
+      Message_StopMove_Floor3                = "@ You can't come in here.";
+      Message_StopMove_ShopStorage           = "@ This is a secure area! You have no business here!";
+      Message_StopMove_ShopStorage_Policeman = "@ This is a secure area! Are you here under orders?!";
+      Message_StopMove_House3_West           = "@ Wait! That's restricted.";
+      Message_StopMove_Kitchen               = "@ I don't think you belong here!";
+      Message_StopMove_Garage                = "@ What on earth are you doing here?!";
+      Message_StopMove_Floor2_Sklad          = "@ What on earth are you doing here?!";
+      Message_StopMove_BehindMainHouse       = "@ This area is off-limits! What do you need?";
+      Message_StopMove_ShopStorageEnter      = "@ You do not belong here.";
+      Message_StopMove_Civilian              = "@ Federal agents control this building. You must leave here immediately.";
+      Message_StopMove_House3_EastEnter      = "@ Can't you see the door is sealed? Where do you think you're going?";
+      Message_StopMove_House3_EastEnter2     = "@ This is a crime scene. Clear the area immediately or I'll place you under arrest.";
+      Message_StopMove_House3_East           = "@ Leave the crime scene immediately, or I'll be forced to place you under arrest!";
+      Message_FailSpyDied                    = "TSAVALOV IS DEAD";
+      Message_FailSaySpy                     = "THE ESCAPE HAS BEEN DISCOVERED";
+      Message_FailSpyHit                     = "THERE IS NO WAY TO ESCAPE WITH TSAVALOV NOW";
+      Message_SpyDialog                      = "- You are finally here! I know how we can get out of here, but there's one little problem -- the guard in the next room. You'll have to deal with him.";
+      Message_SpyDialog_NoGuard              = "- You are finally here. I know how we can get out of here. Has the guard been dealt with? Good, then follow me.";
+      Message_SpyDialog_DoorLocked           = "- You are finally here. I know how we can get out of here, but there's one little problem -- this door is locked.";
+      Message_SpyWaitThink                   = "! Return to Tsavalov.";
+      Message_ICantGo                        = "@ Where are you going? I'm fed up with your crazy ideas!";
+      Message_YouAreIdiot                    = "@ Are you mad? That little platform isn't going to hold us!";
+      Message_DangerFbi                      = "@ Where are you going? They'll see us! I'm staying here!";
+      Message_SpyAlert                       = "! Tsavalov has been seen! If the escape is reported, then the mission is a failure!";
+      Message_SpyBodyAlert                   = "! Tsavalov's body has been found. If the escape is reported, then the mission is a failure!";
+      Message_EmptyRoom                      = "! Tsavalov's disappearance has been discovered. If the escape is reported, then the mission is a failure!";
+      Message_Alarm                          = "The alarm has been raised!";
+      Key_Shop                               = "Store key";
+      Key_Backdoor                           = "Backdoor key";
+      Key_Garage                             = "Garage key";
+      Key_Garderob                           = "Cloakroom key";
+      Key_Spy                                = "Third floor key";
+      Message_TaskChanged                    = "Objectives have been updated";
+      Message_Help                           = {
+                                                 "It's easy to start a fire with a petrol canister.";
+                                                 "Petrol tanks might be kept inside stores.";
+                                                 "Plates and other fragile objects may be used to stun enemies.";
+                                                 "Some objects can be thrown through windows.";
                                                };
   };
+
+
   
   MissionSamples = 
   {

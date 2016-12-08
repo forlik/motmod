@@ -1,0 +1,1 @@
+<tab>Eye icon:<br><br>- The eye icon shows that at least one enemy has seen you. Be attentive - try not to take any suspicious actions. If an enemy suspects you the <l="game:Levels\training\tips\threat_tip.txt">danger scale</l> will increase.<br>

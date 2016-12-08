@@ -1,0 +1,3 @@
+<tab>You are to demolish the room which contains the decoy body.<br>
+<tab>It should be possible to demolish the room by means of an explosive briefcase 
+which is hidden in a neighbouring building for this purpose, or by some other improvised means.<br>

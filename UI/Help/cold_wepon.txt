@@ -1,0 +1,10 @@
+Cold weapons, the garrotte and chloroform:<br><br>
+Knife:<br><br>
+<tab>-<sp> A knife can be used as both a melee and a throwing weapon. When the knife is the active weapon, you attack by pressing the "Fire" key. If you are standing close to an enemy, the knife will be used as a melee weapon.<br>
+<tab>-<sp> If you sneak up to an enemy form behind, you can kill him quickly and noiselessly. In addition to the "Fire" key you can select  the "Eliminate" item on the <l="game:UI\Help\menu.txt">action menu.</l><br><br>
+Garrotte and chloroform:<br><br>
+<tab>-<sp> To <col=800000> switch between</col> the garrotte and chloroform (if you have both in your inventory) press and hold down the 'Garrotte/Chloroform' key ("2" by default) and select the desired item on the list.<br>
+<tab>-<sp> If you press the 'Garrotte/Chloroform' key without holding it down, the last used item will be selected (either the garrotte or chloroform).<br>
+<tab>-<sp> To use chloroform or the garrotte you need to approach enemy from behind his back while holding the garrotte or chloroform in your hands ("2" by default) and press 'Fire' key or select the 'Strangle/Use the Chloroform' item on the <l="game:UI\Help\menu.txt">action menu</l>.<br>
+
+<br><br><tab><l="$back">BACK</l><br>
